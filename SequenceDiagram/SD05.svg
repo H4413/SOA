@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Bouml (http://bouml.free.fr/) -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="1048" height="748" version="1.1" xmlns="http://www.w3.org/2000/svg">
+<g>
+	<line stroke="black" stroke-dasharray="18,6"  stroke-opacity="1" x1="209" y1="47" x2="209" y2="748" />
+</g>
+<g>
+	<ellipse fill="none" stroke="black" stroke-width="1" stroke-opacity="1" cx="209" cy="9" rx="3" ry="3" />
+	<line stroke="black" stroke-opacity="1" x1="204" y1="15" x2="215" y2="15" />
+	<line stroke="black" stroke-opacity="1" x1="209" y1="12" x2="209" y2="20" />
+	<line stroke="black" stroke-opacity="1" x1="209" y1="20" x2="204" y2="25" />
+	<line stroke="black" stroke-opacity="1" x1="209" y1="20" x2="214" y2="25" />
+	<text font-family="Sans Serif" font-size="10" fill="#000000" xml:space="preserve" text-anchor="middle" x="210" y="41">:Utilisateur</text>
+</g>
+<g>
+	<rect fill="#808080" stroke="none" stroke-opacity="1" x="405" y="8" width="3" height="23" />
+	<rect fill="#808080" stroke="none" stroke-opacity="1" x="364" y="28" width="44" height="3" />
+	<rect fill="#ffffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="360" y="4" width="45" height="24" />
+	<text font-family="Sans Serif" font-size="10" fill="#000000" xml:space="preserve" text-decoration="underline" text-anchor="middle" x="383" y="21">:IHM</text>
+</g>
+<g>
+	<line stroke="black" stroke-dasharray="18,6"  stroke-opacity="1" x1="384" y1="45" x2="384" y2="748" />
+</g>
+<g>
+	<rect fill="#808080" stroke="none" stroke-opacity="1" x="620" y="9" width="3" height="23" />
+	<rect fill="#808080" stroke="none" stroke-opacity="1" x="579" y="29" width="44" height="3" />
+	<rect fill="#ffffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="575" y="5" width="45" height="24" />
+	<text font-family="Sans Serif" font-size="10" fill="#000000" xml:space="preserve" text-decoration="underline" text-anchor="middle" x="598" y="22">:SM</text>
+</g>
+<g>
+	<line stroke="black" stroke-dasharray="18,6"  stroke-opacity="1" x1="599" y1="46" x2="599" y2="748" />
+</g>
+<g>
+	<rect fill="#808080" stroke="none" stroke-opacity="1" x="830" y="8" width="3" height="23" />
+	<rect fill="#808080" stroke="none" stroke-opacity="1" x="774" y="28" width="59" height="3" />
+	<rect fill="#ffffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="770" y="4" width="60" height="24" />
+	<text font-family="Sans Serif" font-size="10" fill="#000000" xml:space="preserve" text-decoration="underline" text-anchor="middle" x="800" y="21">:Agenda</text>
+</g>
+<g>
+	<line stroke="black" stroke-dasharray="18,6"  stroke-opacity="1" x1="802" y1="45" x2="802" y2="748" />
+</g>
+<g>
+	<polygon fill="#ffffff" stroke="black" stroke-opacity="1" points="19,69 171,69 171,81 159,93 19,93 19,69" />
+	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="19" y="69" width="173" height="58" />
+	<text font-family="Sans Serif" font-size="10" fill="#000000" xml:space="preserve" text-anchor="middle" x="106" y="116">SD07</text>
+	<text font-family="Sans Serif" font-size="10" fill="#000000" xml:space="preserve" text-anchor="middle" x="89" y="86">consultation Agenda</text>
+	<line stroke="black" stroke-opacity="1" x1="19" y1="93" x2="159" y2="93" />
+	<line stroke="black" stroke-opacity="1" x1="159" y1="93" x2="171" y2="81" />
+	<line stroke="black" stroke-opacity="1" x1="171" y1="81" x2="171" y2="69" />
+</g>
+<g>
+	<polygon fill="#c0ffff" stroke="black" stroke-opacity="1" points="88,250 186,250 186,260 196,260 196,342 88,342 88,250" />
+	<line stroke="black" stroke-opacity="1" x1="186" y1="250" x2="196" y2="260" />
+	<text font-family="Sans Serif" font-size="10" fill="#000000" xml:space="preserve" x="98" y="277">Sélection</text>
+	<text font-family="Sans Serif" font-size="10" fill="#000000" xml:space="preserve" x="98" y="295">d'une plage</text>
+	<text font-family="Sans Serif" font-size="10" fill="#000000" xml:space="preserve" x="98" y="313">libre pour un</text>
+	<text font-family="Sans Serif" font-size="10" fill="#000000" xml:space="preserve" x="98" y="331">agent</text>
+</g>
+<g>
+	<polygon fill="#ffffff" stroke="black" stroke-opacity="1" points="9,223 264,223 264,235 252,247 9,247 9,223" />
+	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="9" y="223" width="822" height="134" />
+	<text font-family="Sans Serif" font-size="10" fill="#000000" xml:space="preserve" text-anchor="middle" x="131" y="240">tant qu'il y a des activités à affecter</text>
+	<line stroke="black" stroke-opacity="1" x1="9" y1="247" x2="252" y2="247" />
+	<line stroke="black" stroke-opacity="1" x1="252" y1="247" x2="264" y2="235" />
+	<line stroke="black" stroke-opacity="1" x1="264" y1="235" x2="264" y2="223" />
+</g>
+<g>
+	<line stroke="black" stroke-dasharray="18,6"  stroke-opacity="1" x1="720" y1="46" x2="720" y2="748" />
+</g>
+<g>
+	<ellipse fill="none" stroke="black" stroke-width="1" stroke-opacity="1" cx="1001" cy="7" rx="3" ry="3" />
+	<line stroke="black" stroke-opacity="1" x1="996" y1="13" x2="1007" y2="13" />
+	<line stroke="black" stroke-opacity="1" x1="1001" y1="10" x2="1001" y2="18" />
+	<line stroke="black" stroke-opacity="1" x1="1001" y1="18" x2="996" y2="23" />
+	<line stroke="black" stroke-opacity="1" x1="1001" y1="18" x2="1006" y2="23" />
+	<text font-family="Sans Serif" font-size="10" fill="#000000" xml:space="preserve" text-anchor="middle" x="1002" y="39">:Agent</text>
+</g>
+<g>
+	<line stroke="black" stroke-dasharray="18,6"  stroke-opacity="1" x1="1001" y1="45" x2="1001" y2="748" />
+</g>
+<g>
+	<polygon fill="#ffffff" stroke="black" stroke-opacity="1" points="530,526 670,526 670,538 658,550 530,550 530,526" />
+	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="530" y="526" width="506" height="210" />
+	<text font-family="Sans Serif" font-size="10" fill="#000000" xml:space="preserve" text-anchor="middle" x="594" y="543">pour chaque agent</text>
+	<line stroke="black" stroke-opacity="1" x1="530" y1="550" x2="658" y2="550" />
+	<line stroke="black" stroke-opacity="1" x1="658" y1="550" x2="670" y2="538" />
+	<line stroke="black" stroke-opacity="1" x1="670" y1="538" x2="670" y2="526" />
+</g>
+<g>
+	<rect fill="#808080" stroke="none" stroke-opacity="1" x="748" y="9" width="3" height="23" />
+	<rect fill="#808080" stroke="none" stroke-opacity="1" x="693" y="29" width="58" height="3" />
+	<rect fill="#ffffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="689" y="5" width="59" height="24" />
+	<text font-family="Sans Serif" font-size="10" fill="#000000" xml:space="preserve" text-decoration="underline" text-anchor="middle" x="719" y="22">:Agence</text>
+</g>
+<g>
+	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="204" y="136" width="10" height="365" />
+</g>
+<g>
+	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="379" y="153" width="10" height="55" />
+</g>
+<g>
+	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="379" y="255" width="10" height="39" />
+</g>
+<g>
+	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="594" y="196" width="10" height="24" />
+</g>
+<g>
+	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="379" y="317" width="10" height="38" />
+</g>
+<g>
+	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="379" y="406" width="10" height="62" />
+</g>
+<g>
+	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="594" y="434" width="10" height="26" />
+</g>
+<g>
+	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="797" y="444" width="10" height="24" />
+</g>
+<g>
+	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="715" y="200" width="10" height="24" />
+</g>
+<g>
+	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="594" y="473" width="10" height="219" />
+</g>
+<g>
+	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="797" y="554" width="10" height="32" />
+</g>
+<g>
+	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="715" y="482" width="10" height="34" />
+</g>
+<g>
+	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="996" y="654" width="10" height="67" />
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" x1="215" y1="267" x2="379" y2="267" />
+	<polygon fill="#000000" stroke="none" points="379,267 375,263 375,271" />
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" x1="390" y1="201" x2="594" y2="201" />
+	<polygon fill="#000000" stroke="none" points="594,201 590,197 590,205" />
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" x1="215" y1="325" x2="379" y2="325" />
+	<polygon fill="#000000" stroke="none" points="379,325 375,321 375,329" />
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" x1="215" y1="414" x2="379" y2="414" />
+	<polygon fill="#000000" stroke="none" points="379,414 375,410 375,418" />
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" x1="390" y1="439" x2="594" y2="439" />
+	<polygon fill="#000000" stroke="none" points="594,439 590,435 590,443" />
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" x1="605" y1="560" x2="797" y2="560" />
+	<polygon fill="#000000" stroke="none" points="797,560 793,556 793,564" />
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" x1="605" y1="488" x2="715" y2="488" />
+	<path fill="none" stroke="black" stroke-opacity="1" d="M 711 484 L 715 488 L 711 492" />
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" stroke-dasharray="4,4" x1="605" y1="511" x2="715" y2="511" />
+	<path fill="none" stroke="black" stroke-opacity="1" d="M 609 507 L 605 511 L 609 515" />
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" x1="605" y1="670" x2="996" y2="670" />
+	<polygon fill="#000000" stroke="none" points="996,670 992,666 992,674" />
+</g>
+<g>
+	<path fill="none" stroke="black" stroke-opacity="1" d="M 606 611 L 623 611 L 623 618 L 606 618" />
+	<polygon fill="#000000" stroke="none" points="606,618 610,622 610,614" />
+</g>
+<g>
+	<line stroke-dasharray="4,4" stroke="black" stroke-opacity="1" x1="196" y1="280" x2="246" y2="272" />
+</g>
+<g>
+	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="385" y="165" width="10" height="24" />
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" x1="605" y1="449" x2="797" y2="449" />
+	<polygon fill="#000000" stroke="none" points="797,449 793,445 793,453" />
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" x1="605" y1="205" x2="715" y2="205" />
+	<polygon fill="#000000" stroke="none" points="715,205 711,201 711,209" />
+</g>
+<g>
+	<path fill="none" stroke="black" stroke-opacity="1" d="M 391 166 L 408 166 L 408 173 L 391 173" />
+	<polygon fill="#000000" stroke="none" points="391,173 395,177 395,169" />
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" x1="215" y1="159" x2="379" y2="159" />
+	<polygon fill="#000000" stroke="none" points="379,159 375,155 375,163" />
+</g>
+<g>
+	<text font-family="Sans Serif" font-size="10" fill="#000000" xml:space="preserve" x="396" y="155">modePlanification</text>
+</g>
+<g>
+	<text font-family="Sans Serif" font-size="10" fill="#000000" xml:space="preserve" x="263" y="248">SélectionPlage</text>
+</g>
+<g>
+	<text font-family="Sans Serif" font-size="10" fill="#000000" xml:space="preserve" x="419" y="193">ConsultationListeActivités</text>
+</g>
+<g>
+	<text font-family="Sans Serif" font-size="10" fill="#000000" xml:space="preserve" x="215" y="313">AffectationPlageÀActivité</text>
+</g>
+<g>
+	<text font-family="Sans Serif" font-size="10" fill="#000000" xml:space="preserve" x="220" y="402">ValidationPlanification</text>
+</g>
+<g>
+	<text font-family="Sans Serif" font-size="10" fill="#000000" xml:space="preserve" x="392" y="418">ValidPlanification et ClalculTempsLibreAgents</text>
+</g>
+<g>
+	<text font-family="Sans Serif" font-size="10" fill="#000000" xml:space="preserve" x="625" y="437">AffectActivité</text>
+</g>
+<g>
+	<text font-family="Sans Serif" font-size="10" fill="#000000" xml:space="preserve" x="604" y="193">ConsultActivités</text>
+</g>
+<g>
+	<text font-family="Sans Serif" font-size="10" fill="#000000" xml:space="preserve" x="253" y="147">Planification</text>
+</g>
+<g>
+	<text font-family="Sans Serif" font-size="10" fill="#000000" xml:space="preserve" x="643" y="548">TempsLibreAgent</text>
+</g>
+<g>
+	<text font-family="Sans Serif" font-size="10" fill="#000000" xml:space="preserve" x="665" y="569">tempsLibre</text>
+</g>
+<g>
+	<text font-family="Sans Serif" font-size="10" fill="#000000" xml:space="preserve" x="602" y="476">TempsParContact</text>
+</g>
+<g>
+	<text font-family="Sans Serif" font-size="10" fill="#000000" xml:space="preserve" x="614" y="499">tempsContact</text>
+</g>
+<g>
+	<text font-family="Sans Serif" font-size="10" fill="#000000" xml:space="preserve" x="727" y="658">EnregistrerNbContacts</text>
+</g>
+<g>
+	<text font-family="Sans Serif" font-size="10" fill="#000000" xml:space="preserve" x="635" y="603">calculerNbContacts</text>
+</g>
+<g>
+	<polygon fill="#ffffff" stroke="black" stroke-opacity="1" points="425,288 599,288 599,300 587,312 425,312 425,288" />
+	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="425" y="288" width="436" height="114" />
+	<text font-family="Sans Serif" font-size="10" fill="#000000" xml:space="preserve" text-anchor="middle" x="506" y="305">Pour chaque affectation</text>
+	<line stroke="black" stroke-opacity="1" x1="425" y1="312" x2="587" y2="312" />
+	<line stroke="black" stroke-opacity="1" x1="587" y1="312" x2="599" y2="300" />
+	<line stroke="black" stroke-opacity="1" x1="599" y1="300" x2="599" y2="288" />
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" stroke-dasharray="4,4" x1="605" y1="581" x2="797" y2="581" />
+	<path fill="none" stroke="black" stroke-opacity="1" d="M 609 577 L 605 581 L 609 585" />
+</g>
+</svg>
