@@ -1,10 +1,10 @@
-format 74
+format 75
 
 textcanvas 132991 "Get nom client (id client)"
-  xyzwh 616.5 182 2020 139 16
+  xyzwh 616 182 2020 139 16
 textcanvas 133119 "Consulter la liste de 
 contacts prévus (id agent)"
-  xyzwh 63.5 72 2000 156 37
+  xyzwh 63 72 2000 156 37
 classinstance 133631 class_ref 128383 // SM
   name ""   xyz 354.5 25 2000 life_line_z 2000
 classinstance 133887 class_ref 135807 // IHM
@@ -17,34 +17,34 @@ end
 classinstance 134399 class_ref 135423 // Client
   name ""   xyz 740.5 26 2000 life_line_z 2000
 textcanvas 134527 ": nom client"
-  xyzwh 647.5 201 2000 65 16
+  xyzwh 647 201 2000 65 16
 textcanvas 134655 ": liste (id contact,
  nom client,
  motif contact,
  etat contact)"
-  xyzwh 416.5 147 2000 93 67
+  xyzwh 416 147 2000 93 67
 textcanvas 134783 "Consulter la liste de 
 contacts prévus (id agent)"
-  xyzwh 221.5 88 2000 156 37
+  xyzwh 221 88 2000 156 37
 classinstance 137215 class_ref 128255 // Agent
   name ""   xyz 38 18 2000 life_line_z 2000
 textcanvas 139647 "Consulter la liste de 
 contacts prévus (id agent)"
-  xyzwh 399 100.5 2000 156 37
+  xyzwh 399 100 2000 156 37
 textcanvas 140287 ": liste (id contact,
  nom client,
  motif contact,
  etat contact)"
-  xyzwh 235.5 138.5 2000 93 67
+  xyzwh 235 138 2000 93 67
 textcanvas 141311 "Regrouper contact 
 (list id contacts)"
   xyzwh 77 269 2020 107 33
 textcanvas 141439 "Regrouper contact 
 (list id contacts)"
-  xyzwh 232.5 283.5 2020 107 33
+  xyzwh 232 283 2020 107 33
 textcanvas 141567 "Regrouper contact 
 (list id contacts)"
-  xyzwh 402.5 302.5 2020 107 33
+  xyzwh 402 302 2020 107 33
 textcanvas 141695 ": id contact regroupé"
   xyzwh 400 340 2000 114 16
 textcanvas 141951 ": id contact regroupé"
@@ -59,10 +59,10 @@ textcanvas 143103 "Annuler contact
   xyzwh 71 395 2000 107 37
 textcanvas 143231 "Annuler contact 
 (id contact, raison)"
-  xyzwh 238.5 414.5 2000 107 37
+  xyzwh 238 414 2000 107 37
 textcanvas 143359 "Annuler contact 
 (id contact, raison)"
-  xyzwh 414.5 429.5 2000 107 37
+  xyzwh 414 429 2000 107 37
 fragment 143487 "opt"
   xyzwh 5 389 2020 594 114
 end
