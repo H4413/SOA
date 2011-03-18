@@ -1,10 +1,12 @@
-window_sizes 1280 747 221 1053 673 0
+window_sizes 1278 746 221 1051 672 0
 diagrams
-  active  collaborationdiagram_ref 141183 // DiagrammeCollaboration
+  collaborationdiagram_ref 141183 // DiagrammeCollaboration
     1053 673 100 4 0 0
+  active  sequencediagram_ref 128127 // SD02
+    840 537 100 18 0 0
 end
 show_stereotypes
-selected class_ref 135423 // Client
+selected sequencediagram_ref 128127 // SD02
 open
   usecaseview_ref 128127 // UseCase
 end
