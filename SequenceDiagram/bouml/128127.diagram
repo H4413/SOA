@@ -1,0 +1,196 @@
+format 74
+
+classinstance 128127 class_ref 128127 // ChefAgence
+  name ""   xyz 24 4 2000 life_line_z 2000
+classinstance 128255 class_ref 128383 // SM
+  name ""   xyz 418 9 2000 life_line_z 2000
+classinstance 128383 class_ref 135807 // IHM
+  name ""   xyz 201 10 2000 life_line_z 2000
+classinstance 128511 class_ref 135423 // Client
+  name ""   xyz 831 9 2000 life_line_z 2000
+classinstance 128639 class_ref 135039 // Contact
+  name ""   xyz 630 9 2000 life_line_z 2000
+classinstance 128767 class_ref 128511 // Agence
+  name ""   xyz 1029 9 2000 life_line_z 2000
+textcanvas 130047 "Consulter la liste de 
+contacts prévus (id agence)"
+  xyzwh 67 45 2000 156 37
+textcanvas 130431 ": liste (id contact,
+ nom client,
+ motif contact,
+ agent habituel)"
+  xyzwh 271 102 2000 93 67
+textcanvas 130943 "Get nom client (id client)"
+  xyzwh 682 163 2020 139 16
+textcanvas 131199 "Get agent habituel (id client)"
+  xyzwh 677 211 2020 161 15
+textcanvas 131583 "Get nom agent (id agent)"
+  xyzwh 884 218 2020 161 15
+textcanvas 131711 ": nom agent"
+  xyzwh 911 244 2020 67 16
+textcanvas 131839 ": nom client"
+  xyzwh 718 186 2000 65 16
+textcanvas 131967 ": nom agent"
+  xyzwh 714 237 2020 67 16
+fragment 132095 "loop"
+  xyzwh 587 155 2000 495 130
+end
+textcanvas 133375 "Consulter la liste
+de profils des agents"
+  xyzwh 86 314 2020 116 33
+textcanvas 133503 "Consulter la liste
+de profils des agents"
+  xyzwh 261 328 2020 116 33
+textcanvas 133631 "Consulter la liste
+de profils des agents"
+  xyzwh 700 338 2020 116 33
+textcanvas 133759 ": liste (id agent,
+ nom agent,
+ disponibilité,
+ caracteristique)"
+  xyzwh 708 376 2000 90 67
+textcanvas 133887 ": liste (id agent,
+ nom agent,
+ disponibilité,
+ caracteristique)"
+  xyzwh 279 366 2000 90 67
+textcanvas 134783 "Affecter contact
+(id contact, id agent)"
+  xyzwh 80 504 2000 113 33
+textcanvas 134911 "Affecter contact
+(id contact, id agent)"
+  xyzwh 260 524 2000 113 33
+textcanvas 135039 "Affecter contact
+(id contact, id agent)"
+  xyzwh 482 542 2000 113 33
+fragment 135167 "loop"
+  xyzwh 4 491 2015 694 143
+end
+textcanvas 135807 ": liste (id contact,
+ nom client,
+ motif contact,
+ agent habituel)"
+  xyzwh 481 106 2000 93 67
+textcanvas 136191 "Consulter la liste de 
+contacts prévus (id agence)"
+  xyzwh 257 59 2000 156 37
+textcanvas 136319 "Consulter la liste de 
+contacts prévus (id agence)"
+  xyzwh 468 67 2000 156 37
+textcanvas 137343 "Get clients"
+  xyzwh 891 99 2000 60 16
+textcanvas 137471 ": liste (id client)"
+  xyzwh 882 120 2000 84 16
+note 137599 "Recherche les contacts
+relatif a une agence"
+  xyzwh 680 47 2000 153 51
+durationcanvas 128895 classinstance_ref 128127 // :ChefAgence
+  xyzwh 56 85 2010 11 575
+end
+durationcanvas 129023 classinstance_ref 128383 // :IHM
+  xyzwh 220 78 2010 11 36
+end
+durationcanvas 129279 classinstance_ref 128255 // :SM
+  xyzwh 437 93 2010 11 39
+end
+durationcanvas 129535 classinstance_ref 128639 // :Contact
+  xyzwh 653 95 2010 11 168
+end
+durationcanvas 132223 classinstance_ref 128383 // :IHM
+  xyzwh 220 343 2010 11 25
+end
+durationcanvas 132479 classinstance_ref 128255 // :SM
+  xyzwh 437 357 2010 11 25
+end
+durationcanvas 133119 classinstance_ref 128767 // :Agence
+  xyzwh 1052 367 2010 11 25
+end
+durationcanvas 134015 classinstance_ref 128383 // :IHM
+  xyzwh 220 536 2010 11 30
+end
+durationcanvas 134271 classinstance_ref 128255 // :SM
+  xyzwh 437 555 2010 11 29
+end
+durationcanvas 134527 classinstance_ref 128639 // :Contact
+  xyzwh 653 573 2010 11 25
+end
+durationcanvas 135295 classinstance_ref 128511 // :Client
+  xyzwh 850 169 2010 11 42
+end
+durationcanvas 136447 classinstance_ref 128511 // :Client
+  xyzwh 850 228 2010 11 30
+end
+durationcanvas 136703 classinstance_ref 128767 // :Agence
+  xyzwh 1052 232 2010 11 34
+end
+durationcanvas 137087 classinstance_ref 128767 // :Agence
+  xyzwh 1052 98 2010 11 35
+end
+msg 129151 synchronous
+  from durationcanvas_ref 128895
+  to durationcanvas_ref 129023
+  yz 85 2015 unspecifiedmsg
+  show_full_operations_definition default drawing_language default show_context_mode default
+msg 129407 synchronous
+  from durationcanvas_ref 129023
+  to durationcanvas_ref 129279
+  yz 93 2015 unspecifiedmsg
+  show_full_operations_definition default drawing_language default show_context_mode default
+msg 129663 synchronous
+  from durationcanvas_ref 129279
+  to durationcanvas_ref 129535
+  yz 98 2020 unspecifiedmsg
+  show_full_operations_definition default drawing_language default show_context_mode default
+msg 132351 synchronous
+  from durationcanvas_ref 128895
+  to durationcanvas_ref 132223
+  yz 348 2015 unspecifiedmsg
+  show_full_operations_definition default drawing_language default show_context_mode default
+msg 132607 synchronous
+  from durationcanvas_ref 132223
+  to durationcanvas_ref 132479
+  yz 357 2015 unspecifiedmsg
+  show_full_operations_definition default drawing_language default show_context_mode default
+msg 133247 synchronous
+  from durationcanvas_ref 132479
+  to durationcanvas_ref 133119
+  yz 367 2020 unspecifiedmsg
+  show_full_operations_definition default drawing_language default show_context_mode default
+msg 134143 synchronous
+  from durationcanvas_ref 128895
+  to durationcanvas_ref 134015
+  yz 536 2015 unspecifiedmsg
+  show_full_operations_definition default drawing_language default show_context_mode default
+msg 134399 synchronous
+  from durationcanvas_ref 134015
+  to durationcanvas_ref 134271
+  yz 555 2015 unspecifiedmsg
+  show_full_operations_definition default drawing_language default show_context_mode default
+msg 134655 synchronous
+  from durationcanvas_ref 134271
+  to durationcanvas_ref 134527
+  yz 573 2020 unspecifiedmsg
+  show_full_operations_definition default drawing_language default show_context_mode default
+msg 135423 synchronous
+  from durationcanvas_ref 129535
+  to durationcanvas_ref 135295
+  yz 176 2025 unspecifiedmsg
+  show_full_operations_definition default drawing_language default show_context_mode default
+msg 136575 synchronous
+  from durationcanvas_ref 129535
+  to durationcanvas_ref 136447
+  yz 228 2025 unspecifiedmsg
+  show_full_operations_definition default drawing_language default show_context_mode default
+msg 136831 synchronous
+  from durationcanvas_ref 136447
+  to durationcanvas_ref 136703
+  yz 233 2030 unspecifiedmsg
+  show_full_operations_definition default drawing_language default show_context_mode default
+msg 137215 synchronous
+  from durationcanvas_ref 129535
+  to durationcanvas_ref 137087
+  yz 113 2030 unspecifiedmsg
+  show_full_operations_definition default drawing_language default show_context_mode default
+line 137727 -_-_ decenter_begin 250
+  from ref 129535 z 2011 to ref 137599
+end
