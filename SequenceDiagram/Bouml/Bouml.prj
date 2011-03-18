@@ -1,6 +1,6 @@
 format 75
 "Bouml"
-  revision 8
+  revision 9
   modified_by 66 "cgg"
 
 
@@ -199,6 +199,16 @@ format 75
     sequencediagram 141122 "SD01"
       show_full_operations_definition default write_horizontally default class_drawing_mode default drawing_language default draw_all_relations default shadow default show_stereotype_properties default show_class_context_mode default show_msg_context_mode default
       overlapping_bars size A4-Landscape
+    end
+
+    collaborationdiagram 147650 "CD03"
+      show_full_operations_definition default show_hierarchical_rank default write_horizontally default drawing_language default package_name_in_tab default show_context default show_msg_context default draw_all_relations default shadow default show_stereotype_properties default
+      size A4
+    end
+
+    collaborationdiagram 147778 "CD01"
+      show_full_operations_definition default show_hierarchical_rank default write_horizontally default drawing_language default package_name_in_tab default show_context default show_msg_context default draw_all_relations default shadow default show_stereotype_properties default
+      size A4
     end
   end
 end
