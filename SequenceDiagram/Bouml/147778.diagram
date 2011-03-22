@@ -1,0 +1,40 @@
+format 75
+
+classinstance 128066 class_ref 128383 // SM
+ name ""  xyz 179 129 2000
+classinstance 128194 class_ref 135039 // Contact
+ name ""  xyz 311 271 2000
+classinstance 128322 class_ref 135551 // Evenement
+ name ""  xyz 465 128 2000
+linkcanvas 128450
+  from ref 128066 z 2001 to ref 128322
+dirscanvas 129474 z 1000 linkcanvas_ref 128450
+  show_full_operations_definition default show_hierarchical_rank default drawing_language default show_msg_context default
+  forward_label "1 ConsulterListeEvenements
+2 RazListeEvenement" xyz 267 91 3000
+linkcanvas 129218 decenter_begin 819
+  from ref 128066 z 2001 to ref 128194
+dirscanvas 129730 z 1000 linkcanvas_ref 129218
+  show_full_operations_definition default show_hierarchical_rank default drawing_language default show_msg_context default
+  forward_label "4 GénérerContactsPrévus" xyz 114 206 3000
+linkcanvas 129346 decenter_end 689
+  from ref 128322 z 2001 to ref 128194
+dirscanvas 129602 z 1000 linkcanvas_ref 129346
+  show_full_operations_definition default show_hierarchical_rank default drawing_language default show_msg_context default
+  forward_label "3 CreerMotifContact" xyz 384 231 3000
+msgs
+  explicitmsg "ConsulterListeEvenements"
+    forward ranks 1 "1" dirscanvas_ref 129474
+    no_msg
+  explicitmsg "RazListeEvenement"
+    forward ranks 2 "2" dirscanvas_ref 129474
+    msgs
+      explicitmsg "CreerMotifContact"
+	forward ranks 3 "2.1" dirscanvas_ref 129602
+	no_msg
+    msgsend
+  explicitmsg "GénérerContactsPrévus"
+    forward ranks 4 "3" dirscanvas_ref 129730
+    no_msg
+msgsend
+end

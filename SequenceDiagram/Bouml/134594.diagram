@@ -1,0 +1,100 @@
+format 75
+
+classinstance 128066 class_ref 128127 // ChefAgence
+  name ""   xyz 1 4 2000 life_line_z 2000
+classinstance 128194 class_ref 135807 // IHM
+  name ""   xyz 231 4 2000 life_line_z 2000
+classinstance 128706 class_ref 128383 // SM
+  name ""   xyz 463 4 2000 life_line_z 2000
+classinstance 128834 class_ref 128511 // Agence
+  name ""   xyz 695 4 2000 life_line_z 2000
+classinstance 128962 class_ref 135039 // Contact
+  name ""   xyz 940 4 2000 life_line_z 2000
+fragment 131266 "alt"
+  xyzwh 22 251 3005 980 306
+  separator 5784
+end
+durationcanvas 129090 classinstance_ref 128066 // :ChefAgence
+  xyzwh 34 70 2010 11 744
+  overlappingdurationcanvas 131394
+    xyzwh 40 375 2020 11 25
+  end
+  overlappingdurationcanvas 131650
+    xyzwh 40 511 2020 11 25
+  end
+end
+durationcanvas 129218 classinstance_ref 128194 // :IHM
+  xyzwh 250 69 2010 11 32
+end
+durationcanvas 129474 classinstance_ref 128706 // :SM
+  xyzwh 482 89 2010 11 31
+end
+durationcanvas 129730 classinstance_ref 128834 // :Agence
+  xyzwh 719 109 2010 11 36
+end
+durationcanvas 129986 classinstance_ref 128194 // :IHM
+  xyzwh 250 295 2010 11 43
+end
+durationcanvas 130242 classinstance_ref 128706 // :SM
+  xyzwh 482 327 2010 11 37
+end
+durationcanvas 130754 classinstance_ref 128962 // :Contact
+  xyzwh 963 352 2010 11 25
+end
+durationcanvas 131010 classinstance_ref 128962 // :Contact
+  xyzwh 963 131 2010 11 29
+end
+msg 129346 synchronous
+  from durationcanvas_ref 129090
+  to durationcanvas_ref 129218
+  yz 70 2015 explicitmsg "SélectionnerProfilAgent( dénomination agent )"
+  show_full_operations_definition default drawing_language default show_context_mode default
+  label_xy 78 56
+msg 129602 synchronous
+  from durationcanvas_ref 129218
+  to durationcanvas_ref 129474
+  yz 89 2015 explicitmsg "SélectionnerProfilAgent( dénomination agent )"
+  show_full_operations_definition default drawing_language default show_context_mode default
+  label_xy 274 71
+msg 129858 synchronous
+  from durationcanvas_ref 129474
+  to durationcanvas_ref 129730
+  yz 109 2015 explicitmsg "SélectionnerPosteFonctionnel( dénomination poste )"
+  show_full_operations_definition default drawing_language default show_context_mode default
+  label_xy 509 92
+msg 130114 synchronous
+  from durationcanvas_ref 129090
+  to durationcanvas_ref 129986
+  yz 295 2015 explicitmsg "SélectionnerContact"
+  show_full_operations_definition default drawing_language default show_context_mode default
+  label_xy 82 281
+msg 130370 synchronous
+  from durationcanvas_ref 129986
+  to durationcanvas_ref 130242
+  yz 327 2015 explicitmsg "SélectionnerContact"
+  show_full_operations_definition default drawing_language default show_context_mode default
+  label_xy 306 313
+msg 130882 synchronous
+  from durationcanvas_ref 130242
+  to durationcanvas_ref 130754
+  yz 353 2015 explicitmsg "SélectionnerContact( dénomination contact )"
+  show_full_operations_definition default drawing_language default show_context_mode default
+  args "dénominationContact"
+  label_xy 663 339
+msg 131138 synchronous
+  from durationcanvas_ref 129730
+  to durationcanvas_ref 131010
+  yz 134 2015 explicitmsg "GetListeContact( dénomination poste )"
+  show_full_operations_definition default drawing_language default show_context_mode default
+  label_xy 740 120
+reflexivemsg 131522 synchronous
+  to durationcanvas_ref 131394
+  yz 375 2025 explicitmsg "ConsulterContactAgent"
+  show_full_operations_definition default drawing_language default show_context_mode default
+  label_xy 77 377
+reflexivemsg 131778 synchronous
+  to durationcanvas_ref 131650
+  yz 511 2025 explicitmsg "ConsulterFicheAgent"
+  show_full_operations_definition default drawing_language default show_context_mode default
+  label_xy 77 509
+end
