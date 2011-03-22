@@ -17,7 +17,10 @@ dirscanvas 128511 z 1000 linkcanvas_ref 128383
   forward_label "1 Consulter la liste de contacts prévus
 3 Affecter contact
 8 Regrouper contacts
-9 Annuler contact" xyz 186 125 3000
+9 Annuler contact
+16 IdentifierContact
+17 GenererContactCommercial
+18 CreerContactSpontane" xyz 211 105 3000
 linkcanvas 128387
   from ref 128127 z 2001 to ref 128003
 dirscanvas 128515 z 1000 linkcanvas_ref 128387
@@ -25,7 +28,8 @@ dirscanvas 128515 z 1000 linkcanvas_ref 128387
   forward_label "11 Chercher Agenda Agent
 12 Obtenir Agents dispos sur une période
 13 Affecter Activité à un agent sur une plage
-14 Modifier horaire RDV" xyz 72 329 3000
+14 Modifier horaire RDV
+15 CreerRDV" xyz 104 327 3000
 linkcanvas 129279
   from ref 128255 z 2007 to ref 129151
 dirscanvas 129407 z 1000 linkcanvas_ref 129279
@@ -93,6 +97,18 @@ msgs
     no_msg
   explicitmsg "Modifier horaire RDV"
     forward ranks 14 "10" dirscanvas_ref 128515
+    no_msg
+  explicitmsg "CreerRDV"
+    forward ranks 15 "11" dirscanvas_ref 128515
+    no_msg
+  explicitmsg "IdentifierContact"
+    forward ranks 16 "12" dirscanvas_ref 128511
+    no_msg
+  explicitmsg "GenererContactCommercial"
+    forward ranks 17 "13" dirscanvas_ref 128511
+    no_msg
+  explicitmsg "CreerContactSpontane"
+    forward ranks 18 "14" dirscanvas_ref 128511
     no_msg
 msgsend
 end
