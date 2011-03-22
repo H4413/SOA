@@ -1,0 +1,32 @@
+Services Objets Métiers
+
+SM1 : Consulter la liste de contacts prévus
+	SOM Agence 1: Get clients
+	SOM Client 1: Get nom client
+	SOM Client 2: Get agent habituel
+	E: #id agence
+	S: Liste (Numero contact, nom client, motif contact, agent habituel)
+	Procédure:
+		Rechercher les clients de l'agence : SOM Agence 1
+		Pour chaque client, recherche les nom clients : SOM Client 1
+		Pour chaque client, recherche l'agent habituel : SOM Client 2
+		
+SM2 : Consulter la liste de profils des agents
+	E: #id agent
+	S: Liste (Id agent, nom agent, disponibilité, caractéristique)
+	
+SM3 : Affecter contact
+	E: #id contact, #id agent
+	
+SM4 : Regrouper contacts
+	E: List (id contacts)
+	S: #id contatc regroupé
+	
+SM5 : Annuler contact
+	E: #id contact, raison
+	
+	
+	
+
+
+
