@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>990</width>
-    <height>752</height>
+    <width>1026</width>
+    <height>808</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -24,16 +24,16 @@
      </rect>
     </property>
     <property name="text">
-     <string> Numéro Client : 666</string>
+     <string>Numéro Client : 666</string>
     </property>
    </widget>
    <widget class="QTabWidget" name="tabWidget">
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>60</y>
-      <width>971</width>
-      <height>621</height>
+      <y>50</y>
+      <width>1001</width>
+      <height>681</height>
      </rect>
     </property>
     <property name="currentIndex">
@@ -43,37 +43,12 @@
      <attribute name="title">
       <string>Bilan</string>
      </attribute>
-     <widget class="QTableWidget" name="tableWidget_4">
-      <property name="geometry">
-       <rect>
-        <x>30</x>
-        <y>361</y>
-        <width>881</width>
-        <height>161</height>
-       </rect>
-      </property>
-      <column>
-       <property name="text">
-        <string>Compte</string>
-       </property>
-      </column>
-      <column>
-       <property name="text">
-        <string>Numéro</string>
-       </property>
-      </column>
-      <column>
-       <property name="text">
-        <string>Balance</string>
-       </property>
-      </column>
-     </widget>
      <widget class="QGroupBox" name="groupBox_8">
       <property name="geometry">
        <rect>
         <x>20</x>
         <y>20</y>
-        <width>431</width>
+        <width>531</width>
         <height>301</height>
        </rect>
       </property>
@@ -203,7 +178,7 @@
        </property>
        <item>
         <property name="text">
-         <string>Enseignant</string>
+         <string>1er Tiers</string>
         </property>
        </item>
       </widget>
@@ -283,7 +258,7 @@
         <rect>
          <x>190</x>
          <y>170</y>
-         <width>241</width>
+         <width>341</width>
          <height>27</height>
         </rect>
        </property>
@@ -311,7 +286,7 @@
      <widget class="QGroupBox" name="groupBox_9">
       <property name="geometry">
        <rect>
-        <x>470</x>
+        <x>560</x>
         <y>30</y>
         <width>371</width>
         <height>231</height>
@@ -351,18 +326,18 @@
         <rect>
          <x>10</x>
          <y>100</y>
-         <width>81</width>
+         <width>181</width>
          <height>17</height>
         </rect>
        </property>
        <property name="text">
-        <string>Réciprocité</string>
+        <string>Réciprocité interne</string>
        </property>
       </widget>
       <widget class="QComboBox" name="comboBox_8">
        <property name="geometry">
         <rect>
-         <x>110</x>
+         <x>200</x>
          <y>30</y>
          <width>111</width>
          <height>27</height>
@@ -377,7 +352,7 @@
       <widget class="QComboBox" name="comboBox_9">
        <property name="geometry">
         <rect>
-         <x>110</x>
+         <x>200</x>
          <y>60</y>
          <width>111</width>
          <height>27</height>
@@ -385,15 +360,43 @@
        </property>
        <item>
         <property name="text">
-         <string>Limité</string>
+         <string>Excellent</string>
         </property>
        </item>
       </widget>
       <widget class="QComboBox" name="comboBox_10">
        <property name="geometry">
         <rect>
-         <x>110</x>
+         <x>200</x>
          <y>90</y>
+         <width>111</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <item>
+        <property name="text">
+         <string>Faible</string>
+        </property>
+       </item>
+      </widget>
+      <widget class="QLabel" name="label_29">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>130</y>
+         <width>181</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Réciprocité client</string>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox_11">
+       <property name="geometry">
+        <rect>
+         <x>200</x>
+         <y>120</y>
          <width>111</width>
          <height>27</height>
         </rect>
@@ -420,15 +423,15 @@
        </rect>
       </property>
       <property name="title">
-       <string>Listes Produits</string>
+       <string>Listes Produits Souscripts</string>
       </property>
       <widget class="QTableWidget" name="tableWidget_5">
        <property name="geometry">
         <rect>
          <x>0</x>
          <y>30</y>
-         <width>411</width>
-         <height>181</height>
+         <width>891</width>
+         <height>191</height>
         </rect>
        </property>
        <property name="alternatingRowColors">
@@ -482,7 +485,7 @@
        </column>
        <column>
         <property name="text">
-         <string>Balance</string>
+         <string>Solde</string>
         </property>
        </column>
        <item row="0" column="0">
@@ -592,38 +595,392 @@
        <rect>
         <x>10</x>
         <y>230</y>
-        <width>901</width>
-        <height>281</height>
+        <width>951</width>
+        <height>401</height>
        </rect>
       </property>
       <property name="title">
-       <string>Livret A</string>
+       <string>Carte Bancaire 4105 4109 4190 4318</string>
       </property>
       <widget class="QGroupBox" name="groupBox_12">
        <property name="geometry">
         <rect>
          <x>0</x>
-         <y>40</y>
-         <width>391</width>
-         <height>241</height>
+         <y>20</y>
+         <width>711</width>
+         <height>361</height>
         </rect>
        </property>
        <property name="title">
         <string>Service</string>
        </property>
+       <widget class="QTableWidget" name="tableWidget_6">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>30</y>
+          <width>411</width>
+          <height>191</height>
+         </rect>
+        </property>
+        <property name="alternatingRowColors">
+         <bool>true</bool>
+        </property>
+        <attribute name="horizontalHeaderVisible">
+         <bool>false</bool>
+        </attribute>
+        <attribute name="verticalHeaderVisible">
+         <bool>false</bool>
+        </attribute>
+        <row>
+         <property name="text">
+          <string>Ligne1</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>Nouvelle ligne</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>Nouvelle ligne</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>Ligne2</string>
+         </property>
+        </row>
+        <column>
+         <property name="text">
+          <string>Jour</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Compte</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Débit</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Crédit</string>
+         </property>
+        </column>
+        <item row="0" column="0">
+         <property name="text">
+          <string>25/10/2010</string>
+         </property>
+        </item>
+        <item row="0" column="1">
+         <property name="text">
+          <string>CC LYO 06</string>
+         </property>
+        </item>
+        <item row="0" column="2">
+         <property name="text">
+          <string>- 13,00</string>
+         </property>
+        </item>
+        <item row="0" column="3">
+         <property name="text">
+          <string/>
+         </property>
+        </item>
+        <item row="1" column="0">
+         <property name="text">
+          <string>25/10/2010</string>
+         </property>
+        </item>
+        <item row="1" column="1">
+         <property name="text">
+          <string>Produit</string>
+         </property>
+        </item>
+        <item row="1" column="2">
+         <property name="text">
+          <string>- 50,00</string>
+         </property>
+        </item>
+        <item row="1" column="3">
+         <property name="text">
+          <string/>
+         </property>
+        </item>
+        <item row="2" column="0">
+         <property name="text">
+          <string>25/10/2010</string>
+         </property>
+        </item>
+        <item row="2" column="1">
+         <property name="text">
+          <string>ROLEX</string>
+         </property>
+        </item>
+        <item row="2" column="2">
+         <property name="text">
+          <string>- 8000,00</string>
+         </property>
+        </item>
+        <item row="2" column="3">
+         <property name="text">
+          <string/>
+         </property>
+        </item>
+        <item row="3" column="0">
+         <property name="text">
+          <string>24/10/2010</string>
+         </property>
+        </item>
+        <item row="3" column="1">
+         <property name="text">
+          <string>INSA Lyon</string>
+         </property>
+        </item>
+        <item row="3" column="2">
+         <property name="text">
+          <string/>
+         </property>
+        </item>
+        <item row="3" column="3">
+         <property name="text">
+          <string>+ 3000,00</string>
+         </property>
+        </item>
+       </widget>
+       <zorder>tableWidget_6</zorder>
+       <zorder>tableWidget_6</zorder>
+       <zorder>groupBox_13</zorder>
       </widget>
       <widget class="QGroupBox" name="groupBox_13">
        <property name="geometry">
         <rect>
-         <x>460</x>
-         <y>20</y>
-         <width>391</width>
-         <height>241</height>
+         <x>430</x>
+         <y>0</y>
+         <width>301</width>
+         <height>391</height>
         </rect>
        </property>
        <property name="title">
         <string>Informations</string>
        </property>
+       <widget class="QLineEdit" name="lineEdit_11">
+        <property name="geometry">
+         <rect>
+          <x>180</x>
+          <y>10</y>
+          <width>113</width>
+          <height>27</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>10000</string>
+        </property>
+        <property name="readOnly">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_32">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>50</y>
+          <width>161</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Plafond Mensuel</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_12">
+        <property name="geometry">
+         <rect>
+          <x>180</x>
+          <y>40</y>
+          <width>113</width>
+          <height>27</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>15000</string>
+        </property>
+        <property name="readOnly">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_33">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>20</y>
+          <width>161</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Plafond Hebdomadaire</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_35">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>140</y>
+          <width>161</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_34">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>110</y>
+          <width>161</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Retrait Mensuel</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_36">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>80</y>
+          <width>161</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Plafond Hebdomadaire</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_13">
+        <property name="geometry">
+         <rect>
+          <x>180</x>
+          <y>100</y>
+          <width>113</width>
+          <height>27</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>50000</string>
+        </property>
+        <property name="readOnly">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_14">
+        <property name="geometry">
+         <rect>
+          <x>180</x>
+          <y>70</y>
+          <width>113</width>
+          <height>27</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>15000</string>
+        </property>
+        <property name="readOnly">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_37">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>140</y>
+          <width>161</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Utilisation</string>
+        </property>
+       </widget>
+       <widget class="QTextBrowser" name="textBrowser">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>160</y>
+          <width>256</width>
+          <height>71</height>
+         </rect>
+        </property>
+        <property name="html">
+         <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Payer les courses&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Voyages au Portugal&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+       <widget class="QToolButton" name="toolButton_3">
+        <property name="geometry">
+         <rect>
+          <x>200</x>
+          <y>250</y>
+          <width>91</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Editer</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="groupBox_15">
+       <property name="geometry">
+        <rect>
+         <x>750</x>
+         <y>0</y>
+         <width>241</width>
+         <height>371</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>Documents</string>
+       </property>
+       <widget class="QLabel" name="label_10">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>30</y>
+          <width>131</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>CU-20111023.doc</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_11">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>50</y>
+          <width>131</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>RI-20101201.doc</string>
+        </property>
+       </widget>
       </widget>
      </widget>
     </widget>
@@ -636,87 +993,13 @@
        <rect>
         <x>10</x>
         <y>10</y>
-        <width>691</width>
+        <width>941</width>
         <height>251</height>
        </rect>
       </property>
       <property name="title">
        <string>Historique sur les contacts</string>
       </property>
-      <widget class="QTableWidget" name="tableWidget_6">
-       <property name="geometry">
-        <rect>
-         <x>0</x>
-         <y>30</y>
-         <width>511</width>
-         <height>221</height>
-        </rect>
-       </property>
-       <property name="alternatingRowColors">
-        <bool>true</bool>
-       </property>
-       <attribute name="horizontalHeaderVisible">
-        <bool>false</bool>
-       </attribute>
-       <attribute name="verticalHeaderVisible">
-        <bool>false</bool>
-       </attribute>
-       <row>
-        <property name="text">
-         <string>Ligne1</string>
-        </property>
-       </row>
-       <row>
-        <property name="text">
-         <string>Nouvelle ligne</string>
-        </property>
-       </row>
-       <column>
-        <property name="text">
-         <string>Date</string>
-        </property>
-       </column>
-       <column>
-        <property name="text">
-         <string>Motif</string>
-        </property>
-       </column>
-       <column>
-        <property name="text">
-         <string>Agent</string>
-        </property>
-       </column>
-       <item row="0" column="0">
-        <property name="text">
-         <string>26/04/2010</string>
-        </property>
-       </item>
-       <item row="0" column="1">
-        <property name="text">
-         <string>Entretien Annuel</string>
-        </property>
-       </item>
-       <item row="0" column="2">
-        <property name="text">
-         <string>Emmanuel Chain</string>
-        </property>
-       </item>
-       <item row="1" column="0">
-        <property name="text">
-         <string>12/03/2009</string>
-        </property>
-       </item>
-       <item row="1" column="1">
-        <property name="text">
-         <string>Souscription Livret A</string>
-        </property>
-       </item>
-       <item row="1" column="2">
-        <property name="text">
-         <string>Emmanuel Chain</string>
-        </property>
-       </item>
-      </widget>
       <widget class="QTableWidget" name="tableWidget_7">
        <property name="geometry">
         <rect>
@@ -791,11 +1074,109 @@
         </property>
        </item>
       </widget>
+      <widget class="QTableWidget" name="tableWidget_8">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>30</y>
+         <width>771</width>
+         <height>221</height>
+        </rect>
+       </property>
+       <property name="alternatingRowColors">
+        <bool>true</bool>
+       </property>
+       <attribute name="horizontalHeaderVisible">
+        <bool>false</bool>
+       </attribute>
+       <attribute name="horizontalHeaderHighlightSections">
+        <bool>false</bool>
+       </attribute>
+       <attribute name="horizontalHeaderShowSortIndicator" stdset="0">
+        <bool>true</bool>
+       </attribute>
+       <attribute name="horizontalHeaderStretchLastSection">
+        <bool>true</bool>
+       </attribute>
+       <attribute name="verticalHeaderVisible">
+        <bool>false</bool>
+       </attribute>
+       <row>
+        <property name="text">
+         <string>Ligne1</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>Nouvelle ligne</string>
+        </property>
+       </row>
+       <column>
+        <property name="text">
+         <string>Date</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Type</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Motif</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Agent</string>
+        </property>
+       </column>
+       <item row="0" column="0">
+        <property name="text">
+         <string>26/04/2010</string>
+        </property>
+       </item>
+       <item row="0" column="1">
+        <property name="text">
+         <string>Entretien</string>
+        </property>
+       </item>
+       <item row="0" column="2">
+        <property name="text">
+         <string>Entretien Annuel</string>
+        </property>
+       </item>
+       <item row="0" column="3">
+        <property name="text">
+         <string>Emmanuel Chain</string>
+        </property>
+       </item>
+       <item row="1" column="0">
+        <property name="text">
+         <string>12/03/2009</string>
+        </property>
+       </item>
+       <item row="1" column="1">
+        <property name="text">
+         <string>Souscription</string>
+        </property>
+       </item>
+       <item row="1" column="2">
+        <property name="text">
+         <string>Souscription Livret A</string>
+        </property>
+       </item>
+       <item row="1" column="3">
+        <property name="text">
+         <string>Emmanuel Chain</string>
+        </property>
+       </item>
+      </widget>
      </widget>
      <widget class="QPushButton" name="pushButton_2">
       <property name="geometry">
        <rect>
-        <x>530</x>
+        <x>800</x>
         <y>150</y>
         <width>131</width>
         <height>27</height>
@@ -808,7 +1189,7 @@
      <widget class="QCheckBox" name="checkBox_5">
       <property name="geometry">
        <rect>
-        <x>530</x>
+        <x>800</x>
         <y>60</y>
         <width>171</width>
         <height>22</height>
@@ -818,24 +1199,11 @@
        <string>Propositions Faites</string>
       </property>
      </widget>
-     <widget class="QCheckBox" name="checkBox_6">
-      <property name="geometry">
-       <rect>
-        <x>530</x>
-        <y>80</y>
-        <width>98</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>Incidents</string>
-      </property>
-     </widget>
      <widget class="QCheckBox" name="checkBox_7">
       <property name="geometry">
        <rect>
-        <x>530</x>
-        <y>100</y>
+        <x>800</x>
+        <y>80</y>
         <width>161</width>
         <height>22</height>
        </rect>
@@ -847,8 +1215,8 @@
      <widget class="QCheckBox" name="checkBox_8">
       <property name="geometry">
        <rect>
-        <x>530</x>
-        <y>120</y>
+        <x>800</x>
+        <y>100</y>
         <width>161</width>
         <height>22</height>
        </rect>
@@ -860,7 +1228,7 @@
      <widget class="QLabel" name="label_27">
       <property name="geometry">
        <rect>
-        <x>530</x>
+        <x>800</x>
         <y>40</y>
         <width>67</width>
         <height>17</height>
@@ -874,7 +1242,7 @@
       <property name="geometry">
        <rect>
         <x>10</x>
-        <y>290</y>
+        <y>280</y>
         <width>241</width>
         <height>271</height>
        </rect>
@@ -952,7 +1320,7 @@
      <widget class="QGroupBox" name="groupBox_3">
       <property name="geometry">
        <rect>
-        <x>420</x>
+        <x>270</x>
         <y>280</y>
         <width>241</width>
         <height>271</height>
@@ -984,7 +1352,7 @@
         </rect>
        </property>
        <property name="text">
-        <string>Faite</string>
+        <string>Faites</string>
        </property>
       </widget>
       <widget class="QListWidget" name="listWidget_5">
@@ -1039,7 +1407,7 @@
      <widget class="Line" name="line">
       <property name="geometry">
        <rect>
-        <x>350</x>
+        <x>250</x>
         <y>280</y>
         <width>20</width>
         <height>311</height>
@@ -1052,7 +1420,7 @@
      <widget class="Line" name="line_2">
       <property name="geometry">
        <rect>
-        <x>670</x>
+        <x>510</x>
         <y>290</y>
         <width>20</width>
         <height>311</height>
@@ -1065,9 +1433,9 @@
      <widget class="QGroupBox" name="groupBox_4">
       <property name="geometry">
        <rect>
-        <x>700</x>
+        <x>530</x>
         <y>280</y>
-        <width>271</width>
+        <width>401</width>
         <height>271</height>
        </rect>
       </property>
@@ -1091,7 +1459,7 @@
        <property name="geometry">
         <rect>
          <x>0</x>
-         <y>90</y>
+         <y>160</y>
          <width>231</width>
          <height>17</height>
         </rect>
@@ -1104,7 +1472,7 @@
        <property name="geometry">
         <rect>
          <x>0</x>
-         <y>110</y>
+         <y>180</y>
          <width>341</width>
          <height>16</height>
         </rect>
@@ -1117,7 +1485,7 @@
        <property name="geometry">
         <rect>
          <x>0</x>
-         <y>130</y>
+         <y>200</y>
          <width>341</width>
          <height>16</height>
         </rect>
@@ -1143,13 +1511,52 @@
        <property name="geometry">
         <rect>
          <x>0</x>
-         <y>170</y>
+         <y>230</y>
          <width>231</width>
          <height>17</height>
         </rect>
        </property>
        <property name="text">
         <string>Réclamations Faites</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_28">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>250</y>
+         <width>341</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>12/03/2010 - Changer de conseiller</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_30">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>80</y>
+         <width>281</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>12/03/2007 - Interdit Bancaire par erreur</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_31">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>60</y>
+         <width>411</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>23/05/2009 - Mise en examen pour fraude fiscale</string>
        </property>
       </widget>
      </widget>
@@ -1171,8 +1578,8 @@
    <widget class="QLabel" name="label_2">
     <property name="geometry">
      <rect>
-      <x>20</x>
-      <y>30</y>
+      <x>10</x>
+      <y>20</y>
       <width>411</width>
       <height>17</height>
      </rect>
@@ -1181,26 +1588,13 @@
      <string>Dénomination : Sylvie Servigne et Yann Gripay</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label_28">
-    <property name="geometry">
-     <rect>
-      <x>710</x>
-      <y>560</y>
-      <width>341</width>
-      <height>16</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>26/04/2010 - Prêt à taux 0 - 5000€</string>
-    </property>
-   </widget>
   </widget>
   <widget class="QMenuBar" name="menuBar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>990</width>
+     <width>1026</width>
      <height>25</height>
     </rect>
    </property>

@@ -1,15 +1,15 @@
 format 75
 
 classinstance 128003 class_ref 135167 // Agenda
- name ""  xyz 28 404 2000
+ name ""  xyz 125 522 2000
 classinstance 128127 class_ref 128383 // SM
- name ""  xyz 131 196 2000
+ name ""  xyz 131 199 2000
 classinstance 128255 class_ref 135039 // Contact
- name ""  xyz 401 195 2000
+ name ""  xyz 547 200 2000
 classinstance 129023 class_ref 128511 // Agence
- name ""  xyz 401 380 2000
+ name ""  xyz 547 478 2000
 classinstance 129151 class_ref 135423 // Client
- name ""  xyz 608 194 2006
+ name ""  xyz 755 200 2006
 linkcanvas 128383
   from ref 128127 z 2001 to ref 128255
 dirscanvas 128511 z 1000 linkcanvas_ref 128383
@@ -20,7 +20,7 @@ dirscanvas 128511 z 1000 linkcanvas_ref 128383
 9 Annuler contact
 16 IdentifierContact
 17 GenererContactCommercial
-18 CreerContactSpontane" xyz 211 105 3000
+18 CreerContactSpontane" xyz 247 82 3000
 linkcanvas 128387
   from ref 128127 z 2001 to ref 128003
 dirscanvas 128515 z 1000 linkcanvas_ref 128387
@@ -29,29 +29,32 @@ dirscanvas 128515 z 1000 linkcanvas_ref 128387
 12 Obtenir Agents dispos sur une période
 13 Affecter Activité à un agent sur une plage
 14 Modifier horaire RDV
-15 CreerRDV" xyz 104 327 3000
+15 CreerRDV
+21 Obtenir temps libre pour un agent" xyz 168 393 3000
 linkcanvas 129279
   from ref 128255 z 2007 to ref 129151
 dirscanvas 129407 z 1000 linkcanvas_ref 129279
   show_full_operations_definition default show_hierarchical_rank default drawing_language default show_msg_context default
   forward_label "2 Get agent habituel
-4 Get nom client" xyz 476 156 3000
+4 Get nom client" xyz 618 163 3000
 linkcanvas 129663
   from ref 129151 z 2007 to ref 129023
 dirscanvas 129791 z 1000 linkcanvas_ref 129663
   show_full_operations_definition default show_hierarchical_rank default drawing_language default show_msg_context default
-  forward_label "5 Get nom agent" xyz 531 338 3000
+  forward_label "5 Get nom agent" xyz 693 354 3000
 linkcanvas 129919
   from ref 128255 z 2001 to ref 129023
 dirscanvas 130047 z 1000 linkcanvas_ref 129919
   show_full_operations_definition default show_hierarchical_rank default drawing_language default show_msg_context default
-  forward_label "6 Get clients" xyz 441 277 3000
+  forward_label "6 Get clients" xyz 587 277 3000
 linkcanvas 130175
   from ref 128127 z 2001 to ref 129023
 dirscanvas 130303 z 1000 linkcanvas_ref 130175
   show_full_operations_definition default show_hierarchical_rank default drawing_language default show_msg_context default
   forward_label "7 Consulter la liste de profils des agents
-10 CHercher liste Agents" xyz 194 251 3000
+10 CHercher liste Agents
+19 Consulter Activités
+20 Consulter temps par contact" xyz 296 249 3000
 msgs
   explicitmsg "Consulter la liste de contacts prévus"
     forward ranks 1 "1" dirscanvas_ref 128511
@@ -109,6 +112,15 @@ msgs
     no_msg
   explicitmsg "CreerContactSpontane"
     forward ranks 18 "14" dirscanvas_ref 128511
+    no_msg
+  explicitmsg "Consulter Activités"
+    forward ranks 19 "15" dirscanvas_ref 130303
+    no_msg
+  explicitmsg "Consulter temps par contact"
+    forward ranks 20 "16" dirscanvas_ref 130303
+    no_msg
+  explicitmsg "Obtenir temps libre pour un agent"
+    forward ranks 21 "17" dirscanvas_ref 128515
     no_msg
 msgsend
 end
