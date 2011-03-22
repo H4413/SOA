@@ -39,8 +39,8 @@ p, li { white-space: pre-wrap; }
      <rect>
       <x>20</x>
       <y>110</y>
-      <width>631</width>
-      <height>331</height>
+      <width>761</width>
+      <height>321</height>
      </rect>
     </property>
     <property name="frameShape">
@@ -263,6 +263,46 @@ p, li { white-space: pre-wrap; }
        <set>AlignHCenter|AlignVCenter|AlignCenter</set>
       </property>
      </item>
+    </widget>
+    <widget class="QTableWidget" name="tableWidget_2">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>0</y>
+       <width>641</width>
+       <height>331</height>
+      </rect>
+     </property>
+     <column>
+      <property name="text">
+       <string>Nerak</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Oguh</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Nitneuq</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Tnemelc</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Rotciv</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Leahpar</string>
+      </property>
+     </column>
     </widget>
    </widget>
   </widget>
