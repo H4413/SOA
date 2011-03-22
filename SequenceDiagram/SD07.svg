@@ -27,36 +27,12 @@
 	<line stroke="black" stroke-opacity="1" x1="53" y1="706" x2="53" y2="694" />
 </g>
 <g>
-	<polygon fill="#ffffff" stroke="black" stroke-opacity="1" points="24,1150 243,1150 243,1162 231,1174 24,1174 24,1150" />
-	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="24" y="1150" width="841" height="291" />
-	<text font-family="Sans Serif" font-size="10" fill="#000000" xml:space="preserve" text-anchor="middle" x="128" y="1167">Modification date/horraire RDV</text>
-	<line stroke="black" stroke-opacity="1" x1="24" y1="1174" x2="231" y2="1174" />
-	<line stroke="black" stroke-opacity="1" x1="231" y1="1174" x2="243" y2="1162" />
-	<line stroke="black" stroke-opacity="1" x1="243" y1="1162" x2="243" y2="1150" />
-</g>
-<g>
 	<polygon fill="#ffffff" stroke="black" stroke-opacity="1" points="23,1003 124,1003 124,1015 112,1027 23,1027 23,1003" />
 	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="23" y="1003" width="836" height="134" />
 	<text font-family="Sans Serif" font-size="10" fill="#000000" xml:space="preserve" text-anchor="middle" x="68" y="1020">Annuler RDV</text>
 	<line stroke="black" stroke-opacity="1" x1="23" y1="1027" x2="112" y2="1027" />
 	<line stroke="black" stroke-opacity="1" x1="112" y1="1027" x2="124" y2="1015" />
 	<line stroke="black" stroke-opacity="1" x1="124" y1="1015" x2="124" y2="1003" />
-</g>
-<g>
-	<polygon fill="#ffffff" stroke="black" stroke-opacity="1" points="22,725 287,725 287,737 275,749 22,749 22,725" />
-	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="22" y="725" width="836" height="263" />
-	<text font-family="Sans Serif" font-size="10" fill="#000000" xml:space="preserve" text-anchor="middle" x="149" y="742">réaffecter RDV à un autre agent dispo</text>
-	<line stroke="black" stroke-opacity="1" x1="22" y1="749" x2="275" y2="749" />
-	<line stroke="black" stroke-opacity="1" x1="275" y1="749" x2="287" y2="737" />
-	<line stroke="black" stroke-opacity="1" x1="287" y1="737" x2="287" y2="725" />
-</g>
-<g>
-	<polygon fill="#ffffff" stroke="black" stroke-opacity="1" points="3,311 193,311 193,323 181,335 3,335 3,311" />
-	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="3" y="311" width="897" height="252" />
-	<text font-family="Sans Serif" font-size="10" fill="#000000" xml:space="preserve" text-anchor="middle" x="92" y="328">Consulter vue quotidienne</text>
-	<line stroke="black" stroke-opacity="1" x1="3" y1="335" x2="181" y2="335" />
-	<line stroke="black" stroke-opacity="1" x1="181" y1="335" x2="193" y2="323" />
-	<line stroke="black" stroke-opacity="1" x1="193" y1="323" x2="193" y2="311" />
 </g>
 <g>
 	<line stroke="black" stroke-dasharray="18,6"  stroke-opacity="1" x1="170" y1="47" x2="170" y2="1612" />
@@ -134,12 +110,6 @@
 	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="165" y="779" width="10" height="103" />
 </g>
 <g>
-	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="311" y="1033" width="10" height="24" />
-</g>
-<g>
-	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="475" y="1286" width="10" height="114" />
-</g>
-<g>
 	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="165" y="220" width="10" height="53" />
 </g>
 <g>
@@ -203,10 +173,16 @@
 	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="811" y="911" width="10" height="24" />
 </g>
 <g>
-	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="311" y="1196" width="10" height="24" />
+	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="811" y="944" width="10" height="24" />
 </g>
 <g>
-	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="811" y="944" width="10" height="24" />
+	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="165" y="1033" width="10" height="39" />
+</g>
+<g>
+	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="311" y="1033" width="10" height="24" />
+</g>
+<g>
+	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="475" y="1045" width="10" height="53" />
 </g>
 <g>
 	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="664" y="1050" width="10" height="70" />
@@ -215,34 +191,22 @@
 	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="165" y="1196" width="10" height="55" />
 </g>
 <g>
-	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="811" y="1384" width="10" height="24" />
+	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="311" y="1196" width="10" height="24" />
 </g>
 <g>
 	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="311" y="1241" width="10" height="55" />
 </g>
 <g>
-	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="475" y="1045" width="10" height="53" />
-</g>
-<g>
-	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="165" y="1033" width="10" height="39" />
-</g>
-<g>
-	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="811" y="1343" width="10" height="24" />
+	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="475" y="1286" width="10" height="114" />
 </g>
 <g>
 	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="811" y="1299" width="10" height="24" />
 </g>
 <g>
-	<line stroke="black" stroke-opacity="1" x1="176" y1="1038" x2="311" y2="1038" />
-	<polygon fill="#000000" stroke="none" points="311,1038 307,1034 307,1042" />
+	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="811" y="1343" width="10" height="24" />
 </g>
 <g>
-	<line stroke="black" stroke-opacity="1" x1="322" y1="1050" x2="475" y2="1050" />
-	<polygon fill="#000000" stroke="none" points="475,1050 471,1046 471,1054" />
-</g>
-<g>
-	<line stroke="black" stroke-opacity="1" x1="486" y1="1389" x2="811" y2="1389" />
-	<polygon fill="#000000" stroke="none" points="811,1389 807,1385 807,1393" />
+	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="811" y="1384" width="10" height="24" />
 </g>
 <g>
 	<line stroke="black" stroke-opacity="1" x1="176" y1="226" x2="311" y2="226" />
@@ -309,20 +273,16 @@
 	<polygon fill="#000000" stroke="none" points="811,918 807,914 807,922" />
 </g>
 <g>
-	<line stroke="black" stroke-opacity="1" x1="176" y1="1246" x2="311" y2="1246" />
-	<polygon fill="#000000" stroke="none" points="311,1246 307,1242 307,1250" />
-</g>
-<g>
 	<line stroke="black" stroke-opacity="1" x1="486" y1="949" x2="811" y2="949" />
 	<polygon fill="#000000" stroke="none" points="811,949 807,945 807,953" />
 </g>
 <g>
-	<line stroke="black" stroke-opacity="1" x1="486" y1="1349" x2="811" y2="1349" />
-	<polygon fill="#000000" stroke="none" points="811,1349 807,1345 807,1353" />
+	<line stroke="black" stroke-opacity="1" x1="176" y1="1038" x2="311" y2="1038" />
+	<polygon fill="#000000" stroke="none" points="311,1038 307,1034 307,1042" />
 </g>
 <g>
-	<line stroke="black" stroke-opacity="1" x1="486" y1="1306" x2="811" y2="1306" />
-	<polygon fill="#000000" stroke="none" points="811,1306 807,1302 807,1310" />
+	<line stroke="black" stroke-opacity="1" x1="322" y1="1050" x2="475" y2="1050" />
+	<polygon fill="#000000" stroke="none" points="475,1050 471,1046 471,1054" />
 </g>
 <g>
 	<line stroke="black" stroke-opacity="1" x1="486" y1="1057" x2="664" y2="1057" />
@@ -333,8 +293,24 @@
 	<polygon fill="#000000" stroke="none" points="311,1201 307,1197 307,1205" />
 </g>
 <g>
+	<line stroke="black" stroke-opacity="1" x1="176" y1="1246" x2="311" y2="1246" />
+	<polygon fill="#000000" stroke="none" points="311,1246 307,1242 307,1250" />
+</g>
+<g>
 	<line stroke="black" stroke-opacity="1" x1="322" y1="1291" x2="475" y2="1291" />
 	<polygon fill="#000000" stroke="none" points="475,1291 471,1287 471,1295" />
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" x1="486" y1="1306" x2="811" y2="1306" />
+	<polygon fill="#000000" stroke="none" points="811,1306 807,1302 807,1310" />
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" x1="486" y1="1349" x2="811" y2="1349" />
+	<polygon fill="#000000" stroke="none" points="811,1349 807,1345 807,1353" />
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" x1="486" y1="1389" x2="811" y2="1389" />
+	<polygon fill="#000000" stroke="none" points="811,1389 807,1385 807,1393" />
 </g>
 <g>
 	<line stroke="black" stroke-opacity="1" x1="176" y1="858" x2="311" y2="858" />
@@ -343,12 +319,6 @@
 <g>
 	<line stroke="black" stroke-opacity="1" x1="486" y1="1092" x2="664" y2="1092" />
 	<polygon fill="#000000" stroke="none" points="664,1092 660,1088 660,1096" />
-</g>
-<g>
-	<text font-family="Sans Serif" font-size="10" fill="#000000" xml:space="preserve" x="325" y="1038">AnnulerRDV (RDV rdv)</text>
-</g>
-<g>
-	<text font-family="Sans Serif" font-size="10" fill="#000000" xml:space="preserve" x="497" y="1038">AffecterActivité (&quot;Libre&quot;, rdv.agent, rdv.debut, rdv.fin)</text>
 </g>
 <g>
 	<text font-family="Sans Serif" font-size="10" fill="#000000" xml:space="preserve" x="95" y="202">ConsulterVueAutreAgent (Agent x, Date début, Date fin)</text>
@@ -411,10 +381,25 @@
 	<text font-family="Sans Serif" font-size="10" fill="#000000" xml:space="preserve" x="503" y="906">AffecterActivité (&quot;Libre&quot;, rdv.agent, rdv.debut, rdv.fin)</text>
 </g>
 <g>
-	<text font-family="Sans Serif" font-size="10" fill="#000000" xml:space="preserve" x="181" y="1231">SélectionnerPlageLibre (Date début, Date fin)</text>
+	<text font-family="Sans Serif" font-size="10" fill="#000000" xml:space="preserve" x="566" y="937">ReaffRDV (rdv, nouveau)</text>
 </g>
 <g>
-	<text font-family="Sans Serif" font-size="10" fill="#000000" xml:space="preserve" x="566" y="937">ReaffRDV (rdv, nouveau)</text>
+	<text font-family="Sans Serif" font-size="10" fill="#000000" xml:space="preserve" x="170" y="1026">AnnulerRDV (RDV rdv)</text>
+</g>
+<g>
+	<text font-family="Sans Serif" font-size="10" fill="#000000" xml:space="preserve" x="325" y="1038">AnnulerRDV (RDV rdv)</text>
+</g>
+<g>
+	<text font-family="Sans Serif" font-size="10" fill="#000000" xml:space="preserve" x="497" y="1038">AffecterActivité (&quot;Libre&quot;, rdv.agent, rdv.debut, rdv.fin)</text>
+</g>
+<g>
+	<text font-family="Sans Serif" font-size="10" fill="#000000" xml:space="preserve" x="512" y="1080">SupprimerRDV (rdv)</text>
+</g>
+<g>
+	<text font-family="Sans Serif" font-size="10" fill="#000000" xml:space="preserve" x="193" y="1189">ModifierDate ()</text>
+</g>
+<g>
+	<text font-family="Sans Serif" font-size="10" fill="#000000" xml:space="preserve" x="181" y="1231">SélectionnerPlageLibre (Date début, Date fin)</text>
 </g>
 <g>
 	<text font-family="Sans Serif" font-size="10" fill="#000000" xml:space="preserve" x="329" y="1271">ModifierDateRDV (RDV rdv, Date début, Date fin)</text>
@@ -426,19 +411,34 @@
 	<text font-family="Sans Serif" font-size="10" fill="#000000" xml:space="preserve" x="493" y="1334">AffecterActivité (&quot;Libre&quot;, AgentX, rdv.debut, rdv.fin)</text>
 </g>
 <g>
-	<text font-family="Sans Serif" font-size="10" fill="#000000" xml:space="preserve" x="193" y="1189">ModifierDate ()</text>
-</g>
-<g>
-	<text font-family="Sans Serif" font-size="10" fill="#000000" xml:space="preserve" x="512" y="1080">SupprimerRDV (rdv)</text>
-</g>
-<g>
-	<text font-family="Sans Serif" font-size="10" fill="#000000" xml:space="preserve" x="170" y="1026">AnnulerRDV (RDV rdv)</text>
-</g>
-<g>
 	<text font-family="Sans Serif" font-size="10" fill="#000000" xml:space="preserve" x="537" y="1377">ModifierHoraire (rdv, debut, fin)</text>
+</g>
+<g>
+	<polygon fill="#ffffff" stroke="black" stroke-opacity="1" points="22,725 287,725 287,737 275,749 22,749 22,725" />
+	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="22" y="725" width="836" height="263" />
+	<text font-family="Sans Serif" font-size="10" fill="#000000" xml:space="preserve" text-anchor="middle" x="149" y="742">réaffecter RDV à un autre agent dispo</text>
+	<line stroke="black" stroke-opacity="1" x1="22" y1="749" x2="275" y2="749" />
+	<line stroke="black" stroke-opacity="1" x1="275" y1="749" x2="287" y2="737" />
+	<line stroke="black" stroke-opacity="1" x1="287" y1="737" x2="287" y2="725" />
+</g>
+<g>
+	<polygon fill="#ffffff" stroke="black" stroke-opacity="1" points="24,1150 243,1150 243,1162 231,1174 24,1174 24,1150" />
+	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="24" y="1150" width="841" height="291" />
+	<text font-family="Sans Serif" font-size="10" fill="#000000" xml:space="preserve" text-anchor="middle" x="128" y="1167">Modification date/horraire RDV</text>
+	<line stroke="black" stroke-opacity="1" x1="24" y1="1174" x2="231" y2="1174" />
+	<line stroke="black" stroke-opacity="1" x1="231" y1="1174" x2="243" y2="1162" />
+	<line stroke="black" stroke-opacity="1" x1="243" y1="1162" x2="243" y2="1150" />
 </g>
 <g>
 	<line stroke="black" stroke-opacity="1" x1="322" y1="479" x2="475" y2="479" />
 	<polygon fill="#000000" stroke="none" points="475,479 471,475 471,483" />
+</g>
+<g>
+	<polygon fill="#ffffff" stroke="black" stroke-opacity="1" points="3,311 193,311 193,323 181,335 3,335 3,311" />
+	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="3" y="311" width="897" height="252" />
+	<text font-family="Sans Serif" font-size="10" fill="#000000" xml:space="preserve" text-anchor="middle" x="92" y="328">Consulter vue quotidienne</text>
+	<line stroke="black" stroke-opacity="1" x1="3" y1="335" x2="181" y2="335" />
+	<line stroke="black" stroke-opacity="1" x1="181" y1="335" x2="193" y2="323" />
+	<line stroke="black" stroke-opacity="1" x1="193" y1="323" x2="193" y2="311" />
 </g>
 </svg>
