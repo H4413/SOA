@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1078</width>
+    <height>597</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTableWidget" name="tableWidget">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>130</y>
+      <width>541</width>
+      <height>271</height>
+     </rect>
+    </property>
+    <row>
+     <property name="text">
+      <string>8h</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>9h</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>10h</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>11h</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>12h</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>13h</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>14h</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>15h</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>16h</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>17h</string>
+     </property>
+    </row>
+    <column>
+     <property name="text">
+      <string>Lundi</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Mardi</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Mercredi</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Jeudi</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Vendredi</string>
+     </property>
+    </column>
+    <item row="0" column="0">
+     <property name="text">
+      <string>Phoning Mr. Pastore</string>
+     </property>
+    </item>
+    <item row="0" column="1">
+     <property name="text">
+      <string>Guichet</string>
+     </property>
+    </item>
+    <item row="0" column="2">
+     <property name="text">
+      <string>Congés</string>
+     </property>
+    </item>
+    <item row="0" column="3">
+     <property name="text">
+      <string>Administratif</string>
+     </property>
+    </item>
+    <item row="0" column="4">
+     <property name="text">
+      <string>RV Mme Bruni</string>
+     </property>
+    </item>
+    <item row="1" column="0">
+     <property name="text">
+      <string>Phoning Mr. Lize</string>
+     </property>
+    </item>
+    <item row="1" column="1">
+     <property name="text">
+      <string>Guichet</string>
+     </property>
+    </item>
+    <item row="1" column="2">
+     <property name="text">
+      <string>Congés</string>
+     </property>
+    </item>
+    <item row="1" column="3">
+     <property name="text">
+      <string>Administratif</string>
+     </property>
+    </item>
+    <item row="1" column="4">
+     <property name="text">
+      <string>RV Mme Obama</string>
+     </property>
+    </item>
+    <item row="2" column="0">
+     <property name="text">
+      <string>Phoning Mr. Geiger</string>
+     </property>
+    </item>
+    <item row="2" column="1">
+     <property name="text">
+      <string>Guichet</string>
+     </property>
+    </item>
+    <item row="2" column="2">
+     <property name="text">
+      <string>Congés</string>
+     </property>
+    </item>
+    <item row="2" column="3">
+     <property name="text">
+      <string>Administratif</string>
+     </property>
+    </item>
+    <item row="2" column="4">
+     <property name="text">
+      <string>RV Mme Clinton</string>
+     </property>
+    </item>
+    <item row="3" column="0">
+     <property name="text">
+      <string>Phoning Mr Ritz</string>
+     </property>
+    </item>
+    <item row="3" column="1">
+     <property name="text">
+      <string>Guichet</string>
+     </property>
+    </item>
+    <item row="3" column="2">
+     <property name="text">
+      <string>Congés</string>
+     </property>
+    </item>
+    <item row="3" column="3">
+     <property name="text">
+      <string>Administratif</string>
+     </property>
+    </item>
+    <item row="3" column="4">
+     <property name="text">
+      <string>RV Mme Gales</string>
+     </property>
+    </item>
+    <item row="4" column="0">
+     <property name="text">
+      <string>Pause</string>
+     </property>
+    </item>
+    <item row="4" column="1">
+     <property name="text">
+      <string>Pause</string>
+     </property>
+    </item>
+    <item row="4" column="2">
+     <property name="text">
+      <string>Pause</string>
+     </property>
+    </item>
+    <item row="4" column="3">
+     <property name="text">
+      <string>Pause</string>
+     </property>
+    </item>
+    <item row="4" column="4">
+     <property name="text">
+      <string>Pause</string>
+     </property>
+    </item>
+    <item row="5" column="0">
+     <property name="text">
+      <string>Formation</string>
+     </property>
+    </item>
+    <item row="5" column="1">
+     <property name="text">
+      <string>Formation</string>
+     </property>
+    </item>
+    <item row="5" column="2">
+     <property name="text">
+      <string>Congés</string>
+     </property>
+    </item>
+    <item row="5" column="3">
+     <property name="text">
+      <string>Formation</string>
+     </property>
+    </item>
+    <item row="5" column="4">
+     <property name="text">
+      <string>RV Mme Gaga</string>
+     </property>
+    </item>
+    <item row="6" column="0">
+     <property name="text">
+      <string>Phoning Mr. Borges</string>
+     </property>
+    </item>
+    <item row="6" column="1">
+     <property name="text">
+      <string>Administratif</string>
+     </property>
+    </item>
+    <item row="6" column="2">
+     <property name="text">
+      <string>Guichet</string>
+     </property>
+    </item>
+    <item row="6" column="3">
+     <property name="text">
+      <string>Formation</string>
+     </property>
+    </item>
+    <item row="6" column="4">
+     <property name="text">
+      <string>RV Mme Potter</string>
+     </property>
+    </item>
+    <item row="7" column="0">
+     <property name="text">
+      <string>Guichet</string>
+     </property>
+    </item>
+    <item row="7" column="1">
+     <property name="text">
+      <string>Administratif</string>
+     </property>
+    </item>
+    <item row="7" column="2">
+     <property name="text">
+      <string>Guichet</string>
+     </property>
+    </item>
+    <item row="7" column="3">
+     <property name="text">
+      <string>Formation</string>
+     </property>
+    </item>
+    <item row="7" column="4">
+     <property name="text">
+      <string>RV Mme Cullen</string>
+     </property>
+    </item>
+    <item row="8" column="0">
+     <property name="text">
+      <string>Guichet</string>
+     </property>
+    </item>
+    <item row="8" column="1">
+     <property name="text">
+      <string>Administratif</string>
+     </property>
+    </item>
+    <item row="8" column="2">
+     <property name="text">
+      <string>Guichet</string>
+     </property>
+    </item>
+    <item row="8" column="3">
+     <property name="text">
+      <string>Formation</string>
+     </property>
+    </item>
+    <item row="8" column="4">
+     <property name="text">
+      <string>RV Mme Fox</string>
+     </property>
+    </item>
+    <item row="9" column="0">
+     <property name="text">
+      <string>Guichet</string>
+     </property>
+    </item>
+    <item row="9" column="1">
+     <property name="text">
+      <string>Administratif</string>
+     </property>
+    </item>
+    <item row="9" column="2">
+     <property name="text">
+      <string>Guichet</string>
+     </property>
+    </item>
+    <item row="9" column="3">
+     <property name="text">
+      <string>Formation</string>
+     </property>
+    </item>
+    <item row="9" column="4">
+     <property name="text">
+      <string>RV Mme Fox</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>590</x>
+      <y>90</y>
+      <width>131</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Semaine Suivant</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>90</y>
+      <width>151</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Semaine Precedent</string>
+    </property>
+   </widget>
+   <widget class="QDateEdit" name="dateEdit">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>50</y>
+      <width>110</width>
+      <height>25</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>90</y>
+      <width>111</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Nitneuq</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Nerak</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Tnemelc</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Oguh</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>430</y>
+      <width>114</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Planification</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1078</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
