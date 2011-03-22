@@ -11,8 +11,11 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        mainwindow.cpp
+        mainwindow.cpp \
+    contactsnonaffectes.cpp
 
-HEADERS  += mainwindow.h
+HEADERS  += mainwindow.h \
+    contactsnonaffectes.h
 
-FORMS    += mainwindow.ui
+FORMS    += mainwindow.ui \
+    contactsnonaffectes.ui
