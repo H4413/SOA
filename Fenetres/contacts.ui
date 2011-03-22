@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>647</width>
+    <height>500</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Contacts prévus non affectés</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTableWidget" name="tableWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>641</width>
+      <height>191</height>
+     </rect>
+    </property>
+    <row>
+     <property name="text">
+      <string/>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string/>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string/>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string/>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string/>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string/>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string/>
+     </property>
+    </row>
+    <column>
+     <property name="text">
+      <string>Id Contact</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Nom Client</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Motif Contact</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Agent Habituel</string>
+     </property>
+    </column>
+    <item row="0" column="0">
+     <property name="text">
+      <string>12345</string>
+     </property>
+    </item>
+    <item row="0" column="1">
+     <property name="text">
+      <string>Victor BORGES</string>
+     </property>
+    </item>
+    <item row="0" column="2">
+     <property name="text">
+      <string>Nouveau Client</string>
+     </property>
+    </item>
+    <item row="0" column="3">
+     <property name="text">
+      <string>Personne</string>
+     </property>
+    </item>
+    <item row="1" column="0">
+     <property name="text">
+      <string>2319</string>
+     </property>
+    </item>
+    <item row="1" column="1">
+     <property name="text">
+      <string>Raphael LIZE</string>
+     </property>
+    </item>
+    <item row="1" column="2">
+     <property name="text">
+      <string>Offre 15</string>
+     </property>
+    </item>
+    <item row="1" column="3">
+     <property name="text">
+      <string>Leahpar</string>
+     </property>
+    </item>
+    <item row="2" column="0">
+     <property name="text">
+      <string>412</string>
+     </property>
+    </item>
+    <item row="2" column="1">
+     <property name="text">
+      <string>Clement GEIGER</string>
+     </property>
+    </item>
+    <item row="2" column="2">
+     <property name="text">
+      <string>Pret de 5k€</string>
+     </property>
+    </item>
+    <item row="2" column="3">
+     <property name="text">
+      <string>Tnemelc</string>
+     </property>
+    </item>
+    <item row="3" column="0">
+     <property name="text">
+      <string>1294</string>
+     </property>
+    </item>
+    <item row="3" column="1">
+     <property name="text">
+      <string>Hugo PASTORE</string>
+     </property>
+    </item>
+    <item row="3" column="2">
+     <property name="text">
+      <string>Offre 1</string>
+     </property>
+    </item>
+    <item row="3" column="3">
+     <property name="text">
+      <string>Oguh</string>
+     </property>
+    </item>
+    <item row="4" column="0">
+     <property name="text">
+      <string>123123</string>
+     </property>
+    </item>
+    <item row="4" column="1">
+     <property name="text">
+      <string>Quentin VILLIER</string>
+     </property>
+    </item>
+    <item row="4" column="2">
+     <property name="text">
+      <string>Nouveau Client</string>
+     </property>
+    </item>
+    <item row="4" column="3">
+     <property name="text">
+      <string>Personne</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>200</y>
+      <width>709</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string/>
+    </property>
+    <widget class="QPushButton" name="pushButton">
+     <property name="geometry">
+      <rect>
+       <x>150</x>
+       <y>0</y>
+       <width>121</width>
+       <height>27</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Rafraichir</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>refresh.png</normaloff>refresh.png</iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_3">
+     <property name="geometry">
+      <rect>
+       <x>270</x>
+       <y>0</y>
+       <width>101</width>
+       <height>27</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Affecter</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>fleche_haut.png</normaloff>fleche_haut.png</iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_5">
+     <property name="geometry">
+      <rect>
+       <x>370</x>
+       <y>0</y>
+       <width>101</width>
+       <height>27</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Trier</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>sort.png</normaloff>sort.png</iconset>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QTableWidget" name="tableWidget_2">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>230</y>
+      <width>641</width>
+      <height>221</height>
+     </rect>
+    </property>
+    <row>
+     <property name="text">
+      <string/>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string/>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string/>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string/>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string/>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string/>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string/>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string/>
+     </property>
+    </row>
+    <column>
+     <property name="text">
+      <string>Id Agent</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Nom Agent</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Nombre de clients habituels</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Nombre de clients en attente de RdV</string>
+     </property>
+    </column>
+    <item row="0" column="0">
+     <property name="text">
+      <string>1</string>
+     </property>
+    </item>
+    <item row="0" column="1">
+     <property name="text">
+      <string>Rotciv</string>
+     </property>
+    </item>
+    <item row="0" column="2">
+     <property name="text">
+      <string>121</string>
+     </property>
+    </item>
+    <item row="0" column="3">
+     <property name="text">
+      <string>11</string>
+     </property>
+    </item>
+    <item row="1" column="0">
+     <property name="text">
+      <string>2</string>
+     </property>
+    </item>
+    <item row="1" column="1">
+     <property name="text">
+      <string>Leahpar</string>
+     </property>
+    </item>
+    <item row="1" column="2">
+     <property name="text">
+      <string>99</string>
+     </property>
+    </item>
+    <item row="1" column="3">
+     <property name="text">
+      <string>31</string>
+     </property>
+    </item>
+    <item row="2" column="0">
+     <property name="text">
+      <string>3</string>
+     </property>
+    </item>
+    <item row="2" column="1">
+     <property name="text">
+      <string>Tnemelc</string>
+     </property>
+    </item>
+    <item row="2" column="2">
+     <property name="text">
+      <string>101</string>
+     </property>
+    </item>
+    <item row="2" column="3">
+     <property name="text">
+      <string>32</string>
+     </property>
+    </item>
+    <item row="3" column="0">
+     <property name="text">
+      <string>4</string>
+     </property>
+    </item>
+    <item row="3" column="1">
+     <property name="text">
+      <string>Oguh</string>
+     </property>
+    </item>
+    <item row="3" column="2">
+     <property name="text">
+      <string>72</string>
+     </property>
+    </item>
+    <item row="3" column="3">
+     <property name="text">
+      <string>8</string>
+     </property>
+    </item>
+    <item row="4" column="0">
+     <property name="text">
+      <string>5</string>
+     </property>
+    </item>
+    <item row="4" column="1">
+     <property name="text">
+      <string>Nerak</string>
+     </property>
+    </item>
+    <item row="4" column="2">
+     <property name="text">
+      <string>131</string>
+     </property>
+    </item>
+    <item row="4" column="3">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item row="5" column="0">
+     <property name="text">
+      <string>6</string>
+     </property>
+    </item>
+    <item row="5" column="1">
+     <property name="text">
+      <string>Nitneuq</string>
+     </property>
+    </item>
+    <item row="5" column="2">
+     <property name="text">
+      <string>56</string>
+     </property>
+    </item>
+    <item row="5" column="3">
+     <property name="text">
+      <string>1</string>
+     </property>
+    </item>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>647</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFichier">
+    <property name="title">
+     <string>Fichier</string>
+    </property>
+    <addaction name="actionEXIT"/>
+   </widget>
+   <widget class="QMenu" name="menuAide">
+    <property name="title">
+     <string>Aide</string>
+    </property>
+    <addaction name="actionAide"/>
+   </widget>
+   <widget class="QMenu" name="menuEdition">
+    <property name="title">
+     <string>Edition</string>
+    </property>
+    <addaction name="actionCopier"/>
+   </widget>
+   <widget class="QMenu" name="menuFenetre">
+    <property name="title">
+     <string>Fenetre</string>
+    </property>
+    <addaction name="actionCelui_ci"/>
+   </widget>
+   <addaction name="menuFichier"/>
+   <addaction name="menuEdition"/>
+   <addaction name="menuFenetre"/>
+   <addaction name="menuAide"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionEXIT">
+   <property name="text">
+    <string>Exit</string>
+   </property>
+  </action>
+  <action name="actionCopier">
+   <property name="text">
+    <string>Copier</string>
+   </property>
+  </action>
+  <action name="actionCelui_ci">
+   <property name="text">
+    <string>Celui-ci</string>
+   </property>
+  </action>
+  <action name="actionAide">
+   <property name="text">
+    <string>Aide</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
