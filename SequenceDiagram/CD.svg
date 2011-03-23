@@ -1,104 +1,105 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Created with Bouml (http://bouml.free.fr/) -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg width="816" height="560" version="1.1" xmlns="http://www.w3.org/2000/svg">
-<g transform="translate(363 212) rotate(0)">
+<svg width="816" height="558" version="1.1" xmlns="http://www.w3.org/2000/svg">
+<g transform="translate(363 211) rotate(0)">
 	<path stroke="black" fill="none" d="M -18 -7 L 18 -7 L 13 -12 M 18 -7 L 13 -2" />
 </g>
-<g transform="translate(155 373) rotate(90)">
+<g transform="translate(674 350) rotate(126)">
 	<path stroke="black" fill="none" d="M -18 -7 L 18 -7 L 13 -12 M 18 -7 L 13 -2" />
 </g>
-<g transform="translate(681 213) rotate(0)">
+<g transform="translate(363 350) rotate(33)">
 	<path stroke="black" fill="none" d="M -18 -7 L 18 -7 L 13 -12 M 18 -7 L 13 -2" />
 </g>
-<g transform="translate(676 351) rotate(125)">
+<g transform="translate(676 212) rotate(0)">
 	<path stroke="black" fill="none" d="M -18 -7 L 18 -7 L 13 -12 M 18 -7 L 13 -2" />
 </g>
-<g transform="translate(577 351) rotate(90)">
+<g transform="translate(154 372) rotate(90)">
 	<path stroke="black" fill="none" d="M -18 -7 L 18 -7 L 13 -12 M 18 -7 L 13 -2" />
 </g>
-<g transform="translate(366 351) rotate(33)">
+<g transform="translate(572 350) rotate(90)">
 	<path stroke="black" fill="none" d="M -18 -7 L 18 -7 L 13 -12 M 18 -7 L 13 -2" />
 </g>
 <g>
-	<rect fill="#808080" stroke="none" stroke-opacity="1" x="182" y="526" width="3" height="21" />
-	<rect fill="#808080" stroke="none" stroke-opacity="1" x="129" y="544" width="56" height="3" />
-	<rect fill="#ffffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="125" y="522" width="57" height="22" />
-	<text font-family="Sans Serif" font-size="9" fill="#000000" xml:space="preserve" text-decoration="underline" text-anchor="middle" x="154" y="538">:Agenda</text>
+	<rect fill="#808080" stroke="none" stroke-opacity="1" x="176" y="526" width="3" height="19" />
+	<rect fill="#808080" stroke="none" stroke-opacity="1" x="133" y="542" width="46" height="3" />
+	<rect fill="#ffffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="129" y="522" width="47" height="20" />
+	<text font-family="MS Shell Dlg" font-size="11" fill="#000000" xml:space="preserve" text-decoration="underline" text-anchor="middle" x="153" y="538">:Agenda</text>
 </g>
 <g>
-	<rect fill="#808080" stroke="none" stroke-opacity="1" x="176" y="203" width="3" height="21" />
-	<rect fill="#808080" stroke="none" stroke-opacity="1" x="135" y="221" width="44" height="3" />
-	<rect fill="#ffffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="131" y="199" width="45" height="22" />
-	<text font-family="Sans Serif" font-size="9" fill="#000000" xml:space="preserve" text-decoration="underline" text-anchor="middle" x="154" y="215">:SM</text>
+	<rect fill="#808080" stroke="none" stroke-opacity="1" x="594" y="204" width="3" height="19" />
+	<rect fill="#808080" stroke="none" stroke-opacity="1" x="551" y="220" width="46" height="3" />
+	<rect fill="#ffffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="547" y="200" width="47" height="20" />
+	<text font-family="MS Shell Dlg" font-size="11" fill="#000000" xml:space="preserve" text-decoration="underline" text-anchor="middle" x="571" y="216">:Contact</text>
 </g>
 <g>
-	<rect fill="#808080" stroke="none" stroke-opacity="1" x="605" y="204" width="3" height="21" />
-	<rect fill="#808080" stroke="none" stroke-opacity="1" x="551" y="222" width="57" height="3" />
-	<rect fill="#ffffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="547" y="200" width="58" height="22" />
-	<text font-family="Sans Serif" font-size="9" fill="#000000" xml:space="preserve" text-decoration="underline" text-anchor="middle" x="576" y="216">:Contact</text>
+	<rect fill="#808080" stroke="none" stroke-opacity="1" x="594" y="482" width="3" height="19" />
+	<rect fill="#808080" stroke="none" stroke-opacity="1" x="551" y="498" width="46" height="3" />
+	<rect fill="#ffffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="547" y="478" width="47" height="20" />
+	<text font-family="MS Shell Dlg" font-size="11" fill="#000000" xml:space="preserve" text-decoration="underline" text-anchor="middle" x="571" y="494">:Agence</text>
 </g>
 <g>
-	<rect fill="#808080" stroke="none" stroke-opacity="1" x="603" y="482" width="3" height="21" />
-	<rect fill="#808080" stroke="none" stroke-opacity="1" x="551" y="500" width="55" height="3" />
-	<rect fill="#ffffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="547" y="478" width="56" height="22" />
-	<text font-family="Sans Serif" font-size="9" fill="#000000" xml:space="preserve" text-decoration="underline" text-anchor="middle" x="575" y="494">:Agence</text>
+	<rect fill="#808080" stroke="none" stroke-opacity="1" x="176" y="203" width="3" height="19" />
+	<rect fill="#808080" stroke="none" stroke-opacity="1" x="135" y="219" width="44" height="3" />
+	<rect fill="#ffffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="131" y="199" width="45" height="20" />
+	<text font-family="MS Shell Dlg" font-size="11" fill="#000000" xml:space="preserve" text-decoration="underline" text-anchor="middle" x="154" y="215">:SM</text>
 </g>
 <g>
-	<line stroke="black" stroke-opacity="1" x1="180" y1="212" x2="546" y2="212" />
+	<line stroke="black" stroke-opacity="1" x1="174" y1="223" x2="553" y2="477" />
 </g>
 <g>
-	<line stroke="black" stroke-opacity="1" x1="155" y1="225" x2="155" y2="521" />
+	<line stroke="black" stroke-opacity="1" x1="572" y1="224" x2="572" y2="477" />
 </g>
 <g>
-	<line stroke="black" stroke-opacity="1" x1="577" y1="226" x2="577" y2="477" />
+	<line stroke="black" stroke-opacity="1" x1="180" y1="211" x2="546" y2="211" />
 </g>
 <g>
-	<line stroke="black" stroke-opacity="1" x1="176" y1="225" x2="556" y2="477" />
+	<line stroke="black" stroke-opacity="1" x1="154" y1="223" x2="154" y2="521" />
 </g>
 <g>
-	<rect fill="#808080" stroke="none" stroke-opacity="1" x="800" y="204" width="3" height="21" />
-	<rect fill="#808080" stroke="none" stroke-opacity="1" x="759" y="222" width="44" height="3" />
-	<rect fill="#ffffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="755" y="200" width="45" height="22" />
-	<text font-family="Sans Serif" font-size="9" fill="#000000" xml:space="preserve" text-decoration="underline" text-anchor="middle" x="778" y="216">:Client</text>
+	<rect fill="#808080" stroke="none" stroke-opacity="1" x="800" y="204" width="3" height="19" />
+	<rect fill="#808080" stroke="none" stroke-opacity="1" x="759" y="220" width="44" height="3" />
+	<rect fill="#ffffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="755" y="200" width="45" height="20" />
+	<text font-family="MS Shell Dlg" font-size="11" fill="#000000" xml:space="preserve" text-decoration="underline" text-anchor="middle" x="778" y="216">:Client</text>
 </g>
 <g>
-	<line stroke="black" stroke-opacity="1" x1="609" y1="213" x2="754" y2="213" />
+	<line stroke="black" stroke-opacity="1" x1="598" y1="212" x2="754" y2="212" />
 </g>
 <g>
-	<line stroke="black" stroke-opacity="1" x1="767" y1="226" x2="585" y2="477" />
+	<line stroke="black" stroke-opacity="1" x1="768" y1="224" x2="580" y2="477" />
 </g>
 <g>
-	<text font-family="Sans Serif" font-size="9" fill="#000000" xml:space="preserve" text-anchor="middle" x="364" y="97">1 Consulter la liste de contacts prévus</text>
-	<text font-family="Sans Serif" font-size="9" fill="#000000" xml:space="preserve" text-anchor="middle" x="364" y="113">3 Affecter contact</text>
-	<text font-family="Sans Serif" font-size="9" fill="#000000" xml:space="preserve" text-anchor="middle" x="364" y="129">8 Regrouper contacts</text>
-	<text font-family="Sans Serif" font-size="9" fill="#000000" xml:space="preserve" text-anchor="middle" x="364" y="145">9 Annuler contact</text>
-	<text font-family="Sans Serif" font-size="9" fill="#000000" xml:space="preserve" text-anchor="middle" x="364" y="161">16 IdentifierContact</text>
-	<text font-family="Sans Serif" font-size="9" fill="#000000" xml:space="preserve" text-anchor="middle" x="364" y="177">17 GenererContactCommercial</text>
-	<text font-family="Sans Serif" font-size="9" fill="#000000" xml:space="preserve" text-anchor="middle" x="364" y="193">18 CreerContactSpontane</text>
+	<text font-family="MS Shell Dlg" font-size="11" fill="#000000" xml:space="preserve" text-anchor="middle" x="336" y="95">1 Consulter la liste de contacts prévus</text>
+	<text font-family="MS Shell Dlg" font-size="11" fill="#000000" xml:space="preserve" text-anchor="middle" x="336" y="108">3 Affecter contact</text>
+	<text font-family="MS Shell Dlg" font-size="11" fill="#000000" xml:space="preserve" text-anchor="middle" x="336" y="121">8 Regrouper contacts</text>
+	<text font-family="MS Shell Dlg" font-size="11" fill="#000000" xml:space="preserve" text-anchor="middle" x="336" y="134">9 Annuler contact</text>
+	<text font-family="MS Shell Dlg" font-size="11" fill="#000000" xml:space="preserve" text-anchor="middle" x="336" y="147">16 IdentifierContact</text>
+	<text font-family="MS Shell Dlg" font-size="11" fill="#000000" xml:space="preserve" text-anchor="middle" x="336" y="160">17 GenererContactCommercial</text>
+	<text font-family="MS Shell Dlg" font-size="11" fill="#000000" xml:space="preserve" text-anchor="middle" x="336" y="173">18 CreerContactSpontane</text>
 </g>
 <g>
-	<text font-family="Sans Serif" font-size="9" fill="#000000" xml:space="preserve" text-anchor="middle" x="306" y="408">11 Chercher Agenda Agent</text>
-	<text font-family="Sans Serif" font-size="9" fill="#000000" xml:space="preserve" text-anchor="middle" x="306" y="424">12 Obtenir Agents dispos sur une période</text>
-	<text font-family="Sans Serif" font-size="9" fill="#000000" xml:space="preserve" text-anchor="middle" x="306" y="440">13 Affecter Activité à un agent sur une plage</text>
-	<text font-family="Sans Serif" font-size="9" fill="#000000" xml:space="preserve" text-anchor="middle" x="306" y="456">14 Modifier horaire RDV</text>
-	<text font-family="Sans Serif" font-size="9" fill="#000000" xml:space="preserve" text-anchor="middle" x="306" y="472">15 CreerRDV</text>
-	<text font-family="Sans Serif" font-size="9" fill="#000000" xml:space="preserve" text-anchor="middle" x="306" y="488">21 Obtenir temps libre pour un agent</text>
+	<text font-family="MS Shell Dlg" font-size="11" fill="#000000" xml:space="preserve" text-anchor="middle" x="388" y="262">7 Consulter la liste de profils des agents</text>
+	<text font-family="MS Shell Dlg" font-size="11" fill="#000000" xml:space="preserve" text-anchor="middle" x="388" y="275">10 CHercher liste Agents</text>
+	<text font-family="MS Shell Dlg" font-size="11" fill="#000000" xml:space="preserve" text-anchor="middle" x="388" y="288">19 Consulter Activités</text>
+	<text font-family="MS Shell Dlg" font-size="11" fill="#000000" xml:space="preserve" text-anchor="middle" x="388" y="301">20 Consulter temps par contact</text>
 </g>
 <g>
-	<text font-family="Sans Serif" font-size="9" fill="#000000" xml:space="preserve" text-anchor="middle" x="682" y="178">2 Get agent habituel</text>
-	<text font-family="Sans Serif" font-size="9" fill="#000000" xml:space="preserve" text-anchor="middle" x="682" y="194">4 Get nom client</text>
+	<text font-family="MS Shell Dlg" font-size="11" fill="#000000" xml:space="preserve" text-anchor="middle" x="666" y="176">2 Get agent habituel</text>
+	<text font-family="MS Shell Dlg" font-size="11" fill="#000000" xml:space="preserve" text-anchor="middle" x="666" y="189">4 Get nom client</text>
 </g>
 <g>
-	<text font-family="Sans Serif" font-size="9" fill="#000000" xml:space="preserve" x="693" y="363">5 Get nom agent</text>
+	<text font-family="MS Shell Dlg" font-size="11" fill="#000000" xml:space="preserve" x="587" y="289">6 Get clients</text>
 </g>
 <g>
-	<text font-family="Sans Serif" font-size="9" fill="#000000" xml:space="preserve" x="587" y="286">6 Get clients</text>
+	<text font-family="MS Shell Dlg" font-size="11" fill="#000000" xml:space="preserve" text-anchor="middle" x="277" y="364">11 Chercher Agenda Agent</text>
+	<text font-family="MS Shell Dlg" font-size="11" fill="#000000" xml:space="preserve" text-anchor="middle" x="277" y="377">12 Obtenir Agents dispos sur une période</text>
+	<text font-family="MS Shell Dlg" font-size="11" fill="#000000" xml:space="preserve" text-anchor="middle" x="277" y="390">13 Affecter Activité à un agent sur une plage</text>
+	<text font-family="MS Shell Dlg" font-size="11" fill="#000000" xml:space="preserve" text-anchor="middle" x="277" y="403">14 Modifier horaire RDV</text>
+	<text font-family="MS Shell Dlg" font-size="11" fill="#000000" xml:space="preserve" text-anchor="middle" x="277" y="416">15 CreerRDV</text>
+	<text font-family="MS Shell Dlg" font-size="11" fill="#000000" xml:space="preserve" text-anchor="middle" x="277" y="429">21 Obtenir temps libre pour un agent</text>
+	<text font-family="MS Shell Dlg" font-size="11" fill="#000000" xml:space="preserve" text-anchor="middle" x="277" y="442">22 Supprimer RDV</text>
 </g>
 <g>
-	<text font-family="Sans Serif" font-size="9" fill="#000000" xml:space="preserve" text-anchor="middle" x="417" y="264">7 Consulter la liste de profils des agents</text>
-	<text font-family="Sans Serif" font-size="9" fill="#000000" xml:space="preserve" text-anchor="middle" x="417" y="280">10 CHercher liste Agents</text>
-	<text font-family="Sans Serif" font-size="9" fill="#000000" xml:space="preserve" text-anchor="middle" x="417" y="296">19 Consulter Activités</text>
-	<text font-family="Sans Serif" font-size="9" fill="#000000" xml:space="preserve" text-anchor="middle" x="417" y="312">20 Consulter temps par contact</text>
+	<text font-family="MS Shell Dlg" font-size="11" fill="#000000" xml:space="preserve" x="693" y="366">5 Get nom agent</text>
 </g>
 </svg>
