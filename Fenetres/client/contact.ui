@@ -30,14 +30,14 @@
    <widget class="QLabel" name="label_3">
     <property name="geometry">
      <rect>
-      <x>670</x>
+      <x>870</x>
       <y>10</y>
       <width>131</width>
       <height>20</height>
      </rect>
     </property>
     <property name="text">
-     <string>Statut : Particulier</string>
+     <string>Statut : </string>
     </property>
    </widget>
    <widget class="QLabel" name="label_2">
@@ -76,7 +76,7 @@
      </rect>
     </property>
     <property name="currentIndex">
-     <number>2</number>
+     <number>4</number>
     </property>
     <widget class="QWidget" name="tab_3">
      <attribute name="title">
@@ -190,102 +190,6 @@
         <string>Visualiser Client</string>
        </property>
       </widget>
-      <widget class="QPushButton" name="pushButton_3">
-       <property name="geometry">
-        <rect>
-         <x>0</x>
-         <y>50</y>
-         <width>201</width>
-         <height>27</height>
-        </rect>
-       </property>
-       <property name="text">
-        <string>Rédiger RAC</string>
-       </property>
-      </widget>
-     </widget>
-     <widget class="QGroupBox" name="groupBox">
-      <property name="geometry">
-       <rect>
-        <x>10</x>
-        <y>20</y>
-        <width>281</width>
-        <height>261</height>
-       </rect>
-      </property>
-      <property name="title">
-       <string>Propositions Commerciales</string>
-      </property>
-      <widget class="QTableWidget" name="tableWidget">
-       <property name="geometry">
-        <rect>
-         <x>0</x>
-         <y>30</y>
-         <width>256</width>
-         <height>192</height>
-        </rect>
-       </property>
-       <attribute name="verticalHeaderVisible">
-        <bool>false</bool>
-       </attribute>
-       <row>
-        <property name="text">
-         <string>Ligne1</string>
-        </property>
-       </row>
-       <row>
-        <property name="text">
-         <string>Ligne2</string>
-        </property>
-       </row>
-       <column>
-        <property name="text">
-         <string>Références</string>
-        </property>
-       </column>
-       <column>
-        <property name="text">
-         <string>Offres</string>
-        </property>
-       </column>
-       <item row="0" column="0">
-        <property name="text">
-         <string>AF419</string>
-        </property>
-       </item>
-       <item row="0" column="1">
-        <property name="text">
-         <string>Livret A</string>
-        </property>
-       </item>
-       <item row="1" column="0">
-        <property name="text">
-         <string>AZ4109</string>
-        </property>
-       </item>
-       <item row="1" column="1">
-        <property name="text">
-         <string>PEA</string>
-        </property>
-       </item>
-      </widget>
-      <widget class="QPushButton" name="pushButton">
-       <property name="geometry">
-        <rect>
-         <x>160</x>
-         <y>230</y>
-         <width>98</width>
-         <height>27</height>
-        </rect>
-       </property>
-       <property name="text">
-        <string>Ajouter Offres</string>
-       </property>
-      </widget>
-      <zorder>tableWidget</zorder>
-      <zorder>pushButton</zorder>
-      <zorder>pushButton_3</zorder>
-      <zorder>pushButton_2</zorder>
      </widget>
      <widget class="QGroupBox" name="groupBox_2">
       <property name="geometry">
@@ -318,6 +222,165 @@ p, li { white-space: pre-wrap; }
       </widget>
      </widget>
     </widget>
+    <widget class="QWidget" name="tab_4">
+     <attribute name="title">
+      <string>Propositions Commerciales</string>
+     </attribute>
+     <widget class="QGroupBox" name="groupBox">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>30</y>
+        <width>381</width>
+        <height>261</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Propositions Commerciales</string>
+      </property>
+      <widget class="QTableWidget" name="tableWidget">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>30</y>
+         <width>371</width>
+         <height>192</height>
+        </rect>
+       </property>
+       <attribute name="horizontalHeaderStretchLastSection">
+        <bool>true</bool>
+       </attribute>
+       <attribute name="verticalHeaderVisible">
+        <bool>false</bool>
+       </attribute>
+       <row>
+        <property name="text">
+         <string>Ligne1</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>Ligne2</string>
+        </property>
+       </row>
+       <column>
+        <property name="text">
+         <string>Références</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Offres</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Statut</string>
+        </property>
+       </column>
+       <item row="0" column="0">
+        <property name="text">
+         <string>AF419</string>
+        </property>
+       </item>
+       <item row="0" column="1">
+        <property name="text">
+         <string>Livret A</string>
+        </property>
+       </item>
+       <item row="0" column="2">
+        <property name="text">
+         <string>A proposer</string>
+        </property>
+       </item>
+       <item row="1" column="0">
+        <property name="text">
+         <string>AZ4109</string>
+        </property>
+       </item>
+       <item row="1" column="1">
+        <property name="text">
+         <string>PEA</string>
+        </property>
+       </item>
+       <item row="1" column="2">
+        <property name="text">
+         <string>Proposé</string>
+        </property>
+       </item>
+      </widget>
+      <widget class="QPushButton" name="pushButton">
+       <property name="geometry">
+        <rect>
+         <x>270</x>
+         <y>230</y>
+         <width>98</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Ajouter Offres</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QLabel" name="label_15">
+      <property name="geometry">
+       <rect>
+        <x>450</x>
+        <y>50</y>
+        <width>181</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>AF419 Livret A</string>
+      </property>
+     </widget>
+     <widget class="QTextEdit" name="textEdit_4">
+      <property name="geometry">
+       <rect>
+        <x>450</x>
+        <y>80</y>
+        <width>431</width>
+        <height>291</height>
+       </rect>
+      </property>
+      <property name="html">
+       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Commentaire sur la proposition commerciale&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_3">
+      <property name="geometry">
+       <rect>
+        <x>780</x>
+        <y>380</y>
+        <width>98</width>
+        <height>27</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Souscrit</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_9">
+      <property name="geometry">
+       <rect>
+        <x>670</x>
+        <y>380</y>
+        <width>98</width>
+        <height>27</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Refuse</string>
+      </property>
+     </widget>
+    </widget>
     <widget class="QWidget" name="tab_2">
      <attribute name="title">
       <string>RAC</string>
@@ -333,16 +396,6 @@ p, li { white-space: pre-wrap; }
       </property>
       <property name="text">
        <string>Date Entretien</string>
-      </property>
-     </widget>
-     <widget class="QCalendarWidget" name="calendarWidget">
-      <property name="geometry">
-       <rect>
-        <x>660</x>
-        <y>0</y>
-        <width>301</width>
-        <height>211</height>
-       </rect>
       </property>
      </widget>
      <widget class="QLabel" name="label_10">
@@ -620,6 +673,69 @@ p, li { white-space: pre-wrap; }
       </property>
      </widget>
     </widget>
+    <widget class="QWidget" name="tab_5">
+     <attribute name="title">
+      <string>Annuler Contact</string>
+     </attribute>
+     <widget class="QPushButton" name="pushButton_10">
+      <property name="geometry">
+       <rect>
+        <x>400</x>
+        <y>240</y>
+        <width>151</width>
+        <height>27</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Annuler le Contact</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_16">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>211</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Raison d'annulation du contact</string>
+      </property>
+     </widget>
+     <widget class="QTextEdit" name="textEdit_5">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>40</y>
+        <width>551</width>
+        <height>191</height>
+       </rect>
+      </property>
+      <property name="html">
+       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Enfants Malades&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QComboBox" name="comboBox_2">
+    <property name="geometry">
+     <rect>
+      <x>930</x>
+      <y>10</y>
+      <width>85</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Rdv Pris</string>
+     </property>
+    </item>
    </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
