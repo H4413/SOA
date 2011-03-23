@@ -489,31 +489,23 @@ SM 27 Lister Client
 Description
 -----------
 
+	Ce service va permettre de lister l'ensemble des clients de la banque.
 
 
 Service Objet Métier
 ------------
 	
+	Client
+
 Entrées
 -------
+
+	Aucune
 	
 Sorties
 -------	
-	
-SM 28 Identifier Client
-=======================================
 
-Description
------------
-
-Service Objet Métier
-------------
-	
-Entrées
--------
-	
-Sorties
--------	
+	- listesClient : liste qui contient des dénominations et des id clients.
 	
 SM 29 Consulter Bilan
 =======================================
