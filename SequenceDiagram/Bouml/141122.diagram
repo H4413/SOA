@@ -14,7 +14,7 @@ fragment 131404 "opt/loop"
   xyzwh 28 159 3005 1143 100
 end
 fragment 131532 "opt/loop"
-  xyzwh 28 273 1995 1144 143
+  xyzwh 28 273 3005 1144 143
 end
 fragment 132172 "opt/loop"
   xyzwh 34 630 3015 863 77
@@ -35,7 +35,7 @@ note 138700 "Inclut le passage de la visualisatin à la liste des contacts prévus
 textcanvas 138828 "( id Évènement )"
   xyzwh 112 309 2020 93 14
 textcanvas 138956 "( id Évènement )"
-  xyzwh 372.5 333 2020 98 17
+  xyzwh 372 333 2020 98 17
 durationcanvas 128076 classinstance_ref 128194 // :IHM
   xyzwh 284 651 2010 11 26
 end

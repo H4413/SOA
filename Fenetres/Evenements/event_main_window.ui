@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>557</width>
-    <height>462</height>
+    <width>657</width>
+    <height>460</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -72,6 +72,11 @@
       </column>
       <column>
        <property name="text">
+        <string>Client</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
         <string>Description</string>
        </property>
       </column>
@@ -87,6 +92,16 @@
       </item>
       <item row="0" column="2">
        <property name="text">
+        <string>Ouverture PEL</string>
+       </property>
+      </item>
+      <item row="0" column="3">
+       <property name="text">
+        <string>M. Dupont</string>
+       </property>
+      </item>
+      <item row="0" column="4">
+       <property name="text">
         <string/>
        </property>
       </item>
@@ -100,6 +115,16 @@
         <string>16h06</string>
        </property>
       </item>
+      <item row="1" column="2">
+       <property name="text">
+        <string>Retrait Cash</string>
+       </property>
+      </item>
+      <item row="1" column="3">
+       <property name="text">
+        <string>Mme Michu</string>
+       </property>
+      </item>
       <item row="2" column="0">
        <property name="text">
         <string>3</string>
@@ -108,6 +133,16 @@
       <item row="2" column="1">
        <property name="text">
         <string>16h17</string>
+       </property>
+      </item>
+      <item row="2" column="2">
+       <property name="text">
+        <string>Emprunt A</string>
+       </property>
+      </item>
+      <item row="2" column="3">
+       <property name="text">
+        <string>Mlle Bon</string>
        </property>
       </item>
       <item row="3" column="0">
@@ -120,18 +155,31 @@
         <string>17h05</string>
        </property>
       </item>
+      <item row="3" column="2">
+       <property name="text">
+        <string>Souscription B</string>
+       </property>
+      </item>
+      <item row="3" column="3">
+       <property name="text">
+        <string>M. Fadet</string>
+       </property>
+      </item>
      </widget>
     </item>
     <item row="1" column="5">
      <widget class="QPushButton" name="pushButton_3">
       <property name="text">
        <string>Éditer
-Évènement</string>
+Evènement</string>
       </property>
      </widget>
     </item>
     <item row="1" column="4">
      <widget class="QPushButton" name="B_GenererMotifs">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
       <property name="text">
        <string>Générer
 Motifs de contact</string>
@@ -145,7 +193,8 @@ Motifs de contact</string>
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
 &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Sans Serif'; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Évènements du mardi 15 janvier 2012&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Évènements&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;du mardi 15 janvier 2012&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
       </property>
      </widget>
     </item>
@@ -162,6 +211,14 @@ p, li { white-space: pre-wrap; }
       </property>
      </spacer>
     </item>
+    <item row="1" column="6">
+     <widget class="QPushButton" name="pushButton">
+      <property name="text">
+       <string>Supprimer
+Evènement</string>
+      </property>
+     </widget>
+    </item>
    </layout>
   </widget>
   <widget class="QMenuBar" name="menubar">
@@ -169,7 +226,7 @@ p, li { white-space: pre-wrap; }
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>557</width>
+     <width>657</width>
      <height>20</height>
     </rect>
    </property>
