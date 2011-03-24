@@ -1,12 +1,12 @@
-window_sizes 1022 589 245 767 503 0
+window_sizes 1438 889 337 1091 659 144
 diagrams
-  active  collaborationdiagram_ref 147778 // CD01
-    613 405 100 4 0 0
   sequencediagram_ref 141122 // SD01
-    613 405 100 18 216 378
+    872 527 100 0 720 0
+  active  sequencediagram_ref 134594 // SD03
+    1091 659 100 18 0 0
 end
 show_stereotypes
-selected sequencediagram_ref 141122 // SD01
+selected sequencediagram_ref 134594 // SD03
 open
   usecaseview_ref 128127 // UseCase
 end

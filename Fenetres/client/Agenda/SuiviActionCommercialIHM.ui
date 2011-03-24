@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>758</width>
+    <height>554</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>221</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Agent - Dominique Genghis Kahn</string>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>90</y>
+     <width>661</width>
+     <height>331</height>
+    </rect>
+   </property>
+   <attribute name="horizontalHeaderStretchLastSection">
+    <bool>true</bool>
+   </attribute>
+   <attribute name="verticalHeaderVisible">
+    <bool>false</bool>
+   </attribute>
+   <row>
+    <property name="text">
+     <string>Nouvelle ligne</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>Nouvelle ligne</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>Nouvelle ligne</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>Nouvelle ligne</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>Nouvelle ligne</string>
+    </property>
+   </row>
+   <column>
+    <property name="text">
+     <string>Num. Contact</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Dénomination</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Statut</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Date Création</string>
+    </property>
+   </column>
+   <item row="0" column="0">
+    <property name="text">
+     <string>14908</string>
+    </property>
+   </item>
+   <item row="0" column="1">
+    <property name="text">
+     <string>Entreprise GSTP</string>
+    </property>
+   </item>
+   <item row="0" column="2">
+    <property name="text">
+     <string>Affecté</string>
+    </property>
+   </item>
+   <item row="0" column="3">
+    <property name="text">
+     <string>12/02/2010</string>
+    </property>
+   </item>
+   <item row="1" column="0">
+    <property name="text">
+     <string>13511</string>
+    </property>
+   </item>
+   <item row="1" column="1">
+    <property name="text">
+     <string>John La none</string>
+    </property>
+   </item>
+   <item row="1" column="2">
+    <property name="text">
+     <string>Affecté</string>
+    </property>
+   </item>
+   <item row="1" column="3">
+    <property name="text">
+     <string>11/02/2010</string>
+    </property>
+   </item>
+   <item row="2" column="0">
+    <property name="text">
+     <string>19048</string>
+    </property>
+   </item>
+   <item row="2" column="1">
+    <property name="text">
+     <string>JF Petit</string>
+    </property>
+   </item>
+   <item row="2" column="2">
+    <property name="text">
+     <string>RdV pris</string>
+    </property>
+   </item>
+   <item row="2" column="3">
+    <property name="text">
+     <string>14/02/2010</string>
+    </property>
+   </item>
+   <item row="3" column="0">
+    <property name="text">
+     <string>12304</string>
+    </property>
+   </item>
+   <item row="3" column="1">
+    <property name="text">
+     <string>Roberto Alagna</string>
+    </property>
+   </item>
+   <item row="3" column="2">
+    <property name="text">
+     <string>Annulé</string>
+    </property>
+   </item>
+   <item row="3" column="3">
+    <property name="text">
+     <string>13/02/2010</string>
+    </property>
+   </item>
+   <item row="4" column="0">
+    <property name="text">
+     <string>21100</string>
+    </property>
+   </item>
+   <item row="4" column="1">
+    <property name="text">
+     <string>Crédit Mut'</string>
+    </property>
+   </item>
+   <item row="4" column="2">
+    <property name="text">
+     <string>Réalisé</string>
+    </property>
+   </item>
+   <item row="4" column="3">
+    <property name="text">
+     <string>10/01/2010</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>60</y>
+     <width>221</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Liste des contacts Affectés</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>580</x>
+     <y>0</y>
+     <width>171</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Retourner Liste Agents</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
