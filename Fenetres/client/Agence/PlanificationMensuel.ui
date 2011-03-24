@@ -1,0 +1,575 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1130</width>
+    <height>553</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Agence</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>800</x>
+      <y>70</y>
+      <width>271</width>
+      <height>231</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Contacts Potentiels</string>
+    </property>
+    <widget class="QTableWidget" name="tableWidget_2">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>30</y>
+       <width>256</width>
+       <height>192</height>
+      </rect>
+     </property>
+     <attribute name="horizontalHeaderStretchLastSection">
+      <bool>true</bool>
+     </attribute>
+     <attribute name="verticalHeaderVisible">
+      <bool>false</bool>
+     </attribute>
+     <attribute name="verticalHeaderStretchLastSection">
+      <bool>false</bool>
+     </attribute>
+     <row>
+      <property name="text">
+       <string>Nouvelle ligne</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>Nouvelle ligne</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>Nouvelle ligne</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>Nouvelle ligne</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>Nouvelle ligne</string>
+      </property>
+     </row>
+     <column>
+      <property name="text">
+       <string>Agent</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Contact Potentiel</string>
+      </property>
+     </column>
+     <item row="0" column="0">
+      <property name="text">
+       <string>Emmanuel Chain</string>
+      </property>
+     </item>
+     <item row="0" column="1">
+      <property name="text">
+       <string>30</string>
+      </property>
+     </item>
+     <item row="1" column="0">
+      <property name="text">
+       <string>Warren Buffet</string>
+      </property>
+     </item>
+     <item row="1" column="1">
+      <property name="text">
+       <string>100</string>
+      </property>
+     </item>
+     <item row="2" column="0">
+      <property name="text">
+       <string>Agent Double</string>
+      </property>
+     </item>
+     <item row="2" column="1">
+      <property name="text">
+       <string>150</string>
+      </property>
+     </item>
+     <item row="3" column="0">
+      <property name="text">
+       <string>Jerome Kerviel</string>
+      </property>
+     </item>
+     <item row="3" column="1">
+      <property name="text">
+       <string>70</string>
+      </property>
+     </item>
+     <item row="4" column="0">
+      <property name="text">
+       <string>James Bond</string>
+      </property>
+     </item>
+     <item row="4" column="1">
+      <property name="text">
+       <string>40</string>
+      </property>
+     </item>
+    </widget>
+   </widget>
+   <widget class="QTableWidget" name="tableWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>110</y>
+      <width>761</width>
+      <height>341</height>
+     </rect>
+    </property>
+    <attribute name="horizontalHeaderMinimumSectionSize">
+     <number>30</number>
+    </attribute>
+    <attribute name="horizontalHeaderStretchLastSection">
+     <bool>true</bool>
+    </attribute>
+    <row>
+     <property name="text">
+      <string>1/04/2011 AM</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>1/04/2011 PM</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>2/04/2011 AM</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>2/04/2011 PM</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>3/04/2011 AM</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>3/04/2011 PM</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>4/04/2011 AM</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>4/04/2011 PM</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>5/04/2011 AM</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>5/04/2011 PM</string>
+     </property>
+    </row>
+    <column>
+     <property name="text">
+      <string>Emmanuel Chain</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Warren Buffet</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Agent Double</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Jerome Kerviel</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>James Bond</string>
+     </property>
+    </column>
+    <item row="0" column="0">
+     <property name="text">
+      <string>Libre</string>
+     </property>
+    </item>
+    <item row="0" column="1">
+     <property name="text">
+      <string>Phoning</string>
+     </property>
+    </item>
+    <item row="0" column="2">
+     <property name="text">
+      <string>Guichet</string>
+     </property>
+    </item>
+    <item row="0" column="3">
+     <property name="text">
+      <string>Phoning</string>
+     </property>
+    </item>
+    <item row="0" column="4">
+     <property name="text">
+      <string>Congés</string>
+     </property>
+    </item>
+    <item row="1" column="0">
+     <property name="text">
+      <string>Libre</string>
+     </property>
+    </item>
+    <item row="1" column="1">
+     <property name="text">
+      <string>Phoning</string>
+     </property>
+    </item>
+    <item row="1" column="2">
+     <property name="text">
+      <string>Guichet</string>
+     </property>
+    </item>
+    <item row="1" column="3">
+     <property name="text">
+      <string>Phoning</string>
+     </property>
+    </item>
+    <item row="1" column="4">
+     <property name="text">
+      <string>Congés</string>
+     </property>
+    </item>
+    <item row="2" column="0">
+     <property name="text">
+      <string>Formation</string>
+     </property>
+    </item>
+    <item row="2" column="1">
+     <property name="text">
+      <string>Guichet</string>
+     </property>
+    </item>
+    <item row="2" column="2">
+     <property name="text">
+      <string>Libre</string>
+     </property>
+    </item>
+    <item row="2" column="3">
+     <property name="text">
+      <string>Phoning</string>
+     </property>
+    </item>
+    <item row="2" column="4">
+     <property name="text">
+      <string>Congés</string>
+     </property>
+    </item>
+    <item row="3" column="0">
+     <property name="text">
+      <string>Formation</string>
+     </property>
+    </item>
+    <item row="3" column="1">
+     <property name="text">
+      <string>Guichet</string>
+     </property>
+    </item>
+    <item row="3" column="2">
+     <property name="text">
+      <string>Libre</string>
+     </property>
+    </item>
+    <item row="3" column="3">
+     <property name="text">
+      <string>Phoning</string>
+     </property>
+    </item>
+    <item row="3" column="4">
+     <property name="text">
+      <string>Congés</string>
+     </property>
+    </item>
+    <item row="4" column="0">
+     <property name="text">
+      <string>Libre</string>
+     </property>
+    </item>
+    <item row="4" column="1">
+     <property name="text">
+      <string>Congés</string>
+     </property>
+    </item>
+    <item row="4" column="2">
+     <property name="text">
+      <string>Libre</string>
+     </property>
+    </item>
+    <item row="4" column="3">
+     <property name="text">
+      <string>Formation</string>
+     </property>
+    </item>
+    <item row="4" column="4">
+     <property name="text">
+      <string>Congés</string>
+     </property>
+    </item>
+    <item row="5" column="0">
+     <property name="text">
+      <string>Libre</string>
+     </property>
+    </item>
+    <item row="5" column="1">
+     <property name="text">
+      <string>Congés</string>
+     </property>
+    </item>
+    <item row="5" column="2">
+     <property name="text">
+      <string>Libre</string>
+     </property>
+    </item>
+    <item row="5" column="3">
+     <property name="text">
+      <string>Formation</string>
+     </property>
+    </item>
+    <item row="5" column="4">
+     <property name="text">
+      <string>Congés</string>
+     </property>
+    </item>
+    <item row="6" column="0">
+     <property name="text">
+      <string>Congés</string>
+     </property>
+    </item>
+    <item row="6" column="1">
+     <property name="text">
+      <string>Formation</string>
+     </property>
+    </item>
+    <item row="6" column="2">
+     <property name="text">
+      <string>Administratif</string>
+     </property>
+    </item>
+    <item row="6" column="3">
+     <property name="text">
+      <string>Formation</string>
+     </property>
+    </item>
+    <item row="6" column="4">
+     <property name="text">
+      <string>Administratif</string>
+     </property>
+    </item>
+    <item row="7" column="0">
+     <property name="text">
+      <string>Congés</string>
+     </property>
+    </item>
+    <item row="7" column="1">
+     <property name="text">
+      <string>Formation</string>
+     </property>
+    </item>
+    <item row="7" column="2">
+     <property name="text">
+      <string>Libre</string>
+     </property>
+    </item>
+    <item row="7" column="3">
+     <property name="text">
+      <string>Formation</string>
+     </property>
+    </item>
+    <item row="7" column="4">
+     <property name="text">
+      <string>Administratif</string>
+     </property>
+    </item>
+    <item row="8" column="0">
+     <property name="text">
+      <string>Administratif</string>
+     </property>
+    </item>
+    <item row="8" column="1">
+     <property name="text">
+      <string>Libre</string>
+     </property>
+    </item>
+    <item row="8" column="2">
+     <property name="text">
+      <string>Libre</string>
+     </property>
+    </item>
+    <item row="8" column="3">
+     <property name="text">
+      <string>Formation</string>
+     </property>
+    </item>
+    <item row="8" column="4">
+     <property name="text">
+      <string>Administratif</string>
+     </property>
+    </item>
+    <item row="9" column="0">
+     <property name="text">
+      <string>Administratif</string>
+     </property>
+    </item>
+    <item row="9" column="1">
+     <property name="text">
+      <string>Libre</string>
+     </property>
+    </item>
+    <item row="9" column="2">
+     <property name="text">
+      <string>Phoning</string>
+     </property>
+    </item>
+    <item row="9" column="3">
+     <property name="text">
+      <string>Formation</string>
+     </property>
+    </item>
+    <item row="9" column="4">
+     <property name="text">
+      <string>Administratif</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>20</y>
+      <width>491</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>30</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Planification Mensuel</string>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_2">
+    <property name="geometry">
+     <rect>
+      <x>810</x>
+      <y>310</y>
+      <width>271</width>
+      <height>231</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Définition Plage Horaire</string>
+    </property>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>40</y>
+       <width>191</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Agent : Emmanuel Chain</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_3">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>60</y>
+       <width>191</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Horaire : 1/04/2011 AM</string>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="comboBox">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>90</y>
+       <width>85</width>
+       <height>27</height>
+      </rect>
+     </property>
+     <item>
+      <property name="text">
+       <string>Libre</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QLabel" name="label_4">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>100</y>
+       <width>191</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Assignation</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1130</width>
+     <height>25</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
