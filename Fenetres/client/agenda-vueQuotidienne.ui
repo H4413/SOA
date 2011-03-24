@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>800</width>
-    <height>600</height>
+    <width>1082</width>
+    <height>868</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -17,182 +17,17 @@
    <bool>false</bool>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QGraphicsView" name="graphicsView">
-    <property name="geometry">
-     <rect>
-      <x>70</x>
-      <y>150</y>
-      <width>361</width>
-      <height>241</height>
-     </rect>
-    </property>
-    <property name="autoFillBackground">
-     <bool>true</bool>
-    </property>
-   </widget>
-   <widget class="QToolButton" name="toolButton">
-    <property name="geometry">
-     <rect>
-      <x>10</x>
-      <y>70</y>
-      <width>71</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Précédent</string>
-    </property>
-    <property name="icon">
-     <iconset>
-      <normalon>../../../../../../../../../../usr/share/icons/AwOken/clear/24x24/actions/go-previous.png</normalon>
-     </iconset>
-    </property>
-    <property name="iconSize">
-     <size>
-      <width>22</width>
-      <height>22</height>
-     </size>
-    </property>
-   </widget>
-   <widget class="QToolButton" name="toolButton_2">
-    <property name="geometry">
-     <rect>
-      <x>80</x>
-      <y>70</y>
-      <width>71</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Suivant</string>
-    </property>
-    <property name="icon">
-     <iconset>
-      <normalon>../../../../../../../../../../usr/share/icons/AwOken/clear/24x24/actions/go-next.png</normalon>
-     </iconset>
-    </property>
-    <property name="iconSize">
-     <size>
-      <width>22</width>
-      <height>22</height>
-     </size>
-    </property>
-   </widget>
-   <widget class="QToolButton" name="toolButton_3">
-    <property name="geometry">
-     <rect>
-      <x>10</x>
-      <y>510</y>
-      <width>141</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Vue hebdomadaire</string>
-    </property>
-   </widget>
-   <widget class="QFrame" name="frame">
-    <property name="geometry">
-     <rect>
-      <x>510</x>
-      <y>170</y>
-      <width>221</width>
-      <height>221</height>
-     </rect>
-    </property>
-    <property name="frameShape">
-     <enum>QFrame::Box</enum>
-    </property>
-    <property name="frameShadow">
-     <enum>QFrame::Plain</enum>
-    </property>
-    <property name="lineWidth">
-     <number>1</number>
-    </property>
-    <property name="midLineWidth">
-     <number>5</number>
-    </property>
-    <widget class="QToolButton" name="toolButton_4">
-     <property name="geometry">
-      <rect>
-       <x>50</x>
-       <y>30</y>
-       <width>121</width>
-       <height>41</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>Annuler RDV</string>
-     </property>
-    </widget>
-    <widget class="QToolButton" name="toolButton_5">
-     <property name="geometry">
-      <rect>
-       <x>50</x>
-       <y>90</y>
-       <width>121</width>
-       <height>41</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>Déplacer RDV</string>
-     </property>
-    </widget>
-    <widget class="QLabel" name="label">
-     <property name="geometry">
-      <rect>
-       <x>70</x>
-       <y>150</y>
-       <width>81</width>
-       <height>16</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>Réaffecter à: </string>
-     </property>
-    </widget>
-    <widget class="QComboBox" name="comboBox">
-     <property name="geometry">
-      <rect>
-       <x>70</x>
-       <y>170</y>
-       <width>80</width>
-       <height>29</height>
-      </rect>
-     </property>
-     <item>
-      <property name="text">
-       <string>Oguh</string>
-      </property>
-     </item>
-     <item>
-      <property name="text">
-       <string>Rotciv</string>
-      </property>
-     </item>
-    </widget>
-    <widget class="QLabel" name="label_2">
-     <property name="geometry">
-      <rect>
-       <x>10</x>
-       <y>0</y>
-       <width>91</width>
-       <height>21</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>Gestion RDV</string>
-     </property>
-    </widget>
-   </widget>
    <widget class="QDateEdit" name="dateEdit">
     <property name="geometry">
      <rect>
-      <x>160</x>
-      <y>70</y>
+      <x>270</x>
+      <y>110</y>
       <width>111</width>
       <height>31</height>
      </rect>
+    </property>
+    <property name="calendarPopup">
+     <bool>true</bool>
     </property>
     <property name="date">
      <date>
@@ -201,16 +36,13 @@
       <day>25</day>
      </date>
     </property>
-    <property name="calendarPopup">
-     <bool>true</bool>
-    </property>
    </widget>
    <widget class="QLabel" name="label_3">
     <property name="geometry">
      <rect>
       <x>20</x>
       <y>10</y>
-      <width>251</width>
+      <width>591</width>
       <height>51</height>
      </rect>
     </property>
@@ -220,8 +52,440 @@
      </font>
     </property>
     <property name="text">
-     <string>Vendredi</string>
+     <string>Vendredi 25 Mars 2011</string>
     </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>120</y>
+      <width>131</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Jour Suivant</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>120</y>
+      <width>151</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Jour Precedent</string>
+    </property>
+   </widget>
+   <widget class="QTableWidget" name="tableWidget">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>160</y>
+      <width>661</width>
+      <height>331</height>
+     </rect>
+    </property>
+    <attribute name="horizontalHeaderMinimumSectionSize">
+     <number>30</number>
+    </attribute>
+    <attribute name="horizontalHeaderStretchLastSection">
+     <bool>true</bool>
+    </attribute>
+    <row>
+     <property name="text">
+      <string>8h</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>9h</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>10h</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>11h</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>12h</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>13h</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>14h</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>15h</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>16h</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>17h</string>
+     </property>
+    </row>
+    <column>
+     <property name="text">
+      <string>Emmanuel Chain</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Warren Buffet</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Agent Double</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Jerome Kerviel</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>James Bond</string>
+     </property>
+    </column>
+    <item row="0" column="0">
+     <property name="text">
+      <string>Phoning Mr. Pastore</string>
+     </property>
+    </item>
+    <item row="0" column="1">
+     <property name="text">
+      <string>Guichet</string>
+     </property>
+    </item>
+    <item row="0" column="2">
+     <property name="text">
+      <string>Congés</string>
+     </property>
+    </item>
+    <item row="0" column="3">
+     <property name="text">
+      <string>Administratif</string>
+     </property>
+    </item>
+    <item row="0" column="4">
+     <property name="text">
+      <string>RV Mme Bruni</string>
+     </property>
+    </item>
+    <item row="1" column="0">
+     <property name="text">
+      <string>Phoning Mr. Lize</string>
+     </property>
+    </item>
+    <item row="1" column="1">
+     <property name="text">
+      <string>Guichet</string>
+     </property>
+    </item>
+    <item row="1" column="2">
+     <property name="text">
+      <string>Congés</string>
+     </property>
+    </item>
+    <item row="1" column="3">
+     <property name="text">
+      <string>Administratif</string>
+     </property>
+    </item>
+    <item row="1" column="4">
+     <property name="text">
+      <string>RV Mme Obama</string>
+     </property>
+    </item>
+    <item row="2" column="0">
+     <property name="text">
+      <string>Phoning Mr. Geiger</string>
+     </property>
+    </item>
+    <item row="2" column="1">
+     <property name="text">
+      <string>Guichet</string>
+     </property>
+    </item>
+    <item row="2" column="2">
+     <property name="text">
+      <string>Congés</string>
+     </property>
+    </item>
+    <item row="2" column="3">
+     <property name="text">
+      <string>Administratif</string>
+     </property>
+    </item>
+    <item row="2" column="4">
+     <property name="text">
+      <string>RV Mme Clinton</string>
+     </property>
+    </item>
+    <item row="3" column="0">
+     <property name="text">
+      <string>Phoning Mr Ritz</string>
+     </property>
+    </item>
+    <item row="3" column="1">
+     <property name="text">
+      <string>Guichet</string>
+     </property>
+    </item>
+    <item row="3" column="2">
+     <property name="text">
+      <string>Congés</string>
+     </property>
+    </item>
+    <item row="3" column="3">
+     <property name="text">
+      <string>Administratif</string>
+     </property>
+    </item>
+    <item row="3" column="4">
+     <property name="text">
+      <string>RV Mme Gales</string>
+     </property>
+    </item>
+    <item row="4" column="0">
+     <property name="text">
+      <string>Pause</string>
+     </property>
+    </item>
+    <item row="4" column="1">
+     <property name="text">
+      <string>Pause</string>
+     </property>
+    </item>
+    <item row="4" column="2">
+     <property name="text">
+      <string>Pause</string>
+     </property>
+    </item>
+    <item row="4" column="3">
+     <property name="text">
+      <string>Pause</string>
+     </property>
+    </item>
+    <item row="4" column="4">
+     <property name="text">
+      <string>Pause</string>
+     </property>
+    </item>
+    <item row="5" column="0">
+     <property name="text">
+      <string>Formation</string>
+     </property>
+    </item>
+    <item row="5" column="1">
+     <property name="text">
+      <string>Formation</string>
+     </property>
+    </item>
+    <item row="5" column="2">
+     <property name="text">
+      <string>Congés</string>
+     </property>
+    </item>
+    <item row="5" column="3">
+     <property name="text">
+      <string>Formation</string>
+     </property>
+    </item>
+    <item row="5" column="4">
+     <property name="text">
+      <string>RV Mme Gaga</string>
+     </property>
+    </item>
+    <item row="6" column="0">
+     <property name="text">
+      <string>Phoning Mr. Borges</string>
+     </property>
+    </item>
+    <item row="6" column="1">
+     <property name="text">
+      <string>Administratif</string>
+     </property>
+    </item>
+    <item row="6" column="2">
+     <property name="text">
+      <string>Guichet</string>
+     </property>
+    </item>
+    <item row="6" column="3">
+     <property name="text">
+      <string>Formation</string>
+     </property>
+    </item>
+    <item row="6" column="4">
+     <property name="text">
+      <string>RV Mme Potter</string>
+     </property>
+    </item>
+    <item row="7" column="0">
+     <property name="text">
+      <string>Guichet</string>
+     </property>
+    </item>
+    <item row="7" column="1">
+     <property name="text">
+      <string>Administratif</string>
+     </property>
+    </item>
+    <item row="7" column="2">
+     <property name="text">
+      <string>Guichet</string>
+     </property>
+    </item>
+    <item row="7" column="3">
+     <property name="text">
+      <string>Formation</string>
+     </property>
+    </item>
+    <item row="7" column="4">
+     <property name="text">
+      <string>RV Mme Cullen</string>
+     </property>
+    </item>
+    <item row="8" column="0">
+     <property name="text">
+      <string>Guichet</string>
+     </property>
+    </item>
+    <item row="8" column="1">
+     <property name="text">
+      <string>Administratif</string>
+     </property>
+    </item>
+    <item row="8" column="2">
+     <property name="text">
+      <string>Guichet</string>
+     </property>
+    </item>
+    <item row="8" column="3">
+     <property name="text">
+      <string>Formation</string>
+     </property>
+    </item>
+    <item row="8" column="4">
+     <property name="text">
+      <string>RV Mme Fox</string>
+     </property>
+    </item>
+    <item row="9" column="0">
+     <property name="text">
+      <string>Guichet</string>
+     </property>
+    </item>
+    <item row="9" column="1">
+     <property name="text">
+      <string>Administratif</string>
+     </property>
+    </item>
+    <item row="9" column="2">
+     <property name="text">
+      <string>Guichet</string>
+     </property>
+    </item>
+    <item row="9" column="3">
+     <property name="text">
+      <string>Formation</string>
+     </property>
+    </item>
+    <item row="9" column="4">
+     <property name="text">
+      <string>RV Mme Fox</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>520</y>
+      <width>161</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Prise de Rendez-Vous</string>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>760</x>
+      <y>240</y>
+      <width>241</width>
+      <height>181</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Rdv Mme Gaga - 25/03/2011 - 13h</string>
+    </property>
+    <widget class="QPushButton" name="pushButton_5">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>70</y>
+       <width>161</width>
+       <height>27</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Modification</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_6">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>100</y>
+       <width>161</width>
+       <height>27</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Réaffectation</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_4">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>40</y>
+       <width>161</width>
+       <height>27</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Annulation</string>
+     </property>
+    </widget>
    </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
@@ -229,8 +493,8 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>800</width>
-     <height>31</height>
+     <width>1082</width>
+     <height>25</height>
     </rect>
    </property>
   </widget>
