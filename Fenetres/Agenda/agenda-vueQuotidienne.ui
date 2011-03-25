@@ -26,15 +26,15 @@
       <height>31</height>
      </rect>
     </property>
-    <property name="calendarPopup">
-     <bool>true</bool>
-    </property>
     <property name="date">
      <date>
       <year>2011</year>
       <month>3</month>
       <day>25</day>
      </date>
+    </property>
+    <property name="calendarPopup">
+     <bool>true</bool>
     </property>
    </widget>
    <widget class="QLabel" name="label_3">
@@ -487,6 +487,19 @@
      </property>
     </widget>
    </widget>
+   <widget class="QPushButton" name="pushButton_8">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>590</y>
+      <width>114</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Planification</string>
+    </property>
+   </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
@@ -494,7 +507,7 @@
      <x>0</x>
      <y>0</y>
      <width>1082</width>
-     <height>25</height>
+     <height>31</height>
     </rect>
    </property>
   </widget>
