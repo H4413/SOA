@@ -1,58 +1,79 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Created with Bouml (http://bouml.free.fr/) -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg width="922" height="1612" version="1.1" xmlns="http://www.w3.org/2000/svg">
+<svg width="1046" height="1849" version="1.1" xmlns="http://www.w3.org/2000/svg">
 <g>
-	<polygon fill="#ffffff" stroke="black" stroke-opacity="1" points="2,581 35,581 35,592 23,604 2,604 2,581" />
-	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="2" y="581" width="908" height="1019" />
-	<text font-family="MS Shell Dlg" font-size="12" fill="#000000" xml:space="preserve" text-anchor="middle" x="13" y="599">alt</text>
-	<line stroke="black" stroke-opacity="1" x1="2" y1="604" x2="23" y2="604" />
-	<line stroke="black" stroke-opacity="1" x1="23" y1="604" x2="35" y2="592" />
-	<line stroke="black" stroke-opacity="1" x1="35" y1="592" x2="35" y2="581" />
+	<polygon fill="#ffffff" stroke="black" stroke-opacity="1" points="3,449 176,449 176,460 164,472 3,472 3,449" />
+	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="3" y="449" width="1031" height="362" />
+	<text font-family="MS Shell Dlg" font-size="12" fill="#000000" xml:space="preserve" text-anchor="middle" x="84" y="467">Consulter vue quotidienne</text>
+	<line stroke="black" stroke-opacity="1" x1="3" y1="472" x2="164" y2="472" />
+	<line stroke="black" stroke-opacity="1" x1="164" y1="472" x2="176" y2="460" />
+	<line stroke="black" stroke-opacity="1" x1="176" y1="460" x2="176" y2="449" />
 </g>
 <g>
-	<polygon fill="#ffffff" stroke="black" stroke-opacity="1" points="17,694 50,694 50,705 38,717 17,717 17,694" />
-	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="17" y="694" width="860" height="813" />
-	<text font-family="MS Shell Dlg" font-size="12" fill="#000000" xml:space="preserve" text-anchor="middle" x="28" y="712">alt</text>
-	<line stroke="black" stroke-opacity="1" x1="17" y1="717" x2="38" y2="717" />
-	<line stroke="black" stroke-opacity="1" x1="38" y1="717" x2="50" y2="705" />
-	<line stroke="black" stroke-opacity="1" x1="50" y1="705" x2="50" y2="694" />
+	<polygon fill="#ffffff" stroke="black" stroke-opacity="1" points="0,818 33,818 33,829 21,841 0,841 0,818" />
+	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="0" y="818" width="908" height="1019" />
+	<text font-family="MS Shell Dlg" font-size="12" fill="#000000" xml:space="preserve" text-anchor="middle" x="11" y="836">alt</text>
+	<line stroke="black" stroke-opacity="1" x1="0" y1="841" x2="21" y2="841" />
+	<line stroke="black" stroke-opacity="1" x1="21" y1="841" x2="33" y2="829" />
+	<line stroke="black" stroke-opacity="1" x1="33" y1="829" x2="33" y2="818" />
 </g>
 <g>
-	<polygon fill="#ffffff" stroke="black" stroke-opacity="1" points="9,613 116,613 116,624 104,636 9,636 9,613" />
-	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="9" y="613" width="883" height="909" />
-	<text font-family="MS Shell Dlg" font-size="12" fill="#000000" xml:space="preserve" text-anchor="middle" x="57" y="631">Sélection RDV</text>
-	<line stroke="black" stroke-opacity="1" x1="9" y1="636" x2="104" y2="636" />
-	<line stroke="black" stroke-opacity="1" x1="104" y1="636" x2="116" y2="624" />
-	<line stroke="black" stroke-opacity="1" x1="116" y1="624" x2="116" y2="613" />
+	<polygon fill="#ffffff" stroke="black" stroke-opacity="1" points="13,931 46,931 46,942 34,954 13,954 13,931" />
+	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="13" y="931" width="860" height="813" />
+	<text font-family="MS Shell Dlg" font-size="12" fill="#000000" xml:space="preserve" text-anchor="middle" x="24" y="949">alt</text>
+	<line stroke="black" stroke-opacity="1" x1="13" y1="954" x2="34" y2="954" />
+	<line stroke="black" stroke-opacity="1" x1="34" y1="954" x2="46" y2="942" />
+	<line stroke="black" stroke-opacity="1" x1="46" y1="942" x2="46" y2="931" />
 </g>
 <g>
-	<polygon fill="#ffffff" stroke="black" stroke-opacity="1" points="23,1003 119,1003 119,1014 107,1026 23,1026 23,1003" />
-	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="23" y="1003" width="836" height="134" />
-	<text font-family="MS Shell Dlg" font-size="12" fill="#000000" xml:space="preserve" text-anchor="middle" x="65" y="1021">Annuler RDV</text>
-	<line stroke="black" stroke-opacity="1" x1="23" y1="1026" x2="107" y2="1026" />
-	<line stroke="black" stroke-opacity="1" x1="107" y1="1026" x2="119" y2="1014" />
-	<line stroke="black" stroke-opacity="1" x1="119" y1="1014" x2="119" y2="1003" />
+	<polygon fill="#ffffff" stroke="black" stroke-opacity="1" points="6,852 113,852 113,863 101,875 6,875 6,852" />
+	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="6" y="852" width="883" height="909" />
+	<text font-family="MS Shell Dlg" font-size="12" fill="#000000" xml:space="preserve" text-anchor="middle" x="54" y="870">Sélection RDV</text>
+	<line stroke="black" stroke-opacity="1" x1="6" y1="875" x2="101" y2="875" />
+	<line stroke="black" stroke-opacity="1" x1="101" y1="875" x2="113" y2="863" />
+	<line stroke="black" stroke-opacity="1" x1="113" y1="863" x2="113" y2="852" />
 </g>
 <g>
-	<line stroke="black" stroke-dasharray="18,6"  stroke-opacity="1" x1="168" y1="47" x2="168" y2="1612" />
+	<polygon fill="#ffffff" stroke="black" stroke-opacity="1" points="22,1240 118,1240 118,1251 106,1263 22,1263 22,1240" />
+	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="22" y="1240" width="836" height="134" />
+	<text font-family="MS Shell Dlg" font-size="12" fill="#000000" xml:space="preserve" text-anchor="middle" x="64" y="1258">Annuler RDV</text>
+	<line stroke="black" stroke-opacity="1" x1="22" y1="1263" x2="106" y2="1263" />
+	<line stroke="black" stroke-opacity="1" x1="106" y1="1263" x2="118" y2="1251" />
+	<line stroke="black" stroke-opacity="1" x1="118" y1="1251" x2="118" y2="1240" />
 </g>
 <g>
-	<ellipse fill="none" stroke="black" stroke-width="1" stroke-opacity="1" cx="168" cy="9" rx="3" ry="3" />
-	<line stroke="black" stroke-opacity="1" x1="163" y1="15" x2="174" y2="15" />
-	<line stroke="black" stroke-opacity="1" x1="168" y1="12" x2="168" y2="20" />
-	<line stroke="black" stroke-opacity="1" x1="168" y1="20" x2="163" y2="25" />
-	<line stroke="black" stroke-opacity="1" x1="168" y1="20" x2="173" y2="25" />
-	<text font-family="MS Shell Dlg" font-size="12" fill="#000000" xml:space="preserve" text-anchor="middle" x="169" y="42">:Agent</text>
+	<polygon fill="#ffffff" stroke="black" stroke-opacity="1" points="9,154 179,154 179,165 167,177 9,177 9,154" />
+	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="9" y="154" width="1023" height="285" />
+	<text font-family="MS Shell Dlg" font-size="12" fill="#000000" xml:space="preserve" text-anchor="middle" x="88" y="172">Consulter vue autre agent</text>
+	<line stroke="black" stroke-opacity="1" x1="9" y1="177" x2="167" y2="177" />
+	<line stroke="black" stroke-opacity="1" x1="167" y1="177" x2="179" y2="165" />
+	<line stroke="black" stroke-opacity="1" x1="179" y1="165" x2="179" y2="154" />
 </g>
 <g>
-	<rect fill="#808080" stroke="none" stroke-opacity="1" x="337" y="12" width="3" height="22" />
-	<rect fill="#808080" stroke="none" stroke-opacity="1" x="296" y="31" width="44" height="3" />
-	<rect fill="#ffffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="292" y="8" width="45" height="23" />
-	<text font-family="MS Shell Dlg" font-size="12" fill="#000000" xml:space="preserve" text-decoration="underline" text-anchor="middle" x="315" y="26">:IHM</text>
+	<polygon fill="#ffffff" stroke="black" stroke-opacity="1" points="173,685 300,685 300,696 288,708 173,708 173,685" />
+	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="173" y="685" width="853" height="66" />
+	<text font-family="MS Shell Dlg" font-size="12" fill="#000000" xml:space="preserve" text-anchor="middle" x="231" y="703">Pour chaque RDV</text>
+	<line stroke="black" stroke-opacity="1" x1="173" y1="708" x2="288" y2="708" />
+	<line stroke="black" stroke-opacity="1" x1="288" y1="708" x2="300" y2="696" />
+	<line stroke="black" stroke-opacity="1" x1="300" y1="696" x2="300" y2="685" />
 </g>
 <g>
-	<line stroke="black" stroke-dasharray="18,6"  stroke-opacity="1" x1="316" y1="49" x2="316" y2="1612" />
+	<polygon fill="#ffffff" stroke="black" stroke-opacity="1" points="335,286 462,286 462,297 450,309 335,309 335,286" />
+	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="335" y="286" width="665" height="87" />
+	<text font-family="MS Shell Dlg" font-size="12" fill="#000000" xml:space="preserve" text-anchor="middle" x="393" y="304">Pour chaque RDV</text>
+	<line stroke="black" stroke-opacity="1" x1="335" y1="309" x2="450" y2="309" />
+	<line stroke="black" stroke-opacity="1" x1="450" y1="309" x2="462" y2="297" />
+	<line stroke="black" stroke-opacity="1" x1="462" y1="297" x2="462" y2="286" />
+</g>
+<g>
+	<rect fill="#808080" stroke="none" stroke-opacity="1" x="337" y="11" width="3" height="22" />
+	<rect fill="#808080" stroke="none" stroke-opacity="1" x="296" y="30" width="44" height="3" />
+	<rect fill="#ffffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="292" y="7" width="45" height="23" />
+	<text font-family="MS Shell Dlg" font-size="12" fill="#000000" xml:space="preserve" text-decoration="underline" text-anchor="middle" x="315" y="25">:IHM</text>
+</g>
+<g>
+	<line stroke="black" stroke-dasharray="18,6"  stroke-opacity="1" x1="316" y1="48" x2="316" y2="1849" />
 </g>
 <g>
 	<rect fill="#808080" stroke="none" stroke-opacity="1" x="501" y="13" width="3" height="22" />
@@ -61,156 +82,181 @@
 	<text font-family="MS Shell Dlg" font-size="12" fill="#000000" xml:space="preserve" text-decoration="underline" text-anchor="middle" x="479" y="27">:SM</text>
 </g>
 <g>
-	<line stroke="black" stroke-dasharray="18,6"  stroke-opacity="1" x1="480" y1="50" x2="480" y2="1612" />
+	<line stroke="black" stroke-dasharray="18,6"  stroke-opacity="1" x1="480" y1="50" x2="480" y2="1849" />
 </g>
 <g>
-	<rect fill="#808080" stroke="none" stroke-opacity="1" x="695" y="8" width="3" height="22" />
-	<rect fill="#808080" stroke="none" stroke-opacity="1" x="642" y="27" width="56" height="3" />
-	<rect fill="#ffffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="638" y="4" width="57" height="23" />
-	<text font-family="MS Shell Dlg" font-size="12" fill="#000000" xml:space="preserve" text-decoration="underline" text-anchor="middle" x="667" y="22">:Agence</text>
+	<rect fill="#808080" stroke="none" stroke-opacity="1" x="842" y="8" width="3" height="22" />
+	<rect fill="#808080" stroke="none" stroke-opacity="1" x="788" y="27" width="57" height="3" />
+	<rect fill="#ffffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="784" y="4" width="58" height="23" />
+	<text font-family="MS Shell Dlg" font-size="12" fill="#000000" xml:space="preserve" text-decoration="underline" text-anchor="middle" x="813" y="22">:Agenda</text>
 </g>
 <g>
-	<line stroke="black" stroke-dasharray="18,6"  stroke-opacity="1" x1="668" y1="45" x2="668" y2="1612" />
+	<line stroke="black" stroke-dasharray="18,6"  stroke-opacity="1" x1="815" y1="46" x2="815" y2="1849" />
 </g>
 <g>
-	<rect fill="#808080" stroke="none" stroke-opacity="1" x="842" y="9" width="3" height="22" />
-	<rect fill="#808080" stroke="none" stroke-opacity="1" x="788" y="28" width="57" height="3" />
-	<rect fill="#ffffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="784" y="5" width="58" height="23" />
-	<text font-family="MS Shell Dlg" font-size="12" fill="#000000" xml:space="preserve" text-decoration="underline" text-anchor="middle" x="813" y="23">:Agenda</text>
+	<line stroke="black" stroke-dasharray="18,6"  stroke-opacity="1" x1="956" y1="46" x2="956" y2="1849" />
 </g>
 <g>
-	<line stroke="black" stroke-dasharray="18,6"  stroke-opacity="1" x1="815" y1="46" x2="815" y2="1612" />
+	<ellipse fill="none" stroke="black" stroke-width="1" stroke-opacity="1" cx="168" cy="8" rx="3" ry="3" />
+	<line stroke="black" stroke-opacity="1" x1="163" y1="14" x2="174" y2="14" />
+	<line stroke="black" stroke-opacity="1" x1="168" y1="11" x2="168" y2="19" />
+	<line stroke="black" stroke-opacity="1" x1="168" y1="19" x2="163" y2="24" />
+	<line stroke="black" stroke-opacity="1" x1="168" y1="19" x2="173" y2="24" />
+	<text font-family="MS Shell Dlg" font-size="12" fill="#000000" xml:space="preserve" text-anchor="middle" x="169" y="41">:Agent</text>
 </g>
 <g>
-	<polygon fill="#ffffff" stroke="black" stroke-opacity="1" points="176,420 307,420 307,431 295,443 176,443 176,420" />
-	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="176" y="420" width="657" height="121" />
-	<text font-family="MS Shell Dlg" font-size="12" fill="#000000" xml:space="preserve" text-anchor="middle" x="236" y="438">pour chaque agent</text>
-	<line stroke="black" stroke-opacity="1" x1="176" y1="443" x2="295" y2="443" />
-	<line stroke="black" stroke-opacity="1" x1="295" y1="443" x2="307" y2="431" />
-	<line stroke="black" stroke-opacity="1" x1="307" y1="431" x2="307" y2="420" />
+	<line stroke="black" stroke-dasharray="18,6"  stroke-opacity="1" x1="168" y1="46" x2="168" y2="1849" />
 </g>
 <g>
-	<polygon fill="#ffffff" stroke="black" stroke-opacity="1" points="7,1530 149,1530 149,1541 137,1553 7,1553 7,1530" />
-	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="7" y="1530" width="881" height="65" />
-	<text font-family="MS Shell Dlg" font-size="12" fill="#000000" xml:space="preserve" text-anchor="middle" x="448" y="1576">SD06</text>
-	<text font-family="MS Shell Dlg" font-size="12" fill="#000000" xml:space="preserve" text-anchor="middle" x="72" y="1548">Sélection plage libre</text>
-	<line stroke="black" stroke-opacity="1" x1="7" y1="1553" x2="137" y2="1553" />
-	<line stroke="black" stroke-opacity="1" x1="137" y1="1553" x2="149" y2="1541" />
-	<line stroke="black" stroke-opacity="1" x1="149" y1="1541" x2="149" y2="1530" />
+	<rect fill="#808080" stroke="none" stroke-opacity="1" x="977" y="9" width="3" height="20" />
+	<rect fill="#808080" stroke="none" stroke-opacity="1" x="936" y="26" width="44" height="3" />
+	<rect fill="#ffffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="932" y="5" width="45" height="21" />
+	<text font-family="MS Shell Dlg" font-size="12" fill="#000000" xml:space="preserve" text-decoration="underline" text-anchor="middle" x="955" y="22">:Client</text>
 </g>
 <g>
-	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="163" y="777" width="10" height="106" />
+	<rect fill="#808080" stroke="none" stroke-opacity="1" x="695" y="7" width="3" height="22" />
+	<rect fill="#808080" stroke="none" stroke-opacity="1" x="642" y="26" width="56" height="3" />
+	<rect fill="#ffffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="638" y="3" width="57" height="23" />
+	<text font-family="MS Shell Dlg" font-size="12" fill="#000000" xml:space="preserve" text-decoration="underline" text-anchor="middle" x="667" y="21">:Agence</text>
 </g>
 <g>
-	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="163" y="220" width="10" height="53" />
+	<line stroke="black" stroke-dasharray="18,6"  stroke-opacity="1" x1="668" y1="44" x2="668" y2="1849" />
 </g>
 <g>
-	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="311" y="221" width="10" height="43" />
+	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="163" y="1004" width="10" height="132" />
 </g>
 <g>
-	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="311" y="59" width="10" height="66" />
+	<polygon fill="#ffffff" stroke="black" stroke-opacity="1" points="174,552 305,552 305,563 293,575 174,575 174,552" />
+	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="174" y="552" width="657" height="121" />
+	<text font-family="MS Shell Dlg" font-size="12" fill="#000000" xml:space="preserve" text-anchor="middle" x="234" y="570">pour chaque agent</text>
+	<line stroke="black" stroke-opacity="1" x1="174" y1="575" x2="293" y2="575" />
+	<line stroke="black" stroke-opacity="1" x1="293" y1="575" x2="305" y2="563" />
+	<line stroke="black" stroke-opacity="1" x1="305" y1="563" x2="305" y2="552" />
 </g>
 <g>
-	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="663" y="70" width="10" height="42" />
+	<polygon fill="#ffffff" stroke="black" stroke-opacity="1" points="4,1682 146,1682 146,1693 134,1705 4,1705 4,1682" />
+	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="4" y="1682" width="881" height="65" />
+	<text font-family="MS Shell Dlg" font-size="12" fill="#000000" xml:space="preserve" text-anchor="middle" x="445" y="1728">SD06</text>
+	<text font-family="MS Shell Dlg" font-size="12" fill="#000000" xml:space="preserve" text-anchor="middle" x="69" y="1700">Sélection plage libre</text>
+	<line stroke="black" stroke-opacity="1" x1="4" y1="1705" x2="134" y2="1705" />
+	<line stroke="black" stroke-opacity="1" x1="134" y1="1705" x2="146" y2="1693" />
+	<line stroke="black" stroke-opacity="1" x1="146" y1="1693" x2="146" y2="1682" />
 </g>
 <g>
-	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="475" y="93" width="10" height="32" />
+	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="311" y="1004" width="10" height="72" />
 </g>
 <g>
-	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="475" y="238" width="10" height="24" />
+	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="475" y="1040" width="10" height="46" />
 </g>
 <g>
-	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="810" y="246" width="10" height="24" />
+	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="810" y="1052" width="10" height="36" />
 </g>
 <g>
-	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="163" y="373" width="10" height="39" />
+	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="311" y="1102" width="10" height="42" />
 </g>
 <g>
-	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="311" y="374" width="10" height="110" />
+	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="163" y="870" width="10" height="39" />
 </g>
 <g>
-	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="475" y="471" width="10" height="46" />
+	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="311" y="869" width="10" height="36" />
 </g>
 <g>
-	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="810" y="487" width="10" height="24" />
+	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="475" y="1107" width="10" height="112" />
 </g>
 <g>
-	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="311" y="777" width="10" height="58" />
+	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="810" y="1125" width="10" height="36" />
 </g>
 <g>
-	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="475" y="813" width="10" height="26" />
+	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="810" y="1152" width="10" height="36" />
 </g>
 <g>
-	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="810" y="825" width="10" height="24" />
+	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="810" y="1185" width="10" height="36" />
 </g>
 <g>
-	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="475" y="59" width="10" height="46" />
+	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="163" y="1263" width="10" height="49" />
 </g>
 <g>
-	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="311" y="868" width="10" height="24" />
+	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="311" y="1264" width="10" height="46" />
 </g>
 <g>
-	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="163" y="641" width="10" height="29" />
+	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="475" y="1273" width="10" height="79" />
 </g>
 <g>
-	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="311" y="641" width="10" height="24" />
+	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="663" y="1279" width="10" height="82" />
 </g>
 <g>
-	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="475" y="878" width="10" height="102" />
+	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="163" y="1423" width="10" height="79" />
 </g>
 <g>
-	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="810" y="894" width="10" height="24" />
+	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="311" y="1425" width="10" height="36" />
 </g>
 <g>
-	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="810" y="922" width="10" height="24" />
+	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="311" y="1469" width="10" height="82" />
 </g>
 <g>
-	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="810" y="945" width="10" height="24" />
+	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="475" y="1517" width="10" height="132" />
 </g>
 <g>
-	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="163" y="1033" width="10" height="39" />
+	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="810" y="1529" width="10" height="36" />
 </g>
 <g>
-	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="311" y="1033" width="10" height="24" />
+	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="810" y="1572" width="10" height="36" />
 </g>
 <g>
-	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="475" y="1045" width="10" height="53" />
+	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="810" y="1612" width="10" height="36" />
 </g>
 <g>
-	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="663" y="1050" width="10" height="70" />
+	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="163" y="782" width="10" height="24" />
 </g>
 <g>
-	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="163" y="1196" width="10" height="55" />
+	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="951" y="718" width="10" height="24" />
 </g>
 <g>
-	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="311" y="1196" width="10" height="24" />
+	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="163" y="209" width="10" height="216" />
 </g>
 <g>
-	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="311" y="1241" width="10" height="55" />
+	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="311" y="209" width="10" height="216" />
 </g>
 <g>
-	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="475" y="1286" width="10" height="114" />
+	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="311" y="49" width="10" height="89" />
 </g>
 <g>
-	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="810" y="1299" width="10" height="24" />
+	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="475" y="49" width="10" height="56" />
 </g>
 <g>
-	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="810" y="1343" width="10" height="24" />
+	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="663" y="57" width="10" height="66" />
 </g>
 <g>
-	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="810" y="1384" width="10" height="24" />
+	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="475" y="88" width="10" height="49" />
 </g>
 <g>
-	<line stroke="black" stroke-opacity="1" x1="174" y1="226" x2="311" y2="226" />
-	<polygon fill="#000000" stroke="none" points="311,226 307,222 307,230" />
+	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="475" y="229" width="10" height="189" />
 </g>
 <g>
-	<line stroke="black" stroke-opacity="1" x1="486" y1="76" x2="663" y2="76" />
-	<polygon fill="#000000" stroke="none" points="663,76 659,72 659,80" />
+	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="810" y="235" width="10" height="36" />
+</g>
+<g>
+	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="163" y="494" width="10" height="49" />
+</g>
+<g>
+	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="311" y="495" width="10" height="297" />
+</g>
+<g>
+	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="475" y="597" width="10" height="182" />
+</g>
+<g>
+	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="810" y="609" width="10" height="36" />
+</g>
+<g>
+	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="951" y="312" width="10" height="36" />
 </g>
 <g>
 	<line stroke="black" stroke-opacity="1" x1="322" y1="65" x2="475" y2="65" />
 	<polygon fill="#000000" stroke="none" points="475,65 471,61 471,69" />
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" x1="486" y1="76" x2="663" y2="76" />
+	<polygon fill="#000000" stroke="none" points="663,76 659,72 659,80" />
 </g>
 <g>
 	<line stroke="black" stroke-opacity="1" stroke-dasharray="4,4" x1="486" y1="106" x2="663" y2="106" />
@@ -221,244 +267,274 @@
 	<path fill="none" stroke="black" stroke-opacity="1" d="M 326 116 L 322 120 L 326 124" />
 </g>
 <g>
-	<line stroke="black" stroke-opacity="1" x1="322" y1="243" x2="475" y2="243" />
-	<polygon fill="#000000" stroke="none" points="475,243 471,239 471,247" />
+	<line stroke="black" stroke-opacity="1" x1="322" y1="247" x2="475" y2="247" />
+	<polygon fill="#000000" stroke="none" points="475,247 471,243 471,251" />
 </g>
 <g>
-	<line stroke="black" stroke-opacity="1" x1="486" y1="251" x2="810" y2="251" />
-	<polygon fill="#000000" stroke="none" points="810,251 806,247 806,255" />
+	<line stroke="black" stroke-opacity="1" x1="486" y1="254" x2="810" y2="254" />
+	<polygon fill="#000000" stroke="none" points="810,254 806,250 806,258" />
 </g>
 <g>
-	<line stroke="black" stroke-opacity="1" x1="174" y1="379" x2="311" y2="379" />
-	<polygon fill="#000000" stroke="none" points="311,379 307,375 307,383" />
+	<line stroke="black" stroke-opacity="1" x1="174" y1="512" x2="311" y2="512" />
+	<polygon fill="#000000" stroke="none" points="311,512 307,508 307,516" />
 </g>
 <g>
-	<line stroke="black" stroke-opacity="1" x1="486" y1="492" x2="810" y2="492" />
-	<polygon fill="#000000" stroke="none" points="810,492 806,488 806,496" />
+	<line stroke="black" stroke-opacity="1" x1="486" y1="627" x2="810" y2="627" />
+	<polygon fill="#000000" stroke="none" points="810,627 806,623 806,631" />
 </g>
 <g>
-	<line stroke="black" stroke-opacity="1" x1="174" y1="783" x2="311" y2="783" />
-	<polygon fill="#000000" stroke="none" points="311,783 307,779 307,787" />
+	<line stroke="black" stroke-opacity="1" x1="174" y1="1023" x2="311" y2="1023" />
+	<polygon fill="#000000" stroke="none" points="311,1023 307,1019 307,1027" />
 </g>
 <g>
-	<line stroke="black" stroke-opacity="1" x1="322" y1="820" x2="475" y2="820" />
-	<polygon fill="#000000" stroke="none" points="475,820 471,816 471,824" />
+	<line stroke="black" stroke-opacity="1" x1="322" y1="1060" x2="475" y2="1060" />
+	<polygon fill="#000000" stroke="none" points="475,1060 471,1056 471,1064" />
 </g>
 <g>
-	<line stroke="black" stroke-opacity="1" x1="486" y1="830" x2="810" y2="830" />
-	<polygon fill="#000000" stroke="none" points="810,830 806,826 806,834" />
+	<line stroke="black" stroke-opacity="1" x1="174" y1="408" x2="311" y2="408" />
+	<polygon fill="#000000" stroke="none" points="174,408 178,404 178,412" />
 </g>
 <g>
-	<line stroke="black" stroke-opacity="1" x1="174" y1="646" x2="311" y2="646" />
-	<polygon fill="#000000" stroke="none" points="311,646 307,642 307,650" />
+	<line stroke="black" stroke-opacity="1" x1="174" y1="226" x2="311" y2="226" />
+	<polygon fill="#000000" stroke="none" points="311,226 307,222 307,230" />
 </g>
 <g>
-	<line stroke="black" stroke-opacity="1" x1="322" y1="886" x2="475" y2="886" />
-	<polygon fill="#000000" stroke="none" points="475,886 471,882 471,890" />
+	<line stroke="black" stroke-opacity="1" x1="486" y1="1070" x2="810" y2="1070" />
+	<polygon fill="#000000" stroke="none" points="810,1070 806,1066 806,1074" />
 </g>
 <g>
-	<line stroke="black" stroke-opacity="1" x1="486" y1="904" x2="810" y2="904" />
-	<polygon fill="#000000" stroke="none" points="810,904 806,900 806,908" />
+	<line stroke="black" stroke-opacity="1" x1="174" y1="887" x2="311" y2="887" />
+	<polygon fill="#000000" stroke="none" points="311,887 307,883 307,891" />
 </g>
 <g>
-	<line stroke="black" stroke-opacity="1" x1="486" y1="930" x2="810" y2="930" />
-	<polygon fill="#000000" stroke="none" points="810,930 806,926 806,934" />
+	<line stroke="black" stroke-opacity="1" x1="322" y1="1127" x2="475" y2="1127" />
+	<polygon fill="#000000" stroke="none" points="475,1127 471,1123 471,1131" />
 </g>
 <g>
-	<line stroke="black" stroke-opacity="1" x1="486" y1="961" x2="810" y2="961" />
-	<polygon fill="#000000" stroke="none" points="810,961 806,957 806,965" />
+	<line stroke="black" stroke-opacity="1" x1="486" y1="1143" x2="810" y2="1143" />
+	<polygon fill="#000000" stroke="none" points="810,1143 806,1139 806,1147" />
 </g>
 <g>
-	<line stroke="black" stroke-opacity="1" x1="174" y1="1038" x2="311" y2="1038" />
-	<polygon fill="#000000" stroke="none" points="311,1038 307,1034 307,1042" />
+	<line stroke="black" stroke-opacity="1" x1="486" y1="1170" x2="810" y2="1170" />
+	<polygon fill="#000000" stroke="none" points="810,1170 806,1166 806,1174" />
 </g>
 <g>
-	<line stroke="black" stroke-opacity="1" x1="322" y1="1050" x2="475" y2="1050" />
-	<polygon fill="#000000" stroke="none" points="475,1050 471,1046 471,1054" />
+	<line stroke="black" stroke-opacity="1" x1="486" y1="1203" x2="810" y2="1203" />
+	<polygon fill="#000000" stroke="none" points="810,1203 806,1199 806,1207" />
 </g>
 <g>
-	<line stroke="black" stroke-opacity="1" x1="486" y1="1057" x2="663" y2="1057" />
-	<polygon fill="#000000" stroke="none" points="663,1057 659,1053 659,1061" />
+	<line stroke="black" stroke-opacity="1" x1="174" y1="1280" x2="311" y2="1280" />
+	<polygon fill="#000000" stroke="none" points="311,1280 307,1276 307,1284" />
 </g>
 <g>
-	<line stroke="black" stroke-opacity="1" x1="174" y1="1201" x2="311" y2="1201" />
-	<polygon fill="#000000" stroke="none" points="311,1201 307,1197 307,1205" />
+	<line stroke="black" stroke-opacity="1" x1="322" y1="1290" x2="475" y2="1290" />
+	<polygon fill="#000000" stroke="none" points="475,1290 471,1286 471,1294" />
 </g>
 <g>
-	<line stroke="black" stroke-opacity="1" x1="174" y1="1246" x2="311" y2="1246" />
-	<polygon fill="#000000" stroke="none" points="311,1246 307,1242 307,1250" />
+	<line stroke="black" stroke-opacity="1" x1="486" y1="1297" x2="663" y2="1297" />
+	<polygon fill="#000000" stroke="none" points="663,1297 659,1293 659,1301" />
 </g>
 <g>
-	<line stroke="black" stroke-opacity="1" x1="322" y1="1291" x2="475" y2="1291" />
-	<polygon fill="#000000" stroke="none" points="475,1291 471,1287 471,1295" />
+	<line stroke="black" stroke-opacity="1" x1="174" y1="1443" x2="311" y2="1443" />
+	<polygon fill="#000000" stroke="none" points="311,1443 307,1439 307,1447" />
 </g>
 <g>
-	<line stroke="black" stroke-opacity="1" x1="486" y1="1306" x2="810" y2="1306" />
-	<polygon fill="#000000" stroke="none" points="810,1306 806,1302 806,1310" />
+	<line stroke="black" stroke-opacity="1" x1="174" y1="1487" x2="311" y2="1487" />
+	<polygon fill="#000000" stroke="none" points="311,1487 307,1483 307,1491" />
 </g>
 <g>
-	<line stroke="black" stroke-opacity="1" x1="486" y1="1349" x2="810" y2="1349" />
-	<polygon fill="#000000" stroke="none" points="810,1349 806,1345 806,1353" />
+	<line stroke="black" stroke-opacity="1" x1="322" y1="1533" x2="475" y2="1533" />
+	<polygon fill="#000000" stroke="none" points="475,1533 471,1529 471,1537" />
 </g>
 <g>
-	<line stroke="black" stroke-opacity="1" x1="486" y1="1389" x2="810" y2="1389" />
-	<polygon fill="#000000" stroke="none" points="810,1389 806,1385 806,1393" />
+	<line stroke="black" stroke-opacity="1" x1="486" y1="1547" x2="810" y2="1547" />
+	<polygon fill="#000000" stroke="none" points="810,1547 806,1543 806,1551" />
 </g>
 <g>
-	<line stroke="black" stroke-opacity="1" x1="174" y1="259" x2="311" y2="259" />
-	<polygon fill="#000000" stroke="none" points="174,259 178,255 178,263" />
-</g>
-	<text font-family="MS Shell Dlg" font-size="12" fill="#000000" xml:space="preserve" x="359" y="499">: AgendaAgent x</text>
-	<text font-family="MS Shell Dlg" font-size="12" fill="#000000" xml:space="preserve" x="553" y="272">: AgendaAgent x</text>
-	<text font-family="MS Shell Dlg" font-size="12" fill="#000000" xml:space="preserve" x="609" y="849">: listeAgentsDispos</text>
-	<text font-family="MS Shell Dlg" font-size="12" fill="#000000" xml:space="preserve" x="564" y="513">: AgendaAgent x</text>
-<g>
-	<line stroke="black" stroke-opacity="1" x1="174" y1="878" x2="311" y2="878" />
-	<polygon fill="#000000" stroke="none" points="311,878 307,874 307,882" />
-</g>
-	<text font-family="MS Shell Dlg" font-size="12" fill="#000000" xml:space="preserve" x="357" y="265">: AgendaAgent x</text>
-<g>
-	<line stroke="black" stroke-opacity="1" x1="174" y1="812" x2="311" y2="812" />
-	<polygon fill="#000000" stroke="none" points="311,812 307,808 307,816" />
-</g>
-	<text font-family="MS Shell Dlg" font-size="12" fill="#000000" xml:space="preserve" x="346" y="839">: listeAgentsDispos</text>
-<g>
-	<line stroke="black" stroke-opacity="1" x1="486" y1="1092" x2="663" y2="1092" />
-	<polygon fill="#000000" stroke="none" points="663,1092 659,1088 659,1096" />
+	<line stroke="black" stroke-opacity="1" x1="486" y1="1590" x2="810" y2="1590" />
+	<polygon fill="#000000" stroke="none" points="810,1590 806,1586 806,1594" />
 </g>
 <g>
-	<text font-family="MS Shell Dlg" font-size="12" fill="#000000" xml:space="preserve" x="38" y="806">SélectionnerPlageLibre   (Date début, Date fin)</text>
+	<line stroke="black" stroke-opacity="1" stroke-dasharray="4,4" x1="322" y1="657" x2="475" y2="657" />
+	<path fill="none" stroke="black" stroke-opacity="1" d="M 326 653 L 322 657 L 326 661" />
 </g>
 <g>
-	<text font-family="MS Shell Dlg" font-size="12" fill="#000000" xml:space="preserve" x="95" y="205">ConsulterVueAutreAgent (Agent x, Date début, Date fin)</text>
+	<line stroke="black" stroke-opacity="1" x1="486" y1="1630" x2="810" y2="1630" />
+	<polygon fill="#000000" stroke="none" points="810,1630 806,1626 806,1634" />
 </g>
 <g>
-	<text font-family="MS Shell Dlg" font-size="12" fill="#000000" xml:space="preserve" x="360" y="56">ListeAgents</text>
+	<line stroke="black" stroke-opacity="1" x1="174" y1="788" x2="311" y2="788" />
+	<polygon fill="#000000" stroke="none" points="174,788 178,784 178,792" />
 </g>
 <g>
-	<text font-family="MS Shell Dlg" font-size="12" fill="#000000" xml:space="preserve" x="510" y="67">ChercherListeAgent</text>
+	<line stroke="black" stroke-opacity="1" stroke-dasharray="4,4" x1="322" y1="399" x2="475" y2="399" />
+	<path fill="none" stroke="black" stroke-opacity="1" d="M 326 395 L 322 399 L 326 403" />
 </g>
 <g>
-	<text font-family="MS Shell Dlg" font-size="12" fill="#000000" xml:space="preserve" x="541" y="131">&lt;&lt;list&gt;&gt;</text>
+	<line stroke="black" stroke-opacity="1" x1="486" y1="330" x2="951" y2="330" />
+	<polygon fill="#000000" stroke="none" points="951,330 947,326 947,334" />
 </g>
 <g>
-	<text font-family="MS Shell Dlg" font-size="12" fill="#000000" xml:space="preserve" x="551" y="97">agents</text>
+	<line stroke="black" stroke-opacity="1" x1="486" y1="723" x2="951" y2="723" />
+	<polygon fill="#000000" stroke="none" points="951,723 947,719 947,727" />
 </g>
 <g>
-	<text font-family="MS Shell Dlg" font-size="12" fill="#000000" xml:space="preserve" x="366" y="145">&lt;&lt;list&gt;&gt;</text>
+	<line stroke="black" stroke-opacity="1" stroke-dasharray="4,4" x1="322" y1="773" x2="475" y2="773" />
+	<path fill="none" stroke="black" stroke-opacity="1" d="M 326 769 L 322 773 L 326 777" />
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" x1="174" y1="1053" x2="311" y2="1053" />
+	<polygon fill="#000000" stroke="none" points="311,1053 307,1049 307,1057" />
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" x1="174" y1="1120" x2="311" y2="1120" />
+	<polygon fill="#000000" stroke="none" points="311,1120 307,1116 307,1124" />
+</g>
+	<text font-family="MS Shell Dlg" font-size="12" fill="#000000" xml:space="preserve" x="555" y="279">: AgendaAgent x</text>
+	<text font-family="MS Shell Dlg" font-size="12" fill="#000000" xml:space="preserve" x="683" y="745">: Client c</text>
+	<text font-family="MS Shell Dlg" font-size="12" fill="#000000" xml:space="preserve" x="692" y="355">: Client c</text>
+	<text font-family="MS Shell Dlg" font-size="12" fill="#000000" xml:space="preserve" x="562" y="645">: AgendaAgent x</text>
+	<text font-family="MS Shell Dlg" font-size="12" fill="#000000" xml:space="preserve" x="345" y="1078">: listeAgentsDispos</text>
+	<text font-family="MS Shell Dlg" font-size="12" fill="#000000" xml:space="preserve" x="606" y="1088">: listeAgentsDispos</text>
+<g>
+	<line stroke="black" stroke-opacity="1" x1="486" y1="1333" x2="663" y2="1333" />
+	<polygon fill="#000000" stroke="none" points="663,1333 659,1329 659,1337" />
+</g>
+<g>
+	<text font-family="MS Shell Dlg" font-size="12" fill="#000000" xml:space="preserve" x="641" y="323">InfosClient  (rdv.NumClient)</text>
+</g>
+<g>
+	<text font-family="MS Shell Dlg" font-size="12" fill="#000000" xml:space="preserve" x="547" y="1063">AgentsDispos (Date début, Date fin)</text>
+</g>
+<g>
+	<text font-family="MS Shell Dlg" font-size="12" fill="#000000" xml:space="preserve" x="327" y="1049">ListeAgentsDipos (Date début, Date fin)</text>
+</g>
+<g>
+	<text font-family="MS Shell Dlg" font-size="12" fill="#000000" xml:space="preserve" x="368" y="766">listeClients</text>
+</g>
+<g>
+	<text font-family="MS Shell Dlg" font-size="12" fill="#000000" xml:space="preserve" x="591" y="617">AgendaAgent (Agent x, Date d)</text>
+</g>
+<g>
+	<text font-family="MS Shell Dlg" font-size="12" fill="#000000" xml:space="preserve" x="323" y="1279">AnnulerRDV (RDV rdv)</text>
+</g>
+<g>
+	<text font-family="MS Shell Dlg" font-size="12" fill="#000000" xml:space="preserve" x="496" y="1279">AffecterActivité (&quot;Libre&quot;, rdv.agent, rdv.debut, rdv.fin)</text>
+</g>
+<g>
+	<text font-family="MS Shell Dlg" font-size="12" fill="#000000" xml:space="preserve" x="510" y="1323">SupprimerRDV (rdv)</text>
+</g>
+<g>
+	<text font-family="MS Shell Dlg" font-size="12" fill="#000000" xml:space="preserve" x="192" y="1433">ModifierDate</text>
+</g>
+<g>
+	<text font-family="MS Shell Dlg" font-size="12" fill="#000000" xml:space="preserve" x="179" y="1476">SélectionnerPlageLibre (Date début, Date fin)</text>
+</g>
+<g>
+	<text font-family="MS Shell Dlg" font-size="12" fill="#000000" xml:space="preserve" x="328" y="1516">ModifierDateRDV (RDV rdv, Date début, Date fin)</text>
+</g>
+<g>
+	<text font-family="MS Shell Dlg" font-size="12" fill="#000000" xml:space="preserve" x="502" y="1159">AffecterActivité (&quot;Libre&quot;, rdv.agent, rdv.debut, rdv.fin)</text>
+</g>
+<g>
+	<text font-family="MS Shell Dlg" font-size="12" fill="#000000" xml:space="preserve" x="194" y="780">VueQuotidienne</text>
+</g>
+<g>
+	<text font-family="MS Shell Dlg" font-size="12" fill="#000000" xml:space="preserve" x="496" y="1536">AffecterActivité (&quot;Contact commercial&quot;, AgentX, debut, fin)</text>
+</g>
+<g>
+	<text font-family="MS Shell Dlg" font-size="12" fill="#000000" xml:space="preserve" x="492" y="1579">AffecterActivité (&quot;Libre&quot;, AgentX, rdv.debut, rdv.fin)</text>
+</g>
+<g>
+	<text font-family="MS Shell Dlg" font-size="12" fill="#000000" xml:space="preserve" x="537" y="1619">ModifierHoraire (rdv, debut, fin)</text>
+</g>
+<g>
+	<text font-family="MS Shell Dlg" font-size="12" fill="#000000" xml:space="preserve" x="186" y="879">SélectionnerRDV</text>
+</g>
+<g>
+	<text font-family="MS Shell Dlg" font-size="12" fill="#000000" xml:space="preserve" x="543" y="247">AgendaAgent (Agent x, Date début, Date fin)</text>
+</g>
+<g>
+	<text font-family="MS Shell Dlg" font-size="12" fill="#000000" xml:space="preserve" x="170" y="1269">AnnulerRDV (RDV rdv)</text>
+</g>
+<g>
+	<text font-family="MS Shell Dlg" font-size="12" fill="#000000" xml:space="preserve" x="192" y="1016">RéaffecterRDV</text>
 </g>
 <g>
 	<text font-family="MS Shell Dlg" font-size="12" fill="#000000" xml:space="preserve" x="376" y="111">agents</text>
 </g>
 <g>
-	<text font-family="MS Shell Dlg" font-size="12" fill="#000000" xml:space="preserve" x="325" y="225">RécupérerAgendaAgent (Agent x, Date début, Date fin)</text>
+	<text font-family="MS Shell Dlg" font-size="12" fill="#000000" xml:space="preserve" x="197" y="400">VueAutreAgent</text>
 </g>
 <g>
-	<text font-family="MS Shell Dlg" font-size="12" fill="#000000" xml:space="preserve" x="543" y="244">AgendaAgent (Agent x, Date début, Date fin)</text>
+	<text font-family="MS Shell Dlg" font-size="12" fill="#000000" xml:space="preserve" x="551" y="97">agents</text>
 </g>
 <g>
-	<text font-family="MS Shell Dlg" font-size="12" fill="#000000" xml:space="preserve" x="168" y="360">ConsulterVueQuotidienne</text>
+	<text font-family="MS Shell Dlg" font-size="12" fill="#000000" xml:space="preserve" x="510" y="67">ChercherListeAgent</text>
 </g>
 <g>
-	<text font-family="MS Shell Dlg" font-size="12" fill="#000000" xml:space="preserve" x="324" y="461">RécupérerAgendaAgent (Agent x, Date d)</text>
+	<text font-family="MS Shell Dlg" font-size="12" fill="#000000" xml:space="preserve" x="360" y="56">ListeAgents</text>
 </g>
 <g>
-	<text font-family="MS Shell Dlg" font-size="12" fill="#000000" xml:space="preserve" x="593" y="482">AgendaAgent (Agent x, Date d)</text>
+	<text font-family="MS Shell Dlg" font-size="12" fill="#000000" xml:space="preserve" x="541" y="131">&lt;&lt;list&gt;&gt;</text>
 </g>
 <g>
-	<text font-family="MS Shell Dlg" font-size="12" fill="#000000" xml:space="preserve" x="192" y="774">RéaffecterRDV</text>
+	<text font-family="MS Shell Dlg" font-size="12" fill="#000000" xml:space="preserve" x="354" y="649">AgendaAgent x</text>
 </g>
 <g>
-	<text font-family="MS Shell Dlg" font-size="12" fill="#000000" xml:space="preserve" x="329" y="808">ListeAgentsDipos (Date début, Date fin)</text>
+	<text font-family="MS Shell Dlg" font-size="12" fill="#000000" xml:space="preserve" x="36" y="1046">SélectionnerPlageLibre   (Date début, Date fin)</text>
 </g>
 <g>
-	<text font-family="MS Shell Dlg" font-size="12" fill="#000000" xml:space="preserve" x="547" y="822">AgentsDispos (Date début, Date fin)</text>
+	<text font-family="MS Shell Dlg" font-size="12" fill="#000000" xml:space="preserve" x="325" y="228">RécupérerAgendaAgent (Agent x, Date début, Date fin)</text>
 </g>
 <g>
-	<text font-family="MS Shell Dlg" font-size="12" fill="#000000" xml:space="preserve" x="200" y="871">ChoixAgent</text>
+	<text font-family="MS Shell Dlg" font-size="12" fill="#000000" xml:space="preserve" x="95" y="205">ConsulterVueAutreAgent (Agent x, Date début, Date fin)</text>
 </g>
 <g>
-	<text font-family="MS Shell Dlg" font-size="12" fill="#000000" xml:space="preserve" x="189" y="637">SélectionnerRDV</text>
+	<text font-family="MS Shell Dlg" font-size="12" fill="#000000" xml:space="preserve" x="366" y="145">&lt;&lt;list&gt;&gt;</text>
 </g>
 <g>
-	<text font-family="MS Shell Dlg" font-size="12" fill="#000000" xml:space="preserve" x="323" y="867">Réaffectation (RDV rdv, Agent nouveau)</text>
+	<text font-family="MS Shell Dlg" font-size="12" fill="#000000" xml:space="preserve" x="200" y="1109">ChoixAgent</text>
 </g>
 <g>
-	<text font-family="MS Shell Dlg" font-size="12" fill="#000000" xml:space="preserve" x="499" y="889">AffecterActivité (&quot;Contact commercial&quot;, Agent nouveau, debut, fin)</text>
+	<text font-family="MS Shell Dlg" font-size="12" fill="#000000" xml:space="preserve" x="497" y="1129">AffecterActivité (&quot;Contact commercial&quot;, Agent nouveau, debut, fin)</text>
 </g>
 <g>
-	<text font-family="MS Shell Dlg" font-size="12" fill="#000000" xml:space="preserve" x="503" y="921">AffecterActivité (&quot;Libre&quot;, rdv.agent, rdv.debut, rdv.fin)</text>
+	<text font-family="MS Shell Dlg" font-size="12" fill="#000000" xml:space="preserve" x="563" y="1193">ReaffRDV (rdv, nouveau)</text>
 </g>
 <g>
-	<text font-family="MS Shell Dlg" font-size="12" fill="#000000" xml:space="preserve" x="566" y="952">ReaffRDV (rdv, nouveau)</text>
+	<text font-family="MS Shell Dlg" font-size="12" fill="#000000" xml:space="preserve" x="322" y="1109">Réaffectation (RDV rdv, Agent nouveau)</text>
 </g>
 <g>
-	<text font-family="MS Shell Dlg" font-size="12" fill="#000000" xml:space="preserve" x="170" y="1029">AnnulerRDV (RDV rdv)</text>
+	<text font-family="MS Shell Dlg" font-size="12" fill="#000000" xml:space="preserve" x="323" y="596">RécupérerAgendaAgent (Agent x, Date d)</text>
 </g>
 <g>
-	<text font-family="MS Shell Dlg" font-size="12" fill="#000000" xml:space="preserve" x="325" y="1041">AnnulerRDV (RDV rdv)</text>
+	<text font-family="MS Shell Dlg" font-size="12" fill="#000000" xml:space="preserve" x="642" y="716">InfosClient  (rdv.numClient)</text>
 </g>
 <g>
-	<text font-family="MS Shell Dlg" font-size="12" fill="#000000" xml:space="preserve" x="497" y="1041">AffecterActivité (&quot;Libre&quot;, rdv.agent, rdv.debut, rdv.fin)</text>
+	<text font-family="MS Shell Dlg" font-size="12" fill="#000000" xml:space="preserve" x="167" y="493">ConsulterVueQuotidienne</text>
 </g>
 <g>
-	<text font-family="MS Shell Dlg" font-size="12" fill="#000000" xml:space="preserve" x="512" y="1083">SupprimerRDV (rdv)</text>
+	<text font-family="MS Shell Dlg" font-size="12" fill="#000000" xml:space="preserve" x="279" y="392">AgendaAgent x, listeClients</text>
 </g>
 <g>
-	<text font-family="MS Shell Dlg" font-size="12" fill="#000000" xml:space="preserve" x="193" y="1192">ModifierDate</text>
+	<line stroke="black" stroke-opacity="1" x1="322" y1="614" x2="475" y2="614" />
+	<polygon fill="#000000" stroke="none" points="475,614 471,610 471,618" />
 </g>
 <g>
-	<text font-family="MS Shell Dlg" font-size="12" fill="#000000" xml:space="preserve" x="181" y="1234">SélectionnerPlageLibre (Date début, Date fin)</text>
+	<polygon fill="#ffffff" stroke="black" stroke-opacity="1" points="19,966 261,966 261,977 249,989 19,989 19,966" />
+	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="19" y="966" width="836" height="263" />
+	<text font-family="MS Shell Dlg" font-size="12" fill="#000000" xml:space="preserve" text-anchor="middle" x="134" y="984">réaffecter RDV à un autre agent dispo</text>
+	<line stroke="black" stroke-opacity="1" x1="19" y1="989" x2="249" y2="989" />
+	<line stroke="black" stroke-opacity="1" x1="249" y1="989" x2="261" y2="977" />
+	<line stroke="black" stroke-opacity="1" x1="261" y1="977" x2="261" y2="966" />
 </g>
 <g>
-	<text font-family="MS Shell Dlg" font-size="12" fill="#000000" xml:space="preserve" x="329" y="1274">ModifierDateRDV (RDV rdv, Date début, Date fin)</text>
-</g>
-<g>
-	<text font-family="MS Shell Dlg" font-size="12" fill="#000000" xml:space="preserve" x="497" y="1294">AffecterActivité (&quot;Contact commercial&quot;, AgentX, debut, fin)</text>
-</g>
-<g>
-	<text font-family="MS Shell Dlg" font-size="12" fill="#000000" xml:space="preserve" x="493" y="1337">AffecterActivité (&quot;Libre&quot;, AgentX, rdv.debut, rdv.fin)</text>
-</g>
-<g>
-	<text font-family="MS Shell Dlg" font-size="12" fill="#000000" xml:space="preserve" x="537" y="1380">ModifierHoraire (rdv, debut, fin)</text>
-</g>
-<g>
-	<text font-family="MS Shell Dlg" font-size="12" fill="#000000" xml:space="preserve" x="197" y="251">VueAutreAgent</text>
-</g>
-<g>
-	<polygon fill="#ffffff" stroke="black" stroke-opacity="1" points="3,148 173,148 173,159 161,171 3,171 3,148" />
-	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="3" y="148" width="897" height="149" />
-	<text font-family="MS Shell Dlg" font-size="12" fill="#000000" xml:space="preserve" text-anchor="middle" x="82" y="166">Consulter vue autre agent</text>
-	<line stroke="black" stroke-opacity="1" x1="3" y1="171" x2="161" y2="171" />
-	<line stroke="black" stroke-opacity="1" x1="161" y1="171" x2="173" y2="159" />
-	<line stroke="black" stroke-opacity="1" x1="173" y1="159" x2="173" y2="148" />
-</g>
-<g>
-	<polygon fill="#ffffff" stroke="black" stroke-opacity="1" points="22,725 264,725 264,736 252,748 22,748 22,725" />
-	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="22" y="725" width="836" height="263" />
-	<text font-family="MS Shell Dlg" font-size="12" fill="#000000" xml:space="preserve" text-anchor="middle" x="137" y="743">réaffecter RDV à un autre agent dispo</text>
-	<line stroke="black" stroke-opacity="1" x1="22" y1="748" x2="252" y2="748" />
-	<line stroke="black" stroke-opacity="1" x1="252" y1="748" x2="264" y2="736" />
-	<line stroke="black" stroke-opacity="1" x1="264" y1="736" x2="264" y2="725" />
-</g>
-<g>
-	<polygon fill="#ffffff" stroke="black" stroke-opacity="1" points="24,1150 227,1150 227,1161 215,1173 24,1173 24,1150" />
-	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="24" y="1150" width="841" height="291" />
-	<text font-family="MS Shell Dlg" font-size="12" fill="#000000" xml:space="preserve" text-anchor="middle" x="120" y="1168">Modification date/horraire RDV</text>
-	<line stroke="black" stroke-opacity="1" x1="24" y1="1173" x2="215" y2="1173" />
-	<line stroke="black" stroke-opacity="1" x1="215" y1="1173" x2="227" y2="1161" />
-	<line stroke="black" stroke-opacity="1" x1="227" y1="1161" x2="227" y2="1150" />
-</g>
-<g>
-	<line stroke="black" stroke-opacity="1" x1="322" y1="479" x2="475" y2="479" />
-	<polygon fill="#000000" stroke="none" points="475,479 471,475 471,483" />
-</g>
-<g>
-	<polygon fill="#ffffff" stroke="black" stroke-opacity="1" points="3,311 176,311 176,322 164,334 3,334 3,311" />
-	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="3" y="311" width="897" height="252" />
-	<text font-family="MS Shell Dlg" font-size="12" fill="#000000" xml:space="preserve" text-anchor="middle" x="84" y="329">Consulter vue quotidienne</text>
-	<line stroke="black" stroke-opacity="1" x1="3" y1="334" x2="164" y2="334" />
-	<line stroke="black" stroke-opacity="1" x1="164" y1="334" x2="176" y2="322" />
-	<line stroke="black" stroke-opacity="1" x1="176" y1="322" x2="176" y2="311" />
+	<polygon fill="#ffffff" stroke="black" stroke-opacity="1" points="23,1387 226,1387 226,1398 214,1410 23,1410 23,1387" />
+	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="23" y="1387" width="841" height="291" />
+	<text font-family="MS Shell Dlg" font-size="12" fill="#000000" xml:space="preserve" text-anchor="middle" x="119" y="1405">Modification date/horraire RDV</text>
+	<line stroke="black" stroke-opacity="1" x1="23" y1="1410" x2="214" y2="1410" />
+	<line stroke="black" stroke-opacity="1" x1="214" y1="1410" x2="226" y2="1398" />
+	<line stroke="black" stroke-opacity="1" x1="226" y1="1398" x2="226" y2="1387" />
 </g>
 </svg>
