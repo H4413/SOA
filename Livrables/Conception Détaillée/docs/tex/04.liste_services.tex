@@ -5,9 +5,119 @@
 \subsection{Fenêtre princale}
 
 
-\subsection{Fenêtre Client}
+\subsection{IHM Client}
 
+L'IHM Client va permettre de consulter les informations sur le Client.
+Elle est appelée à partir de recherche sur un client spécifique. Où à partir d'un lien vers un contact.
+
+\subsubsection{Client}
+\begin{itemize}
+\item MAJClient
+\item ConsulterDossierClient
+\end{itemize}
+
+\subsubsection{Adresse}
+\begin{itemize}
+\item ConsulterAdresseClient
+\item MAJAdresseClient
+\end{itemize}
+
+\subsubsection{Contact}
+\begin{itemize}
+\item SelectionnerContact
+\item AfficherContact
+\item CréerEvenement
+\end{itemize}
+
+\subsubsection{Offre}
+\begin{itemize}
+\item ChargerListeDocumentOffre
+\end{itemize}
 
 
 \subsection{Fenêtre Contact}
+
+L'IHM Contact va permettre à l'agent de préparer un compte-rendu de préparation
+d'entretien et rédiger le RAC.
+
+\subsubsection{Client}
+\begin{itemize}
+\item AfficherClient
+\end{itemize}
+
+\subsubsection{Contact}
+\begin{itemize}
+\item AfficherInformationCR
+\item EditerInformationCR
+\item SelectionnerOffres
+\item ConsulterRAC
+\item EditerRAC
+\end{itemize}
+
+\subsubsection{Offre}
+\begin{itemize}
+\item ConsulterOffres
+\end{itemize}
+
+\subsection{Fenêtre Evènements}
+L'IHM Évènements va permettre de consulter la liste des évènements arrivés
+durant la journée, de générer les motifs de contact correspondants puis les
+contacts prévus.\\
+
+À chaque étape (évènements, motifs de contact et contacts prévus), la liste
+des objets concernés est visible et chaque objet peut être :
+\begin{itemize}
+\item Visualisé en détail
+\item Édité
+\item Supprimé
+\end{itemize}
+
+\subsubsection{Évènement}
+\begin{itemize}
+\end{itemize}
+
+\subsubsection{Contact}
+\begin{itemize}
+\end{itemize}
+
+\subsection{Fenêtre Agenda}
+
+L'IHM Agenda permet à un agent de consulter son agenda, mais également
+celui des autres. En plus de la consultation, il est également possible
+de gérer (créer, annuler, déplacer, réaffecter) les rendez-vous des
+agents de l'agence.
+
+Deux vues sont possibles: une vue par semaine, pour un seul agent; ou
+une vue par jour, affichant tous les agents.
+
+Le chef d'agence peut accéder à un mode «planification» qui lui permet
+d'affecter des tâches à ses agents. Ce mode est disponible pour les
+deux types de vues.
+
+    \subsubsection{Agence}
+    
+        \begin{itemize}
+            \item Chercher liste Agents
+            \item Consulter Activités
+            \item Consulter temps par contact
+        \end{itemize}
+
+    \subsubsection{Agenda}
+
+        \begin{itemize}
+            \item Chercher Agenda Agent
+            \item Obtenir Agent dispo sur une période
+            \item Affecter Activité à un agent sur une plage
+            \item Modifier horaire RDV
+            \item Créer RDV
+            \item Obtenir temps libre pour un agent
+            \item Supprimer RDV
+        \end{itemize}
+
+    \subsubsection{Agent}
+
+        \begin{itemize}
+            \item Enregistrer nombre contacts possibles 
+        \end{itemize}
+
 
