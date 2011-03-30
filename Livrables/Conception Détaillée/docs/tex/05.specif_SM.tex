@@ -1,2 +1,53 @@
-\section{Spécification des Services Métiers}
+\section{Spécification des Services Métiers : IHM Client}
 
+\subsection{SM 18 Sélectionner Contact}
+
+\subsubsection{Entrées}
+idContact (identifiant du contact)
+\subsubsection{Sorties}
+idClient (identifiant du client)
+\subsubsection{SOM utilisés}
+SOM 16 Identifier Contact
+\subsubsection{Procédure}
+Chercher le client à partir du contact.
+
+\subsection{SM 19 Consulter Dossier Client}
+
+\subsubsection{Entrées}
+idClient (identifiant du client)
+\subsubsection{Sorties}
+DossierClient (idPersonne, bilan, produits, relation)
+\subsubsection{SOM utilisés}
+SOM 32 ConsulterProduits
+SOM 33 ConsulterBilan
+SOM 34 ConsulterRelation
+\subsubsection{Procédure}
+Consulter les produits, le bilan et les relations clients à partir de 
+l'identifiant du client.
+Appel au diagramme de séquence 10.
+
+\subsection{SM 20 MAJ Client}
+
+\subsubsection{Entrées}
+idClient, nouvellesInfos, nouvellesAdresses
+\subsubsection{Sorties}
+Aucune.
+\subsubsection{SOM utilisés}
+SOM 31 MAJClient
+SOM 36 MAJAdresse
+\subsubsection{Procédure}
+Mise à jour de la base de données client avec les infos passées en paramètre.
+Si nouvellesAdresses, mise à jour de l'Adresse.
+
+
+\subsection{SM 21 Consulter Offres}
+
+\subsubsection{Entrées}
+Aucune.
+\subsubsection{Sorties}
+listeOffres
+\subsubsection{SOM utilisés}
+SOM 43 ConsulterOffres
+\subsubsection{Procédure}
+Renvoie la liste de toutes les offres.
+Possibilité d'appliquer des filtres après.

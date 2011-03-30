@@ -1,1 +1,123 @@
 \section{Spécification des Services Objet Métier du bloc Client}
+
+\subsection{SOM 2 GetAgentHabituel}
+\subsubsection{Entrées}
+idContact
+\subsubsection{Sorties}
+idAgent, nomAgent
+\subsubsection{Services utilisés}
+SOM 5 GetNomAgent
+\subsubsection{Procédure}
+Trouve l'agent habituel grâce à l'id du contact et trouve le nom de l'agent à
+partir de l'id de l'Agent.
+
+\subsection{SOM 4 GetNomClient}
+\subsubsection{Entrées}
+idContact
+\subsubsection{Sorties}
+nomClient
+\subsubsection{Services utilisés}
+Aucun.
+\subsubsection{Procédure}
+Utilise idContact pour trouver idClient et le nom du Client.
+
+\subsection{SOM 5 GetNomAgent}
+\subsubsection{Entrées}
+idAgent
+\subsubsection{Sorties}
+nomAgent
+\subsubsection{Services utilisés}
+Aucun.
+\subsubsection{Procédure}
+Retrouve le nom de l'agent à partir de son id.
+
+\subsection{SOM 31 MAJClient}
+\subsubsection{Entrées}
+idClient, nouvellesInfos, nouvellesAdresses
+\subsubsection{Sorties}
+Aucune.
+\subsubsection{Services utilisés}
+SOM 36 MAJAdresse
+\subsubsection{Procédure}
+Met à jour les informations passées en paramètre.
+Si nouvellesAdresses, appelle MAJAdresse.
+
+\subsection{SOM 32 ConsulterProduits}
+\subsubsection{Entrées}
+idClient
+\subsubsection{Sorties}
+listeOffres
+\subsubsection{Services utilisés}
+SOM 44 ConsulterInfosProduits
+\subsubsection{Procédure}
+Renvoie les informations sur les offres concernant le client.
+
+\subsection{SOM 33 ConsulterBilan}
+\subsubsection{Entrées}
+idClient
+\subsubsection{Sorties}
+Bilan
+\subsubsection{Services utilisés}
+Aucun.
+\subsubsection{Procédure}
+Renvoie le bilan du client à partir de son ID.
+
+\subsection{SOM 34 ConsulterRelation}
+\subsubsection{Entrées}
+idClient
+\subsubsection{Sorties}
+listeRelations
+\subsubsection{Services utilisés}
+Aucun.
+\subsubsection{Procédure}
+Renvoie les relations du client à partir de son ID.
+
+\subsection{SOM 35 ListerClient}
+\subsubsection{Entrées}
+Aucun.
+\subsubsection{Sorties}
+liste (idClient, nomClient)
+\subsubsection{Services utilisés}
+Aucun.
+\subsubsection{Procédure}
+Renvoie tous les clients.
+
+\subsection{SOM 36 MAJAdresse}
+\subsubsection{Entrées}
+idClient, nouvelleAdresse
+\subsubsection{Sorties}
+Aucun.
+\subsubsection{Services utilisés}
+Aucun.
+\subsubsection{Procédure}
+Met à jour la ou les adresses du client.
+
+\subsection{SOM 37 ConsulterAdresse}
+\subsubsection{Entrées}
+idClient
+\subsubsection{Sorties}
+liste(adresse)
+\subsubsection{Services utilisés}
+Aucun.
+\subsubsection{Procédure}
+Renvoie les adresses du client.
+
+\subsection{SOM 44 ConulsterInfosProduit}
+\subsubsection{Entrées}
+liste (idOffres)
+\subsubsection{Sorties}
+liste (Offres)
+\subsubsection{Services utilisés}
+Aucun.
+\subsubsection{Procédure}
+Renvoie les informations sur les offres dont l'ID est donnée.
+
+\subsection{SOM 45 ChercherInformationsClient}
+\subsubsection{Entrées}
+idClient
+\subsubsection{Sorties}
+(nomClient, adresseClient, infosClient)
+\subsubsection{Services utilisés}
+SOM 37 ConsulterAdresse
+\subsubsection{Procédure}
+Renvoie les informations du client à partir de son ID.
