@@ -1,53 +1,53 @@
-\section{Spécification des Services Métiers : IHM Client}
+\section{SpÃ©cification des Services MÃ©tiers : IHM Client}
 
-\subsection{SM 18 Sélectionner Contact}
+\subsection{SM 18 SÃ©lectionner Contact}
 
-\subsubsection{Entrées}
+\subsubsection{EntrÃ©es}
 idContact (identifiant du contact)
 \subsubsection{Sorties}
 idClient (identifiant du client)
-\subsubsection{SOM utilisés}
+\subsubsection{SOM utilisÃ©s}
 SOM 16 Identifier Contact
-\subsubsection{Procédure}
-Chercher le client à partir du contact.
+\subsubsection{ProcÃ©dure}
+Chercher le client Ã  partir du contact.
 
 \subsection{SM 19 Consulter Dossier Client}
 
-\subsubsection{Entrées}
+\subsubsection{EntrÃ©es}
 idClient (identifiant du client)
 \subsubsection{Sorties}
 DossierClient (idPersonne, bilan, produits, relation)
-\subsubsection{SOM utilisés}
+\subsubsection{SOM utilisÃ©s}
 SOM 32 ConsulterProduits
 SOM 33 ConsulterBilan
 SOM 34 ConsulterRelation
-\subsubsection{Procédure}
-Consulter les produits, le bilan et les relations clients à partir de 
+\subsubsection{ProcÃ©dure}
+Consulter les produits, le bilan et les relations clients Ã  partir de 
 l'identifiant du client.
-Appel au diagramme de séquence 10.
+Appel au diagramme de sÃ©quence 10.
 
 \subsection{SM 20 MAJ Client}
 
-\subsubsection{Entrées}
+\subsubsection{EntrÃ©es}
 idClient, nouvellesInfos, nouvellesAdresses
 \subsubsection{Sorties}
 Aucune.
-\subsubsection{SOM utilisés}
+\subsubsection{SOM utilisÃ©s}
 SOM 31 MAJClient
 SOM 36 MAJAdresse
-\subsubsection{Procédure}
-Mise à jour de la base de données client avec les infos passées en paramètre.
-Si nouvellesAdresses, mise à jour de l'Adresse.
+\subsubsection{ProcÃ©dure}
+Mise Ã  jour de la base de donnÃ©es client avec les infos passÃ©es en paramÃ¨tre.
+Si nouvellesAdresses, mise Ã  jour de l'Adresse.
 
 
 \subsection{SM 21 Consulter Offres}
 
-\subsubsection{Entrées}
+\subsubsection{EntrÃ©es}
 Aucune.
 \subsubsection{Sorties}
 listeOffres
-\subsubsection{SOM utilisés}
+\subsubsection{SOM utilisÃ©s}
 SOM 43 ConsulterOffres
-\subsubsection{Procédure}
+\subsubsection{ProcÃ©dure}
 Renvoie la liste de toutes les offres.
-Possibilité d'appliquer des filtres après.
+PossibilitÃ© d'appliquer des filtres aprÃ¨s.

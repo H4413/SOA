@@ -1,123 +1,123 @@
-\section{SpÈcification des Services Objet MÈtier du bloc Client}
+\section{Sp√©cification des Services Objet M√©tier du bloc Client}
 
 \subsection{SOM 2 GetAgentHabituel}
-\subsubsection{EntrÈes}
+\subsubsection{Entr√©es}
 idContact
 \subsubsection{Sorties}
 idAgent, nomAgent
-\subsubsection{Services utilisÈs}
+\subsubsection{Services utilis√©s}
 SOM 5 GetNomAgent
-\subsubsection{ProcÈdure}
-Trouve l'agent habituel gr‚ce ‡ l'id du contact et trouve le nom de l'agent ‡
+\subsubsection{Proc√©dure}
+Trouve l'agent habituel gr√¢ce √† l'id du contact et trouve le nom de l'agent √†
 partir de l'id de l'Agent.
 
 \subsection{SOM 4 GetNomClient}
-\subsubsection{EntrÈes}
+\subsubsection{Entr√©es}
 idContact
 \subsubsection{Sorties}
 nomClient
-\subsubsection{Services utilisÈs}
+\subsubsection{Services utilis√©s}
 Aucun.
-\subsubsection{ProcÈdure}
+\subsubsection{Proc√©dure}
 Utilise idContact pour trouver idClient et le nom du Client.
 
 \subsection{SOM 5 GetNomAgent}
-\subsubsection{EntrÈes}
+\subsubsection{Entr√©es}
 idAgent
 \subsubsection{Sorties}
 nomAgent
-\subsubsection{Services utilisÈs}
+\subsubsection{Services utilis√©s}
 Aucun.
-\subsubsection{ProcÈdure}
-Retrouve le nom de l'agent ‡ partir de son id.
+\subsubsection{Proc√©dure}
+Retrouve le nom de l'agent √† partir de son id.
 
 \subsection{SOM 31 MAJClient}
-\subsubsection{EntrÈes}
+\subsubsection{Entr√©es}
 idClient, nouvellesInfos, nouvellesAdresses
 \subsubsection{Sorties}
 Aucune.
-\subsubsection{Services utilisÈs}
+\subsubsection{Services utilis√©s}
 SOM 36 MAJAdresse
-\subsubsection{ProcÈdure}
-Met ‡ jour les informations passÈes en paramËtre.
+\subsubsection{Proc√©dure}
+Met √† jour les informations pass√©es en param√®tre.
 Si nouvellesAdresses, appelle MAJAdresse.
 
 \subsection{SOM 32 ConsulterProduits}
-\subsubsection{EntrÈes}
+\subsubsection{Entr√©es}
 idClient
 \subsubsection{Sorties}
 listeOffres
-\subsubsection{Services utilisÈs}
+\subsubsection{Services utilis√©s}
 SOM 44 ConsulterInfosProduits
-\subsubsection{ProcÈdure}
+\subsubsection{Proc√©dure}
 Renvoie les informations sur les offres concernant le client.
 
 \subsection{SOM 33 ConsulterBilan}
-\subsubsection{EntrÈes}
+\subsubsection{Entr√©es}
 idClient
 \subsubsection{Sorties}
 Bilan
-\subsubsection{Services utilisÈs}
+\subsubsection{Services utilis√©s}
 Aucun.
-\subsubsection{ProcÈdure}
-Renvoie le bilan du client ‡ partir de son ID.
+\subsubsection{Proc√©dure}
+Renvoie le bilan du client √† partir de son ID.
 
 \subsection{SOM 34 ConsulterRelation}
-\subsubsection{EntrÈes}
+\subsubsection{Entr√©es}
 idClient
 \subsubsection{Sorties}
 listeRelations
-\subsubsection{Services utilisÈs}
+\subsubsection{Services utilis√©s}
 Aucun.
-\subsubsection{ProcÈdure}
-Renvoie les relations du client ‡ partir de son ID.
+\subsubsection{Proc√©dure}
+Renvoie les relations du client √† partir de son ID.
 
 \subsection{SOM 35 ListerClient}
-\subsubsection{EntrÈes}
+\subsubsection{Entr√©es}
 Aucun.
 \subsubsection{Sorties}
 liste (idClient, nomClient)
-\subsubsection{Services utilisÈs}
+\subsubsection{Services utilis√©s}
 Aucun.
-\subsubsection{ProcÈdure}
+\subsubsection{Proc√©dure}
 Renvoie tous les clients.
 
 \subsection{SOM 36 MAJAdresse}
-\subsubsection{EntrÈes}
+\subsubsection{Entr√©es}
 idClient, nouvelleAdresse
 \subsubsection{Sorties}
 Aucun.
-\subsubsection{Services utilisÈs}
+\subsubsection{Services utilis√©s}
 Aucun.
-\subsubsection{ProcÈdure}
-Met ‡ jour la ou les adresses du client.
+\subsubsection{Proc√©dure}
+Met √† jour la ou les adresses du client.
 
 \subsection{SOM 37 ConsulterAdresse}
-\subsubsection{EntrÈes}
+\subsubsection{Entr√©es}
 idClient
 \subsubsection{Sorties}
 liste(adresse)
-\subsubsection{Services utilisÈs}
+\subsubsection{Services utilis√©s}
 Aucun.
-\subsubsection{ProcÈdure}
+\subsubsection{Proc√©dure}
 Renvoie les adresses du client.
 
 \subsection{SOM 44 ConulsterInfosProduit}
-\subsubsection{EntrÈes}
+\subsubsection{Entr√©es}
 liste (idOffres)
 \subsubsection{Sorties}
 liste (Offres)
-\subsubsection{Services utilisÈs}
+\subsubsection{Services utilis√©s}
 Aucun.
-\subsubsection{ProcÈdure}
-Renvoie les informations sur les offres dont l'ID est donnÈe.
+\subsubsection{Proc√©dure}
+Renvoie les informations sur les offres dont l'ID est donn√©e.
 
 \subsection{SOM 45 ChercherInformationsClient}
-\subsubsection{EntrÈes}
+\subsubsection{Entr√©es}
 idClient
 \subsubsection{Sorties}
 (nomClient, adresseClient, infosClient)
-\subsubsection{Services utilisÈs}
+\subsubsection{Services utilis√©s}
 SOM 37 ConsulterAdresse
-\subsubsection{ProcÈdure}
-Renvoie les informations du client ‡ partir de son ID.
+\subsubsection{Proc√©dure}
+Renvoie les informations du client √† partir de son ID.
