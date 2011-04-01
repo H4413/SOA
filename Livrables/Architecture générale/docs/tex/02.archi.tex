@@ -6,8 +6,28 @@
 \includegraphics[width=10cm]{\PIXPATH/archi1}
 \end{center}
 
+Comme indiqué sur le schéma ci-dessus, on installe un serveur de données et un 
+serveur applicatif au siège. Le serveur de données du siège sert aussi de 
+serveur de sauvegarde.
+On implante un serveur applicatif et un serveur de données par agence principale
+tandis que les agences secondaires se content de se connecter aux agences 
+principales.
+Les agences et le siège sont tous reliés entre eux par internet mais sont 
+protégés par un firewall. Cependant un réseau VPN permet de virtualiser un 
+réseau privé entre les agences et le siège.
+
 \subsection{Implantation et Flux}
 
 \begin{center}
 \includegraphics[width=10cm]{\PIXPATH/archi2}
 \end{center}
+
+Les applications Client, Adresse, Offre et Agence sont disponibles au siège. 
+Ces mêmes applications sont répliquées dans les agences principales.
+Les applications Évènement, Agenda et Contact sont réparties dans les agences
+principales.
+
+Au niveau des flux, entre le siège et les agences principales il y a des flux 
+de Mise à Jour dans les deux sens et de réplication du siège vers les agences.
+Entre les agences principales et secondaires, on a des flux de mise à jour et 
+de consultation dans les deux sens.
